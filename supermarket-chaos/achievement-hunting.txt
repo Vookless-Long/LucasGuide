@@ -1,0 +1,292 @@
+1:"$Sreact.fragment"
+2:I[2000,["177","static/chunks/app/layout-9a8ece8df0802a7c.js"],"Providers"]
+3:I[9766,[],""]
+4:I[8924,[],""]
+5:I[2619,["619","static/chunks/619-ba102abea3e3d0e4.js","909","static/chunks/909-a5da60d248a1c133.js","116","static/chunks/app/(site)/%5Bgame%5D/%5Bslug%5D/page-2cb9c00ebad7e3bc.js"],""]
+16:I[7150,[],""]
+:HL["/_next/static/media/36966cca54120369-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/5c0c2bcbaa4149ca-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/10695953fc13226d.css","style"]
+0:{"P":null,"b":"kHbVcb45wPNddpmq8dTlk","p":"","c":["","supermarket-chaos","achievement-hunting"],"i":false,"f":[[["",{"children":["(site)",{"children":[["game","supermarket-chaos","d"],{"children":[["slug","achievement-hunting","d"],{"children":["__PAGE__",{}]}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/10695953fc13226d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"__variable_f367f3 __variable_c1a059 __variable_dd5b2f font-sans min-h-screen flex flex-col","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],{"children":["(site)",["$","$1","c",{"children":[null,[["$","header",null,{"className":"sticky top-0 z-50 border-b border-stone-200/80 bg-white/85 backdrop-blur-lg dark:border-stone-800 dark:bg-stone-950/85","children":[["$","div",null,{"className":"mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8","children":[["$","$L5",null,{"href":"/","className":"group flex items-center gap-2.5","children":[["$","div",null,{"className":"flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-brand-500 to-accent-500 text-sm font-bold text-white shadow-glow","children":"L"}],["$","div",null,{"className":"hidden sm:block","children":["$","span",null,{"className":"font-display text-lg font-bold tracking-tight text-stone-900 dark:text-white","children":["Lucas",["$","span",null,{"className":"text-brand-600 dark:text-brand-400","children":"Guide"}]]}]}]]}],["$","nav",null,{"className":"hidden items-center gap-1 lg:flex","aria-label":"Main","children":[["$","$L5","/",{"href":"/","className":"inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-stone-100 hover:text-brand-600 dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-brand-400","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":1.75,"strokeLinecap":"round","strokeLinejoin":"round","className":"tabler-icon tabler-icon-home ","children":["$undefined",["$","path","svg-0",{"d":"M5 12l-2 0l9 -9l9 9l-2 0"}],["$","path","svg-1",{"d":"M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"}],["$","path","svg-2",{"d":"M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"}],"$undefined"]}],"Home"]}],["$","$L5","/all-guides",{"href":"/all-guides","className":"inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-stone-100 hover:text-brand-600 dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-brand-400","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":1.75,"strokeLinecap":"round","strokeLinejoin":"round","className":"tabler-icon tabler-icon-books ","children":["$undefined","$L6","$L7","$L8","$L9","$La","$Lb","$Lc","$undefined"]}],"All Guides"]}],"$Ld"]}],"$Le"]}],"$Lf"]}],"$L10","$L11"]]}],{"children":[["game","supermarket-chaos","d"],"$L12",{"children":[["slug","achievement-hunting","d"],"$L13",{"children":["__PAGE__","$L14",{},null,false]},null,false]},null,false]},null,false]},null,false],"$L15",false]],"m":"$undefined","G":["$16",[]],"s":false,"S":true}
+17:I[7972,["619","static/chunks/619-ba102abea3e3d0e4.js","909","static/chunks/909-a5da60d248a1c133.js","750","static/chunks/app/(site)/layout-c50575a9d836df6c.js"],"ThemeToggle"]
+19:I[4431,[],"OutletBoundary"]
+1b:I[5278,[],"AsyncMetadataOutlet"]
+1d:I[4431,[],"ViewportBoundary"]
+1f:I[4431,[],"MetadataBoundary"]
+20:"$Sreact.suspense"
+6:["$","path","svg-0",{"d":"M5 5a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -14"}]
+7:["$","path","svg-1",{"d":"M9 5a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -14"}]
+8:["$","path","svg-2",{"d":"M5 8h4"}]
+9:["$","path","svg-3",{"d":"M9 16h4"}]
+a:["$","path","svg-4",{"d":"M13.803 4.56l2.184 -.53c.562 -.135 1.133 .19 1.282 .732l3.695 13.418a1.02 1.02 0 0 1 -.634 1.219l-.133 .041l-2.184 .53c-.562 .135 -1.133 -.19 -1.282 -.732l-3.695 -13.418a1.02 1.02 0 0 1 .634 -1.219l.133 -.041"}]
+b:["$","path","svg-5",{"d":"M14 9l4 -1"}]
+c:["$","path","svg-6",{"d":"M16 16l3.923 -.98"}]
+d:["$","$L5","/about-us",{"href":"/about-us","className":"inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-stone-100 hover:text-brand-600 dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-brand-400","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":1.75,"strokeLinecap":"round","strokeLinejoin":"round","className":"tabler-icon tabler-icon-user ","children":["$undefined",["$","path","svg-0",{"d":"M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"}],["$","path","svg-1",{"d":"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"}],"$undefined"]}],"About"]}]
+e:["$","div",null,{"className":"flex items-center gap-2","children":["$","$L17",null,{}]}]
+f:["$","nav",null,{"className":"flex gap-1 overflow-x-auto border-t border-stone-100 px-4 py-2 lg:hidden dark:border-stone-800","aria-label":"Mobile","children":[["$","$L5","/",{"href":"/","className":"inline-flex shrink-0 items-center gap-1 rounded-lg px-3 py-1.5 text-xs font-medium text-stone-600 dark:text-stone-400","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":14,"height":14,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"tabler-icon tabler-icon-home ","children":["$undefined",["$","path","svg-0",{"d":"M5 12l-2 0l9 -9l9 9l-2 0"}],["$","path","svg-1",{"d":"M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"}],["$","path","svg-2",{"d":"M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"}],"$undefined"]}],"Home"]}],["$","$L5","/all-guides",{"href":"/all-guides","className":"inline-flex shrink-0 items-center gap-1 rounded-lg px-3 py-1.5 text-xs font-medium text-stone-600 dark:text-stone-400","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":14,"height":14,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"tabler-icon tabler-icon-books ","children":["$undefined",["$","path","svg-0",{"d":"M5 5a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -14"}],["$","path","svg-1",{"d":"M9 5a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -14"}],["$","path","svg-2",{"d":"M5 8h4"}],["$","path","svg-3",{"d":"M9 16h4"}],["$","path","svg-4",{"d":"M13.803 4.56l2.184 -.53c.562 -.135 1.133 .19 1.282 .732l3.695 13.418a1.02 1.02 0 0 1 -.634 1.219l-.133 .041l-2.184 .53c-.562 .135 -1.133 -.19 -1.282 -.732l-3.695 -13.418a1.02 1.02 0 0 1 .634 -1.219l.133 -.041"}],["$","path","svg-5",{"d":"M14 9l4 -1"}],["$","path","svg-6",{"d":"M16 16l3.923 -.98"}],"$undefined"]}],"All Guides"]}],["$","$L5","/about-us",{"href":"/about-us","className":"inline-flex shrink-0 items-center gap-1 rounded-lg px-3 py-1.5 text-xs font-medium text-stone-600 dark:text-stone-400","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":14,"height":14,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"tabler-icon tabler-icon-user ","children":["$undefined",["$","path","svg-0",{"d":"M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"}],["$","path","svg-1",{"d":"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"}],"$undefined"]}],"About"]}]]}]
+10:["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:children:props:children:props:children:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:f:0:1:1:props:children:1:props:children:props:children:props:children:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:children:props:children:props:children:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:f:0:1:1:props:children:1:props:children:props:children:props:children:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]
+11:["$","footer",null,{"className":"section-divider mt-auto bg-white dark:bg-stone-950","children":["$","div",null,{"className":"mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8","children":[["$","div",null,{"className":"flex flex-col items-center justify-between gap-6 md:flex-row","children":[["$","div",null,{"className":"text-center md:text-left","children":[["$","p",null,{"className":"font-display text-lg font-bold text-stone-900 dark:text-white","children":["Lucas",["$","span",null,{"className":"text-brand-600 dark:text-brand-400","children":"Guide"}]]}],["$","p",null,{"className":"mt-1 max-w-md text-sm text-stone-500 dark:text-stone-400","children":"Independent game guides by Luca — not affiliated with any publisher."}]]}],["$","nav",null,{"className":"flex flex-wrap justify-center gap-x-6 gap-y-2","children":[["$","$L5","/about-us",{"href":"/about-us","className":"text-sm text-stone-600 transition-colors hover:text-brand-600 dark:text-stone-400 dark:hover:text-brand-400","children":"About"}],["$","$L5","/privacy-policy",{"href":"/privacy-policy","className":"text-sm text-stone-600 transition-colors hover:text-brand-600 dark:text-stone-400 dark:hover:text-brand-400","children":"Privacy Policy"}],["$","$L5","/terms-of-use",{"href":"/terms-of-use","className":"text-sm text-stone-600 transition-colors hover:text-brand-600 dark:text-stone-400 dark:hover:text-brand-400","children":"Terms of Use"}],["$","$L5","/disclaimers",{"href":"/disclaimers","className":"text-sm text-stone-600 transition-colors hover:text-brand-600 dark:text-stone-400 dark:hover:text-brand-400","children":"Disclaimers"}]]}]]}],["$","div",null,{"className":"mt-8 border-t border-stone-200 pt-8 text-center dark:border-stone-800","children":["$","p",null,{"className":"text-xs text-stone-400 dark:text-stone-500","children":["© ",2026," LucasGuide · lucasguide.com · All game names belong to their owners."]}]}]]}]}]
+12:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+13:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+14:["$","$1","c",{"children":["$L18",null,["$","$L19",null,{"children":["$L1a",["$","$L1b",null,{"promise":"$@1c"}]]}]]}]
+15:["$","$1","h",{"children":[null,[["$","$L1d",null,{"children":"$L1e"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L1f",null,{"children":["$","div",null,{"hidden":true,"children":["$","$20",null,{"fallback":null,"children":"$L21"}]}]}]]}]
+22:I[2500,["619","static/chunks/619-ba102abea3e3d0e4.js","909","static/chunks/909-a5da60d248a1c133.js","116","static/chunks/app/(site)/%5Bgame%5D/%5Bslug%5D/page-2cb9c00ebad7e3bc.js"],"QuickAnswerSection"]
+23:I[2500,["619","static/chunks/619-ba102abea3e3d0e4.js","909","static/chunks/909-a5da60d248a1c133.js","116","static/chunks/app/(site)/%5Bgame%5D/%5Bslug%5D/page-2cb9c00ebad7e3bc.js"],"guideProseClassName"]
+24:T173b,<p>Achievement hunting here is mostly <strong>counting</strong> — how many items you placed correct, how far you walked, few one-time actions.</p>
+<p>Game has <strong>three Modes</strong>. Milestones below are grouped by stage — matches <a href="/supermarket-chaos">hub walkthrough order</a>.</p>
+<p><img src="https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Supermarket-Chaos-Three-Mode-LucasGuide.jpg" alt="Three Modes — Supermarket, Dreamlike, SuperSupermarket"></p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Mode</th>
+<th>Clear target</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Supermarket</td>
+<td>4,667 items</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Dreamlike Convenience Store</td>
+<td>2,628 items</td>
+</tr>
+<tr>
+<td>3</td>
+<td>SuperSupermarket (Mega Market)</td>
+<td>9,999 placements + bay shelf clear</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stage-1-supermarket-milestones">Stage 1 — Supermarket milestones</h2>
+<p>These unlock naturally while you clear the first Mode (see <a href="/supermarket-chaos">hub Stage 1 route</a>).</p>
+<table>
+<thead>
+<tr>
+<th>Achievement</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>First stocked</td>
+<td>Place first product</td>
+</tr>
+<tr>
+<td>100 stocked correctly</td>
+<td>100 correct placements</td>
+</tr>
+<tr>
+<td>Lucky 777</td>
+<td>777 correct</td>
+</tr>
+<tr>
+<td>1,000 Stocked</td>
+<td>1,000 correct</td>
+</tr>
+<tr>
+<td>4,000 Stocked</td>
+<td>4,000 correct</td>
+</tr>
+<tr>
+<td>Complete</td>
+<td>All items on correct shelves (<strong>4,667</strong> in Stage 1)</td>
+</tr>
+</tbody>
+</table>
+<p>Red-tag placements do not count.</p>
+<p><img src="https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Supermarket-Chaos-Ending-LucasGuide.jpg" alt="Stage 1 ending — clear time record and GPT-9000"></p>
+<h2 id="stage-2-dreamlike-milestones">Stage 2 — Dreamlike milestones</h2>
+<table>
+<thead>
+<tr>
+<th>Achievement</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Second Start</td>
+<td>1 correct</td>
+</tr>
+<tr>
+<td>New Store Ready</td>
+<td>100 correct</td>
+</tr>
+<tr>
+<td>Lucky Twice</td>
+<td>777 correct</td>
+</tr>
+<tr>
+<td>Second Thousand</td>
+<td>1,000 correct</td>
+</tr>
+<tr>
+<td>Stocking Expert</td>
+<td>2,000 correct</td>
+</tr>
+<tr>
+<td>Really One More</td>
+<td>2,627 correct</td>
+</tr>
+<tr>
+<td>Second Store Complete</td>
+<td><strong>2,628 correct</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Really One More</strong> at 2,627 is one before finish — do not stop early. One more placement triggers <strong>Second Store Complete</strong>.</p>
+<h2 id="stage-3-mega-market-milestones">Stage 3 — Mega Market milestones</h2>
+<p>Third Mode <strong>SuperSupermarket</strong> unlocks after Dreamlike clear. Shelf counts: <a href="/supermarket-chaos/supersupermarket-shelf-placement">SuperSupermarket bay guide</a>. Placement milestones below run while you work bays.</p>
+<p><strong>Co-op note:</strong> Stage 3 is long — I not solo-finished yet. <strong>Multiplayer (Beta)</strong> fit here: 2–4 players, progress on <strong>host save only</strong>. See <a href="/supermarket-chaos">hub Stage 3 multiplayer section</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Achievement</th>
+<th>Requirement</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mega Stocking Begins</td>
+<td>1 correct</td>
+</tr>
+<tr>
+<td>Just the Beginning</td>
+<td>100</td>
+</tr>
+<tr>
+<td>Third Time Lucky</td>
+<td>777</td>
+</tr>
+<tr>
+<td>A Thousand Is a Warm-Up</td>
+<td>1,000</td>
+</tr>
+<tr>
+<td>Endless Stocking</td>
+<td>3,000</td>
+</tr>
+<tr>
+<td>Halfway Point</td>
+<td>5,000</td>
+</tr>
+<tr>
+<td>Ultra Lucky</td>
+<td>7,777</td>
+</tr>
+<tr>
+<td>Final Thousand</td>
+<td>9,000</td>
+</tr>
+<tr>
+<td>One Last Item, Really</td>
+<td><strong>9,998</strong></td>
+</tr>
+<tr>
+<td>Mega Market Complete</td>
+<td><strong>9,999</strong></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Trap:</strong> At 9,990+ check achievement list. <strong>One Last Item, Really</strong> needs 9,998 — if you hit 9,999 first you get Mega Market Complete but can miss the step before if you not watching.</p>
+</blockquote>
+<p>I grind Stage 3 with Request More — better with friends in co-op so host save hit 9,999 without burning out solo.</p>
+<h2 id="distance-passive">Distance (passive)</h2>
+<table>
+<thead>
+<tr>
+<th>Achievement</th>
+<th>Distance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>First Steps</td>
+<td>100 m</td>
+</tr>
+<tr>
+<td>A Short Stroll</td>
+<td>1 km</td>
+</tr>
+<tr>
+<td>Steady Steps</td>
+<td>5 km</td>
+</tr>
+<tr>
+<td>Strong Legs</td>
+<td>10 km</td>
+</tr>
+<tr>
+<td>Long-Haul Shopper</td>
+<td>20 km</td>
+</tr>
+<tr>
+<td>Endless Steps</td>
+<td>30 km</td>
+</tr>
+<tr>
+<td>Almost a Marathon</td>
+<td>40 km</td>
+</tr>
+<tr>
+<td>Marathoner</td>
+<td><strong>42.195 km</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Cumulative across all stages. You will get Marathoner naturally while placement grinding.</p>
+<h2 id="action-achievements">Action achievements</h2>
+<table>
+<thead>
+<tr>
+<th>Achievement</th>
+<th>How</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Music duty</td>
+<td>Change music once at entrance computer</td>
+</tr>
+<tr>
+<td>My Own Sky</td>
+<td>Stage 2 — change sky 3 times</td>
+</tr>
+<tr>
+<td>Too heavy</td>
+<td>Hold 10+ products at once</td>
+</tr>
+<tr>
+<td>Seriously Too Heavy</td>
+<td>Stage 3 — hold 20+ at once</td>
+</tr>
+<tr>
+<td>Throw 5+ products</td>
+<td>Throw 5 in row with ≤1 s gap (I grab crate items and toss toward shelves — landing does not matter)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="my-100-order">My 100% order</h2>
+<ol>
+<li><strong>Stage 1</strong> — Supermarket clear + early milestones + start stickers</li>
+<li><strong>Stage 2</strong> — Dreamlike clear (2,628) + My Own Sky</li>
+<li><strong>Stage 3</strong> — Mega Market placement farm to 9,998 / 9,999</li>
+<li>Clean up action achievements you missed</li>
+</ol>
+<p>Stickers help long grind: <a href="/supermarket-chaos/sticker-collection">sticker collection</a>.</p>
+<p>Hub: <a href="/supermarket-chaos">Supermarket Chaos walkthrough</a>.</p>
+18:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"[{\"@context\":\"https://schema.org\",\"@type\":\"Article\",\"headline\":\"Achievement Hunting — 100% Route\",\"description\":\"Placement milestones, distance tracker, and action achievements for Supermarket Chaos.\",\"url\":\"https://lucasguide.com/supermarket-chaos/achievement-hunting\",\"datePublished\":\"2026-09-07\",\"dateModified\":\"2026-09-08\",\"author\":{\"@type\":\"Person\",\"name\":\"Luca\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"LucasGuide\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://lucasguide.com/logo.png\"}}},{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"LucasGuide\",\"item\":\"https://lucasguide.com\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Supermarket Chaos\",\"item\":\"https://lucasguide.com/supermarket-chaos\"},{\"@type\":\"ListItem\",\"position\":3,\"name\":\"Achievement Hunting — 100% Route\",\"item\":\"https://lucasguide.com/supermarket-chaos/achievement-hunting\"}]}]"}}],["$","main",null,{"className":"mx-auto max-w-6xl px-4 py-10","children":[["$","nav",null,{"aria-label":"Breadcrumb","className":"mb-6","children":["$","ol",null,{"className":"flex flex-wrap items-center gap-1.5 text-sm text-stone-500 dark:text-stone-400","children":[["$","li","0",{"className":"flex items-center gap-1.5","children":[false,["$","$L5",null,{"href":"/","className":"hover:text-brand-600 dark:hover:text-brand-400","children":"LucasGuide"}]]}],["$","li","1",{"className":"flex items-center gap-1.5","children":[["$","span",null,{"aria-hidden":true,"children":"/"}],["$","$L5",null,{"href":"/supermarket-chaos","className":"hover:text-brand-600 dark:hover:text-brand-400","children":"Supermarket Chaos"}]]}],["$","li","2",{"className":"flex items-center gap-1.5","children":[["$","span",null,{"aria-hidden":true,"children":"/"}],["$","span",null,{"className":"font-medium text-stone-900 dark:text-white","children":"Achievement Hunting — 100% Route"}]]}]]}]}],["$","div",null,{"className":"grid gap-10 lg:grid-cols-[minmax(0,1fr)_280px]","children":[["$","article",null,{"className":"min-w-0","children":[["$","header",null,{"className":"mb-8","children":[["$","p",null,{"className":"mb-2 text-sm font-medium uppercase tracking-wide text-brand-600 dark:text-brand-400","children":["Supermarket Chaos"," Guide"]}],["$","h1",null,{"className":"text-3xl font-bold tracking-tight text-stone-900 dark:text-stone-100 md:text-5xl","children":"Achievement Hunting — 100% Route"}],["$","p",null,{"className":"mt-4 max-w-3xl text-lg leading-8 text-stone-600 dark:text-stone-400","children":"Placement milestones, distance tracker, and action achievements for Supermarket Chaos."}],["$","p",null,{"className":"mt-3 text-sm italic text-stone-500","children":["Last updated: ","September 8, 2026"]}]]}],["$","$L22",null,{"quickAnswer":"Most achievements = correct placements + total distance. Stage 3 endgame needs 9,999 correct placements for Mega Market Complete. Watch 9,998 vs 9,999 trap."}],["$","div",null,{"className":"$23","dangerouslySetInnerHTML":{"__html":"$24"}}],false,"$L25"]}],"$L26"]}]]}]]
+27:I[2500,["619","static/chunks/619-ba102abea3e3d0e4.js","909","static/chunks/909-a5da60d248a1c133.js","116","static/chunks/app/(site)/%5Bgame%5D/%5Bslug%5D/page-2cb9c00ebad7e3bc.js"],"TableOfContents"]
+25:["$","div",null,{"className":"mt-12 rounded-xl border border-stone-200 bg-stone-50 p-6 dark:border-stone-800 dark:bg-stone-900/50","children":[["$","h2",null,{"className":"text-xl font-bold text-stone-900 dark:text-stone-100","children":["More ","Supermarket Chaos"," guides"]}],["$","p",null,{"className":"mt-2 text-stone-600 dark:text-stone-400","children":"Go back to hub for full walkthrough, or browse all games."}],["$","div",null,{"className":"mt-4 flex flex-wrap gap-x-6 gap-y-2","children":[["$","$L5",null,{"href":"/supermarket-chaos","className":"inline-flex items-center text-sm font-bold text-brand-600 hover:underline dark:text-brand-400","children":["← Back to ","Supermarket Chaos"," hub"]}],["$","$L5",null,{"href":"/all-guides","className":"inline-flex items-center text-sm font-bold text-brand-600 hover:underline dark:text-brand-400","children":"Browse all game guides →"}]]}]]}]
+26:["$","$L27",null,{"items":[{"id":"stage-1-supermarket-milestones","title":"Stage 1 — Supermarket milestones"},{"id":"stage-2-dreamlike-milestones","title":"Stage 2 — Dreamlike milestones"},{"id":"stage-3-mega-market-milestones","title":"Stage 3 — Mega Market milestones"},{"id":"distance-passive","title":"Distance (passive)"},{"id":"action-achievements","title":"Action achievements"},{"id":"my-100-order","title":"My 100% order"}],"gameSlug":"supermarket-chaos"}]
+1e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1a:null
+28:I[622,[],"IconMark"]
+1c:{"metadata":[["$","title","0",{"children":"Achievement Hunting — 100% Route | LucasGuide"}],["$","meta","1",{"name":"description","content":"Placement milestones, distance tracker, and action achievements for Supermarket Chaos."}],["$","meta","2",{"property":"og:title","content":"Achievement Hunting — 100% Route"}],["$","meta","3",{"property":"og:description","content":"Placement milestones, distance tracker, and action achievements for Supermarket Chaos."}],["$","meta","4",{"property":"og:type","content":"article"}],["$","meta","5",{"property":"article:published_time","content":"2026-09-07"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"Achievement Hunting — 100% Route"}],["$","meta","8",{"name":"twitter:description","content":"Placement milestones, distance tracker, and action achievements for Supermarket Chaos."}],["$","link","9",{"rel":"icon","href":"/icon.svg?a569882f4910072d","type":"image/svg+xml","sizes":"any"}],["$","$L28","10",{}]],"error":null,"digest":"$undefined"}
+21:"$1c:metadata"

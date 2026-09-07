@@ -1,0 +1,323 @@
+1:"$Sreact.fragment"
+2:I[2000,["177","static/chunks/app/layout-9a8ece8df0802a7c.js"],"Providers"]
+3:I[9766,[],""]
+4:I[8924,[],""]
+5:I[2619,["619","static/chunks/619-ba102abea3e3d0e4.js","909","static/chunks/909-a5da60d248a1c133.js","32","static/chunks/app/(site)/%5Bgame%5D/page-27b1594a371619d7.js"],""]
+14:I[7150,[],""]
+:HL["/_next/static/media/36966cca54120369-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/5c0c2bcbaa4149ca-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/e4af272ccee01ff0-s.p.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/css/10695953fc13226d.css","style"]
+0:{"P":null,"b":"kHbVcb45wPNddpmq8dTlk","p":"","c":["","supermarket-chaos"],"i":false,"f":[[["",{"children":["(site)",{"children":[["game","supermarket-chaos","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/10695953fc13226d.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":["$","body",null,{"className":"__variable_f367f3 __variable_c1a059 __variable_dd5b2f font-sans min-h-screen flex flex-col","children":["$","$L2",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]}]]}],{"children":["(site)",["$","$1","c",{"children":[null,[["$","header",null,{"className":"sticky top-0 z-50 border-b border-stone-200/80 bg-white/85 backdrop-blur-lg dark:border-stone-800 dark:bg-stone-950/85","children":[["$","div",null,{"className":"mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8","children":[["$","$L5",null,{"href":"/","className":"group flex items-center gap-2.5","children":[["$","div",null,{"className":"flex h-9 w-9 items-center justify-center rounded-lg bg-gradient-to-br from-brand-500 to-accent-500 text-sm font-bold text-white shadow-glow","children":"L"}],["$","div",null,{"className":"hidden sm:block","children":["$","span",null,{"className":"font-display text-lg font-bold tracking-tight text-stone-900 dark:text-white","children":["Lucas",["$","span",null,{"className":"text-brand-600 dark:text-brand-400","children":"Guide"}]]}]}]]}],["$","nav",null,{"className":"hidden items-center gap-1 lg:flex","aria-label":"Main","children":[["$","$L5","/",{"href":"/","className":"inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-stone-100 hover:text-brand-600 dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-brand-400","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":1.75,"strokeLinecap":"round","strokeLinejoin":"round","className":"tabler-icon tabler-icon-home ","children":["$undefined",["$","path","svg-0",{"d":"M5 12l-2 0l9 -9l9 9l-2 0"}],["$","path","svg-1",{"d":"M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"}],["$","path","svg-2",{"d":"M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"}],"$undefined"]}],"Home"]}],["$","$L5","/all-guides",{"href":"/all-guides","className":"inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-stone-100 hover:text-brand-600 dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-brand-400","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":1.75,"strokeLinecap":"round","strokeLinejoin":"round","className":"tabler-icon tabler-icon-books ","children":["$undefined",["$","path","svg-0",{"d":"M5 5a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -14"}],"$L6","$L7","$L8","$L9","$La","$Lb","$undefined"]}],"All Guides"]}],"$Lc"]}],"$Ld"]}],"$Le"]}],"$Lf","$L10"]]}],{"children":[["game","supermarket-chaos","d"],"$L11",{"children":["__PAGE__","$L12",{},null,false]},null,false]},null,false]},null,false],"$L13",false]],"m":"$undefined","G":["$14",[]],"s":false,"S":true}
+15:I[7972,["619","static/chunks/619-ba102abea3e3d0e4.js","909","static/chunks/909-a5da60d248a1c133.js","750","static/chunks/app/(site)/layout-c50575a9d836df6c.js"],"ThemeToggle"]
+17:I[4431,[],"OutletBoundary"]
+19:I[5278,[],"AsyncMetadataOutlet"]
+1b:I[4431,[],"ViewportBoundary"]
+1d:I[4431,[],"MetadataBoundary"]
+1e:"$Sreact.suspense"
+6:["$","path","svg-1",{"d":"M9 5a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -14"}]
+7:["$","path","svg-2",{"d":"M5 8h4"}]
+8:["$","path","svg-3",{"d":"M9 16h4"}]
+9:["$","path","svg-4",{"d":"M13.803 4.56l2.184 -.53c.562 -.135 1.133 .19 1.282 .732l3.695 13.418a1.02 1.02 0 0 1 -.634 1.219l-.133 .041l-2.184 .53c-.562 .135 -1.133 -.19 -1.282 -.732l-3.695 -13.418a1.02 1.02 0 0 1 .634 -1.219l.133 -.041"}]
+a:["$","path","svg-5",{"d":"M14 9l4 -1"}]
+b:["$","path","svg-6",{"d":"M16 16l3.923 -.98"}]
+c:["$","$L5","/about-us",{"href":"/about-us","className":"inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-stone-600 transition-colors hover:bg-stone-100 hover:text-brand-600 dark:text-stone-400 dark:hover:bg-stone-800 dark:hover:text-brand-400","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":16,"height":16,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":1.75,"strokeLinecap":"round","strokeLinejoin":"round","className":"tabler-icon tabler-icon-user ","children":["$undefined",["$","path","svg-0",{"d":"M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"}],["$","path","svg-1",{"d":"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"}],"$undefined"]}],"About"]}]
+d:["$","div",null,{"className":"flex items-center gap-2","children":["$","$L15",null,{}]}]
+e:["$","nav",null,{"className":"flex gap-1 overflow-x-auto border-t border-stone-100 px-4 py-2 lg:hidden dark:border-stone-800","aria-label":"Mobile","children":[["$","$L5","/",{"href":"/","className":"inline-flex shrink-0 items-center gap-1 rounded-lg px-3 py-1.5 text-xs font-medium text-stone-600 dark:text-stone-400","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":14,"height":14,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"tabler-icon tabler-icon-home ","children":["$undefined",["$","path","svg-0",{"d":"M5 12l-2 0l9 -9l9 9l-2 0"}],["$","path","svg-1",{"d":"M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7"}],["$","path","svg-2",{"d":"M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6"}],"$undefined"]}],"Home"]}],["$","$L5","/all-guides",{"href":"/all-guides","className":"inline-flex shrink-0 items-center gap-1 rounded-lg px-3 py-1.5 text-xs font-medium text-stone-600 dark:text-stone-400","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":14,"height":14,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"tabler-icon tabler-icon-books ","children":["$undefined",["$","path","svg-0",{"d":"M5 5a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -14"}],["$","path","svg-1",{"d":"M9 5a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-2a1 1 0 0 1 -1 -1l0 -14"}],["$","path","svg-2",{"d":"M5 8h4"}],["$","path","svg-3",{"d":"M9 16h4"}],["$","path","svg-4",{"d":"M13.803 4.56l2.184 -.53c.562 -.135 1.133 .19 1.282 .732l3.695 13.418a1.02 1.02 0 0 1 -.634 1.219l-.133 .041l-2.184 .53c-.562 .135 -1.133 -.19 -1.282 -.732l-3.695 -13.418a1.02 1.02 0 0 1 .634 -1.219l.133 -.041"}],["$","path","svg-5",{"d":"M14 9l4 -1"}],["$","path","svg-6",{"d":"M16 16l3.923 -.98"}],"$undefined"]}],"All Guides"]}],["$","$L5","/about-us",{"href":"/about-us","className":"inline-flex shrink-0 items-center gap-1 rounded-lg px-3 py-1.5 text-xs font-medium text-stone-600 dark:text-stone-400","children":[["$","svg",null,{"ref":"$undefined","xmlns":"http://www.w3.org/2000/svg","width":14,"height":14,"viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":2,"strokeLinecap":"round","strokeLinejoin":"round","className":"tabler-icon tabler-icon-user ","children":["$undefined",["$","path","svg-0",{"d":"M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"}],["$","path","svg-1",{"d":"M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"}],"$undefined"]}],"About"]}]]}]
+f:["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:children:props:children:props:children:props:notFound:0:1:props:style","children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":"$0:f:0:1:1:props:children:1:props:children:props:children:props:children:props:notFound:0:1:props:children:props:children:1:props:style","children":404}],["$","div",null,{"style":"$0:f:0:1:1:props:children:1:props:children:props:children:props:children:props:notFound:0:1:props:children:props:children:2:props:style","children":["$","h2",null,{"style":"$0:f:0:1:1:props:children:1:props:children:props:children:props:children:props:notFound:0:1:props:children:props:children:2:props:children:props:style","children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]
+10:["$","footer",null,{"className":"section-divider mt-auto bg-white dark:bg-stone-950","children":["$","div",null,{"className":"mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8","children":[["$","div",null,{"className":"flex flex-col items-center justify-between gap-6 md:flex-row","children":[["$","div",null,{"className":"text-center md:text-left","children":[["$","p",null,{"className":"font-display text-lg font-bold text-stone-900 dark:text-white","children":["Lucas",["$","span",null,{"className":"text-brand-600 dark:text-brand-400","children":"Guide"}]]}],["$","p",null,{"className":"mt-1 max-w-md text-sm text-stone-500 dark:text-stone-400","children":"Independent game guides by Luca — not affiliated with any publisher."}]]}],["$","nav",null,{"className":"flex flex-wrap justify-center gap-x-6 gap-y-2","children":[["$","$L5","/about-us",{"href":"/about-us","className":"text-sm text-stone-600 transition-colors hover:text-brand-600 dark:text-stone-400 dark:hover:text-brand-400","children":"About"}],["$","$L5","/privacy-policy",{"href":"/privacy-policy","className":"text-sm text-stone-600 transition-colors hover:text-brand-600 dark:text-stone-400 dark:hover:text-brand-400","children":"Privacy Policy"}],["$","$L5","/terms-of-use",{"href":"/terms-of-use","className":"text-sm text-stone-600 transition-colors hover:text-brand-600 dark:text-stone-400 dark:hover:text-brand-400","children":"Terms of Use"}],["$","$L5","/disclaimers",{"href":"/disclaimers","className":"text-sm text-stone-600 transition-colors hover:text-brand-600 dark:text-stone-400 dark:hover:text-brand-400","children":"Disclaimers"}]]}]]}],["$","div",null,{"className":"mt-8 border-t border-stone-200 pt-8 text-center dark:border-stone-800","children":["$","p",null,{"className":"text-xs text-stone-400 dark:text-stone-500","children":["© ",2026," LucasGuide · lucasguide.com · All game names belong to their owners."]}]}]]}]}]
+11:["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+12:["$","$1","c",{"children":["$L16",null,["$","$L17",null,{"children":["$L18",["$","$L19",null,{"promise":"$@1a"}]]}]]}]
+13:["$","$1","h",{"children":[null,[["$","$L1b",null,{"children":"$L1c"}],["$","meta",null,{"name":"next-size-adjust","content":""}]],["$","$L1d",null,{"children":["$","div",null,{"hidden":true,"children":["$","$1e",null,{"fallback":null,"children":"$L1f"}]}]}]]}]
+20:I[2500,["619","static/chunks/619-ba102abea3e3d0e4.js","909","static/chunks/909-a5da60d248a1c133.js","32","static/chunks/app/(site)/%5Bgame%5D/page-27b1594a371619d7.js"],"StartHereSection"]
+21:I[2500,["619","static/chunks/619-ba102abea3e3d0e4.js","909","static/chunks/909-a5da60d248a1c133.js","32","static/chunks/app/(site)/%5Bgame%5D/page-27b1594a371619d7.js"],"guideProseClassName"]
+22:T3c5d,<h2 id="what-this-game-is">What this game is</h2>
+<p>Supermarket Chaos is puzzle game about stocking shelves. Pick item, find shelf, get $0.10. Then game throw thousands of products on floor.</p>
+<p>Game has <strong>three Modes</strong>. You unlock next after you clear current one. My hub follow same order:</p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Mode</th>
+<th>Items (correct placements)</th>
+<th>Goal</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>1</strong></td>
+<td>Supermarket</td>
+<td><strong>4,667</strong></td>
+<td>Employee of the Month — first big store</td>
+</tr>
+<tr>
+<td><strong>2</strong></td>
+<td>Dreamlike Convenience Store</td>
+<td><strong>2,628</strong></td>
+<td>Second Store Complete — strict shelf sections</td>
+</tr>
+<tr>
+<td><strong>3</strong></td>
+<td>SuperSupermarket (Mega Market)</td>
+<td><strong>18 bays</strong> + <strong>9,999</strong> placement counter</td>
+<td>Mega Market Complete</td>
+</tr>
+</tbody>
+</table>
+<p>Same core loop all three stages. Skills and stickers carry over. <a href="/supermarket-chaos/achievement-hunting">Achievement milestones per stage</a>.</p>
+<p>Leaf pages: <strong>Stage 2</strong> shelf counts + <strong>Stage 3</strong> SuperSupermarket bays (below).</p>
+<p><img src="https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Supermarket-Chaos-Three-Mode-LucasGuide.jpg" alt="Three Modes — Supermarket, Dreamlike Convenience Store, SuperSupermarket"></p>
+<hr>
+<h2 id="core-loop-all-stages">Core loop (all stages)</h2>
+<ol>
+<li>Pick up product from floor</li>
+<li>Find shelf — white tag = right shelf but not full, yellow = done, <strong>red = wrong shelf</strong> (does not count)</li>
+<li>Place → $0.10</li>
+<li>Mouse wheel switch held items, right-click throw (need Dunk Shot skill for auto-stock)</li>
+</ol>
+<p>Rule: <strong>red tags never count</strong> toward completion. Move item immediately.</p>
+<p><img src="https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Supermarket-Chaos-Right-Click-Throw-LucasGuide.jpg" alt="Right-click throw — stock from distance with Dunk Shot"></p>
+<hr>
+<h2 id="skill-upgrade-order">Skill upgrade order</h2>
+<p>Open skills: <strong>ESC → lightbulb icon</strong>. I upgrade these in <strong>Stage 1</strong> and use same build in Stage 2 and 3.</p>
+<table>
+<thead>
+<tr>
+<th>Priority</th>
+<th>Skill</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Extra Carry</td>
+<td>5 → 15 items (later 18). Less walking.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Request More (key 4)</td>
+<td>Teleport all matching products to you. Best skill in game.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Matchfinder (key 2)</td>
+<td>Highlight same products. Auto-pick with Matchfinder+.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Shelf Finder (key 1)</td>
+<td>Shows shelf for held item.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Dunk Shot + Throw Boost</td>
+<td>Throw stock from distance.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Quick Step + Sprint</td>
+<td>Move faster.</td>
+</tr>
+</tbody>
+</table>
+<p>Do not buy cosmetic stuff early. Skills first — Stage 3 grind is long without them.</p>
+<p><img src="https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Supermarket-Chaos-Skills-LucasGuide.jpg" alt="Skill menu — ESC, lightbulb icon"></p>
+<hr>
+<h2 id="request-more-method-all-stages">Request More method (all stages)</h2>
+<p>After you unlock Request More:</p>
+<ol>
+<li>Pick <strong>one</strong> product from category you want to clear</li>
+<li>Press <strong>4</strong> — all matching items teleport to you</li>
+<li>Stock them on correct shelf</li>
+<li>Repeat until category done → <strong>star reward</strong> (Stage 1) or section clear (Stage 2/3)</li>
+</ol>
+<p>I use this in all three Modes. Stage 3 is mostly same method, just much more volume.</p>
+<hr>
+<h2 id="stage-1-supermarket-4667-items">Stage 1 — Supermarket (4,667 items)</h2>
+<p>First Mode — <strong>Supermarket</strong>. Big grocery store — toiletries, produce, frozen, wine aisle. This is where you learn loop and buy skills.</p>
+<p><img src="https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Supermarket-Chaos-Stage-1-Start-LucasGuide.jpg" alt="Stage 1 — Supermarket start"></p>
+<p><strong>Stage clear:</strong> correctly place all <strong>4,667</strong> items (UI sometimes round to 4,600 — same thing, every item on right shelf). Walk to exit → <strong>Employee of the Month</strong>.</p>
+<h3>Ending (Stage 1)</h3>
+<p>This happen <strong>only in Mode 1</strong> when Supermarket is fully stocked. Exit screen show <strong>Employee of the Month</strong> and your <strong>clear time</strong> — game save how long Mode 1 took you. Good for comparing runs or bragging to friends.</p>
+<p>Then robot <strong>GPT-9000</strong> pop up and tell you that you <strong>messed up its plan</strong>. Store was supposed to stay chaos; you put everything back anyway. Story hook for Mode 2 — not the final credits of whole game.</p>
+<p><img src="https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Supermarket-Chaos-Ending-LucasGuide.jpg" alt="Stage 1 ending — clear time and GPT-9000"></p>
+<h3>My category order (Stage 1)</h3>
+<p>Small sections first, less backtracking:</p>
+<ol>
+<li><strong>Toiletries</strong> — shampoo, bath tissue, toothpaste</li>
+<li><strong>Canned goods</strong> — red beans</li>
+<li><strong>Produce</strong> — avocado → grapefruit → kiwi → banana → apple → mango → papaya → carrot</li>
+<li><strong>Tea</strong> — small tea boxes</li>
+<li><strong>Lemon cake</strong> shelf</li>
+<li><strong>Dairy + meat</strong> — yogurt, buttermilk, eggs, cheese; <strong>ground beef is separate cooler</strong></li>
+<li><strong>Frozen / dry</strong> — chicken wings, ramen packs</li>
+<li><strong>Beverages</strong> — cola and juices first, then wine (Nocturn, Kasa Martino, Tennessee Whiskey, Bordeaux House Cabernet, Chateau Lunair, etc.)</li>
+<li><strong>Final sweep</strong> — crouch under tables (CTRL), <strong>Reposition all</strong> if needed</li>
+</ol>
+<p>Last missing items usually under produce table or red-tag wrong shelf.</p>
+<h3>Stage 1 — stickers start here</h3>
+<p>Stars from finishing product categories → gacha / ATM near produce. Worth doing before Stage 2: <a href="/supermarket-chaos/sticker-collection">sticker collection</a>.</p>
+<p><img src="https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Supermarket-Chaos-ATM-gacha-LucasGuide.jpg" alt="Gacha machine and ATMs — near fruit and vegetable section"></p>
+<p>When Stage 1 done, game unlock <strong>Dreamlike Convenience Store</strong>.</p>
+<hr>
+<h2 id="stage-2-dreamlike-convenience-store-2628-items">Stage 2 — Dreamlike Convenience Store (2,628 items)</h2>
+<p>Second Mode — <strong>Dreamlike Convenience Store</strong>. Different layout — <strong>every SKU needs exact shelf sections</strong> (mostly 2 sections per product). Mistake one count = section not complete.</p>
+<p><strong>Stage clear:</strong> <strong>2,628</strong> correct placements → <strong>Second Store Complete</strong> achievement. Watch <strong>2,627 vs 2,628</strong> — Really One More achievement is one placement before finish.</p>
+<h3>Stage 2 only — change sky</h3>
+<p><strong>My Own Sky</strong> achievement: change sky <strong>3 times</strong> (computer / panel in this stage). Easy to miss if you rush clear.</p>
+<h3>My category order (Stage 2)</h3>
+<p>Entrance → back:</p>
+<ol>
+<li><a href="/supermarket-chaos/magazine-shelf-placement">Magazines</a> — 16 titles, start here</li>
+<li><a href="/supermarket-chaos/electronics-tools-shelf-placement">Electronics &#x26; tools</a></li>
+<li><a href="/supermarket-chaos/snacks-cereal-shelf-placement">Snacks &#x26; cereal</a> — crisps need 4 sections</li>
+<li><a href="/supermarket-chaos/ramen-shelf-placement">Ramen</a> — must finish before cleaning</li>
+<li><a href="/supermarket-chaos/cleaning-laundry-shelf-placement">Cleaning &#x26; laundry</a></li>
+<li><a href="/supermarket-chaos/hair-care-shelf-placement">Hair care</a></li>
+<li><strong>Drinks, canned alcohol, frozen, bento</strong> — same 2-section rule; counts on tooltip when you pick item up</li>
+</ol>
+<p><img src="https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Supermarket-Chaos-Dream-Convenience-Store-Drinks-LucasGuide.jpg" alt="Dreamlike — drinks aisle"></p>
+<p><img src="https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Supermarket-Chaos-Dream-Convenience-Store-Canned-Drinks-Alcohol-LucasGuide.jpg" alt="Dreamlike — canned drinks and alcohol"></p>
+<p><img src="https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Supermarket-Chaos-Dream-Convenience-Store-Frozen-Foods-Ice-Cream-LucasGuide.jpg" alt="Dreamlike — frozen foods and ice cream"></p>
+<p><img src="https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Supermarket-Chaos-Dream-Convenience-Store-Bento-Onigiri-Sandwiches-LucasGuide.jpg" alt="Dreamlike — bento, onigiri, and sandwiches"></p>
+<p><strong>Cup Noodles ≠ Cup Ramen</strong> — different SKU, game not forgive mix-up.</p>
+<p>When Stage 2 done, game unlock <strong>SuperSupermarket</strong> (Stage 3). Achievements call it <strong>Mega Market</strong>.</p>
+<hr>
+<h2 id="stage-3-supersupermarket-mega-market-9999-placements">Stage 3 — SuperSupermarket / Mega Market (9,999 placements)</h2>
+<p>Third Mode — <strong>SuperSupermarket</strong> in game, <strong>Mega Market</strong> in achievement names. Huge store split into <strong>18 bays</strong> (Drinks → Albums/LPs). Same stocking rules: correct shelf, even split per table.</p>
+<p><strong>Honest note:</strong> I <strong>not finish</strong> Stage 3 solo yet. This Mode is too big for one evening after work. Bay numbers in <a href="/supermarket-chaos/supersupermarket-shelf-placement">SuperSupermarket shelf guide</a> come from community list + my partial runs — I verify more when I play, but for now I <strong>recommend co-op with friends</strong>.</p>
+<h3>Multiplayer (Beta) — how I suggest you play Stage 3</h3>
+<p>Game add <strong>multiplayer (Beta)</strong>. Official rules:</p>
+<ul>
+<li><strong>2–4 players</strong> can play together — depends on Mode</li>
+<li>Costumes available — cosmetic, but fun</li>
+<li><strong>Progress saves only on host save file</strong> — if you not host, your file not advance; host must run the session</li>
+</ul>
+<p>What this mean for you:</p>
+<ol>
+<li><strong>Host</strong> = person whose supermarket / stage progress matter. Pick friend with most skills unlocked or who is closest to Stage 3.</li>
+<li>Split bays — one player Drinks + Beer, another Meat + Bread, etc. Request More still OP with four people hauling.</li>
+<li>Guest players help place items but <strong>milestones and bay clear count toward host</strong> — do not expect your save to move if you join someone else lobby.</li>
+<li>Beta = maybe bugs. If count look wrong, retry session or host solo for that bay.</li>
+</ol>
+<p>I will update this hub when I clear more bays solo or in co-op myself.</p>
+<p><strong>Two things at once in Stage 3:</strong></p>
+<ol>
+<li><strong>Clear each bay</strong> — exact totals in <a href="/supermarket-chaos/supersupermarket-shelf-placement">SuperSupermarket shelf guide</a> (all 18 bays)</li>
+<li><strong>Placement milestones</strong> — counter to <strong>9,999</strong> correct for Mega Market Complete</li>
+</ol>
+<h3>My bay order (Stage 3)</h3>
+<p>Follow Bay <strong>1 → 18</strong> in shelf guide. Request More on big lines (Bay 1 drinks, Bay 7 fish, Bay 8 cheese, Bay 12 ramen).</p>
+<p>Special rules in this Mode:</p>
+<ul>
+<li><strong>Bay 13 &#x26; 17</strong> — most items use <strong>1 shelf</strong> only</li>
+<li><strong>Bay 14 shoes</strong> — every SKU is 8 units, 2 shelves, 4 each</li>
+<li><strong>Bay 10 snacks</strong> — names look like Dreamlike store but <strong>different counts</strong> — use Stage 3 table only</li>
+</ul>
+<h3>Stage 3 tips</h3>
+<ul>
+<li><strong>Seriously Too Heavy</strong> achievement: hold <strong>20 items</strong> at once — need max Extra Carry</li>
+<li>At <strong>9,990+</strong> open achievement list — <strong>One Last Item, Really</strong> = 9,998, <strong>Mega Market Complete</strong> = 9,999</li>
+<li>Distance achievements (Marathoner 42.195 km) fill passively while you walk</li>
+<li>Stickers (-30% cooldown, +30% duration) help long grind: <a href="/supermarket-chaos/sticker-collection">sticker collection</a></li>
+</ul>
+<p>Full milestone table: <a href="/supermarket-chaos/achievement-hunting">achievement hunting</a>.</p>
+<hr>
+<h2 id="lost-items-fix-any-stage">Lost items fix (any stage)</h2>
+<ol>
+<li><strong>ESC</strong> → green power button</li>
+<li>Scroll down → <strong>Reposition all items not on shelves</strong></li>
+</ol>
+<p>I use this every time at 99% in Stage 1 or 2.</p>
+<hr>
+<h2 id="tag-colors">Tag colors</h2>
+<table>
+<thead>
+<tr>
+<th>Tag</th>
+<th>Meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>White</td>
+<td>Correct shelf, not full yet</td>
+</tr>
+<tr>
+<td>Yellow</td>
+<td>Correct and complete</td>
+</tr>
+<tr>
+<td>Red</td>
+<td>Wrong shelf — pick up and move</td>
+</tr>
+</tbody>
+</table>
+<p><img src="https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Supermarket-Chaos-Yellow-Tag-LucasGuide.jpg" alt="Yellow tag — shelf complete and correct"></p>
+<hr>
+<h2 id="music-change">Music change</h2>
+<p>Computer near front entrance → <strong>E</strong> to switch song. <strong>Music duty</strong> achievement (any stage, once).</p>
+<p><img src="https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Supermarket-Chaos-Change-Music-LucasGuide.jpg" alt="Change music — computer near entrance"></p>
+<hr>
+<h2 id="reset-notes">Reset notes</h2>
+<p><strong>New game floor reset:</strong> ESC → green tab → <strong>Delete All</strong> (irreversible).</p>
+<p><strong>Steam achievement reset:</strong> uninstall, disable cloud, delete <code>BunnyHopHome</code> in AppData, Steam console <code>reset_all_stats 4800590</code>. Only if you want full wipe.</p>
+<hr>
+<h2 id="leaf-guide-index">Leaf guide index</h2>
+<table>
+<thead>
+<tr>
+<th>Problem</th>
+<th>Page</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16 magazine titles × 24 units</td>
+<td><a href="/supermarket-chaos/magazine-shelf-placement">Magazine shelves</a></td>
+</tr>
+<tr>
+<td>8 electronics/tools SKUs</td>
+<td><a href="/supermarket-chaos/electronics-tools-shelf-placement">Electronics &#x26; tools</a></td>
+</tr>
+<tr>
+<td>30 snacks/cereal (4-section crisps)</td>
+<td><a href="/supermarket-chaos/snacks-cereal-shelf-placement">Snacks &#x26; cereal</a></td>
+</tr>
+<tr>
+<td>16 ramen SKUs</td>
+<td><a href="/supermarket-chaos/ramen-shelf-placement">Ramen</a></td>
+</tr>
+<tr>
+<td>16 cleaning/laundry</td>
+<td><a href="/supermarket-chaos/cleaning-laundry-shelf-placement">Cleaning &#x26; laundry</a></td>
+</tr>
+<tr>
+<td>8 hair care</td>
+<td><a href="/supermarket-chaos/hair-care-shelf-placement">Hair care</a></td>
+</tr>
+<tr>
+<td>SuperSupermarket 18 bays (Stage 3)</td>
+<td><a href="/supermarket-chaos/supersupermarket-shelf-placement">SuperSupermarket shelves</a></td>
+</tr>
+<tr>
+<td>Gacha stickers (start Stage 1)</td>
+<td><a href="/supermarket-chaos/sticker-collection">Sticker collection</a></td>
+</tr>
+<tr>
+<td>All stage milestones</td>
+<td><a href="/supermarket-chaos/achievement-hunting">Achievement hunting</a></td>
+</tr>
+</tbody>
+</table>
+<p>Hub done. Stage 1 → Stage 2 → Stage 3 in order. Stuck on shelf numbers = leaf page. Stuck on achievement count = achievement page.</p>
+16:[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"[{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"name\":\"Supermarket Chaos\",\"url\":\"https://lucasguide.com\",\"description\":\"Simple horror and puzzle walkthroughs from Luca, a German player. One hub per game, extra pages only when you get stuck.\",\"potentialAction\":{\"@type\":\"SearchAction\",\"target\":\"https://lucasguide.com/all-guides?q={search_term_string}\",\"query-input\":\"required name=search_term_string\"}},{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"LucasGuide\",\"item\":\"https://lucasguide.com\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Supermarket Chaos\",\"item\":\"https://lucasguide.com/supermarket-chaos\"}]}]"}}],["$","main",null,{"className":"mx-auto max-w-6xl px-4 py-10","children":[["$","nav",null,{"aria-label":"Breadcrumb","className":"mb-6","children":["$","ol",null,{"className":"flex flex-wrap items-center gap-1.5 text-sm text-stone-500 dark:text-stone-400","children":[["$","li","0",{"className":"flex items-center gap-1.5","children":[false,["$","$L5",null,{"href":"/","className":"hover:text-brand-600 dark:hover:text-brand-400","children":"LucasGuide"}]]}],["$","li","1",{"className":"flex items-center gap-1.5","children":[["$","span",null,{"aria-hidden":true,"children":"/"}],["$","$L5",null,{"href":"/supermarket-chaos","className":"hover:text-brand-600 dark:hover:text-brand-400","children":"Supermarket Chaos"}]]}],["$","li","2",{"className":"flex items-center gap-1.5","children":[["$","span",null,{"aria-hidden":true,"children":"/"}],["$","span",null,{"className":"font-medium text-stone-900 dark:text-white","children":"Supermarket Chaos Walkthrough — Luca's 100% Guide"}]]}]]}]}],["$","div",null,{"className":"grid gap-10 lg:grid-cols-[minmax(0,1fr)_280px]","children":[["$","article",null,{"className":"min-w-0","children":[["$","header",null,{"className":"mb-8","children":[["$","p",null,{"className":"mb-2 text-sm font-medium uppercase tracking-wide text-brand-600 dark:text-brand-400","children":["Supermarket Chaos"," Guide"]}],["$","h1",null,{"className":"text-3xl font-bold tracking-tight text-stone-900 dark:text-stone-100 md:text-5xl","children":"Supermarket Chaos Walkthrough — Luca's 100% Guide"}],["$","p",null,{"className":"mt-4 max-w-3xl text-lg leading-8 text-stone-600 dark:text-stone-400","children":"Full route through all three stages — Supermarket, Dreamlike store, and SuperSupermarket (Mega Market). Leaf pages for shelf counts."}],["$","p",null,{"className":"mt-3 text-sm italic text-stone-500","children":["Last updated: ","September 9, 2026"]}]]}],["$","$L20",null,{"gameName":"Supermarket Chaos","quickAnswer":"Stage 1 Supermarket (4,667) → Stage 2 Dreamlike (2,628) → Stage 3 SuperSupermarket (18 bays + 9,999 placement grind)."}],["$","div",null,{"className":"$21","dangerouslySetInnerHTML":{"__html":"$22"}}],"$L23"]}],"$L24"]}]]}]]
+25:I[2500,["619","static/chunks/619-ba102abea3e3d0e4.js","909","static/chunks/909-a5da60d248a1c133.js","32","static/chunks/app/(site)/%5Bgame%5D/page-27b1594a371619d7.js"],"TableOfContents"]
+23:["$","div",null,{"className":"mt-12 rounded-xl border border-stone-200 bg-stone-50 p-6 dark:border-stone-800 dark:bg-stone-900/50","children":[["$","h2",null,{"className":"text-xl font-bold text-stone-900 dark:text-stone-100","children":["Done with ","Supermarket Chaos","? Pick next game."]}],["$","p",null,{"className":"mt-2 text-stone-600 dark:text-stone-400","children":"Browse all guides or go back to homepage."}],["$","$L5",null,{"href":"/all-guides","className":"mt-4 inline-flex items-center text-sm font-bold text-brand-600 hover:underline dark:text-brand-400","children":"Browse all game guides →"}]]}]
+24:["$","$L25",null,{"items":[{"id":"what-this-game-is","title":"What this game is"},{"id":"core-loop-all-stages","title":"Core loop (all stages)"},{"id":"skill-upgrade-order","title":"Skill upgrade order"},{"id":"request-more-method-all-stages","title":"Request More method (all stages)"},{"id":"stage-1-supermarket-4667-items","title":"Stage 1 — Supermarket (4,667 items)"},{"id":"stage-2-dreamlike-convenience-store-2628-items","title":"Stage 2 — Dreamlike Convenience Store (2,628 items)"},{"id":"stage-3-supersupermarket-mega-market-9999-placements","title":"Stage 3 — SuperSupermarket / Mega Market (9,999 placements)"},{"id":"lost-items-fix-any-stage","title":"Lost items fix (any stage)"},{"id":"tag-colors","title":"Tag colors"},{"id":"music-change","title":"Music change"},{"id":"reset-notes","title":"Reset notes"},{"id":"leaf-guide-index","title":"Leaf guide index"}],"gameSlug":"supermarket-chaos"}]
+1c:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+18:null
+26:I[622,[],"IconMark"]
+1a:{"metadata":[["$","title","0",{"children":"Supermarket Chaos Walkthrough — Luca's 100% Guide | LucasGuide"}],["$","meta","1",{"name":"description","content":"Full route through all three stages — Supermarket, Dreamlike store, and SuperSupermarket (Mega Market). Leaf pages for shelf counts."}],["$","meta","2",{"property":"og:title","content":"Supermarket Chaos Walkthrough — Luca's 100% Guide"}],["$","meta","3",{"property":"og:description","content":"Full route through all three stages — Supermarket, Dreamlike store, and SuperSupermarket (Mega Market). Leaf pages for shelf counts."}],["$","meta","4",{"property":"og:image","content":"https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Supermarket-Chaos-Feature-LucasGuide.jpg"}],["$","meta","5",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","6",{"name":"twitter:title","content":"Supermarket Chaos Walkthrough — Luca's 100% Guide"}],["$","meta","7",{"name":"twitter:description","content":"Full route through all three stages — Supermarket, Dreamlike store, and SuperSupermarket (Mega Market). Leaf pages for shelf counts."}],["$","meta","8",{"name":"twitter:image","content":"https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Supermarket-Chaos-Feature-LucasGuide.jpg"}],["$","link","9",{"rel":"icon","href":"/icon.svg?a569882f4910072d","type":"image/svg+xml","sizes":"any"}],["$","$L26","10",{}]],"error":null,"digest":"$undefined"}
+1f:"$1a:metadata"
