@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 248 250 252;
+    --foreground: 15 23 42;
+    --muted: 241 245 249;
+    --border: 226 232 240;
+    --ring: 16 185 129;
+  }
+
+  .dark {
+    --background: 15 23 42;
+    --foreground: 248 250 252;
+    --muted: 30 41 59;
+    --border: 51 65 85;
+    --ring: 52 211 153;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-stone-50 text-stone-900 antialiased dark:bg-stone-950 dark:text-stone-100;
+  }
+}
+
+@layer components {
+  .prose-guide {
+    @apply prose prose-stone max-w-none dark:prose-invert
+      prose-headings:font-display prose-headings:tracking-tight
+      prose-h1:text-3xl prose-h1:md:text-4xl prose-h1:font-bold
+      prose-h2:mt-10 prose-h2:mb-4 prose-h2:text-xl prose-h2:font-semibold
+      prose-p:leading-relaxed prose-p:text-stone-600 dark:prose-p:text-stone-300
+      prose-a:text-brand-600 prose-a:no-underline hover:prose-a:underline
+      dark:prose-a:text-brand-400;
+  }
+
+  .prose-guide ul,
+  .prose-guide ol {
+    @apply my-6 space-y-2 rounded-lg border border-stone-200/80 bg-white/80 p-5
+      leading-relaxed shadow-sm dark:border-stone-700/60 dark:bg-stone-900/50;
+  }
+
+  .prose-guide li {
+    @apply text-stone-700 dark:text-stone-300;
+  }
+
+  .card-surface {
+    @apply rounded-xl border border-stone-200/80 bg-white shadow-card
+      transition-all duration-300 dark:border-stone-800 dark:bg-stone-900;
+  }
+
+  .card-surface-hover {
+    @apply card-surface hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-card-hover
+      dark:hover:border-brand-800;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-brand-600 to-accent-500 bg-clip-text text-transparent
+      dark:from-brand-400 dark:to-accent-400;
+  }
+
+  .section-divider {
+    @apply border-t border-stone-200/80 dark:border-stone-800;
+  }
+}
+
+@layer utilities {
+  .animate-stagger > * {
+    animation: slideUp 0.5s ease-out forwards;
+    opacity: 0;
+  }
+
+  .animate-stagger > *:nth-child(1) { animation-delay: 0.05s; }
+  .animate-stagger > *:nth-child(2) { animation-delay: 0.1s; }
+  .animate-stagger > *:nth-child(3) { animation-delay: 0.15s; }
+  .animate-stagger > *:nth-child(4) { animation-delay: 0.2s; }
+  .animate-stagger > *:nth-child(5) { animation-delay: 0.25s; }
+  .animate-stagger > *:nth-child(6) { animation-delay: 0.3s; }
+}
