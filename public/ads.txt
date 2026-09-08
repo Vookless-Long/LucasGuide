@@ -1,1 +1,3 @@
-google.com, pub-5556548377469506, DIRECT, f08c47fec0942fa0
+# LucasGuide — ads.txt placeholder
+# Replace this file with your authorized seller line when you enable ads, for example:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
