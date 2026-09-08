@@ -75,13 +75,26 @@ export function TableOfContents({ items, gameSlug }: { items: TocEntry[]; gameSl
   );
 }
 
-export function QuickAnswerSection({ quickAnswer }: { quickAnswer: string }) {
+export function QuickAnswerSection({
+  quickAnswer,
+  quickAnswerHtml,
+}: {
+  quickAnswer: string;
+  quickAnswerHtml?: string;
+}) {
   return (
     <section className="my-8 rounded-xl border border-brand-200/60 bg-brand-50/50 p-5 shadow-sm dark:border-brand-800/40 dark:bg-brand-950/20">
       <h2 className="mb-3 text-lg font-semibold text-stone-900 dark:text-stone-100">Quick Answer</h2>
-      <div className={`${guideProseClassName} prose-p:leading-relaxed`}>
-        <p>{quickAnswer}</p>
-      </div>
+      {quickAnswerHtml ? (
+        <div
+          className={`${guideProseClassName} prose-p:leading-relaxed`}
+          dangerouslySetInnerHTML={{ __html: quickAnswerHtml }}
+        />
+      ) : (
+        <div className={`${guideProseClassName} prose-p:leading-relaxed`}>
+          <p>{quickAnswer}</p>
+        </div>
+      )}
     </section>
   );
 }
@@ -89,20 +102,26 @@ export function QuickAnswerSection({ quickAnswer }: { quickAnswer: string }) {
 export function StartHereSection({
   gameName,
   quickAnswer,
+  quickAnswerHtml,
   children,
 }: {
   gameName: string;
   quickAnswer?: string;
+  quickAnswerHtml?: string;
   children?: React.ReactNode;
 }) {
   return (
     <section className="my-8 rounded-xl border border-accent-200/60 bg-accent-50/40 p-5 shadow-sm dark:border-accent-800/30 dark:bg-accent-950/15">
       <h2 className="mb-3 text-lg font-semibold text-stone-900 dark:text-stone-100">Start Here</h2>
       <div className={`${guideProseClassName} prose-p:leading-relaxed`}>
-        {quickAnswer && (
-          <p>
-            <strong>Quick answer:</strong> {quickAnswer}
-          </p>
+        {quickAnswerHtml ? (
+          <div dangerouslySetInnerHTML={{ __html: quickAnswerHtml }} />
+        ) : (
+          quickAnswer && (
+            <p>
+              <strong>Quick answer:</strong> {quickAnswer}
+            </p>
+          )
         )}
         <p>
           If you ask <strong>&quot;where I go next?&quot;</strong>, start with sections below on

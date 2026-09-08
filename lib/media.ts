@@ -25,3 +25,27 @@ export const supermarketChaosImages = {
   dreamlikeFrozenFoodsIceCream: `${R2_ASSETS_BASE}/Supermarket-Chaos-Dream-Convenience-Store-Frozen-Foods-Ice-Cream-LucasGuide.jpg`,
   dreamlikeBentoOnigiriSandwiches: `${R2_ASSETS_BASE}/Supermarket-Chaos-Dream-Convenience-Store-Bento-Onigiri-Sandwiches-LucasGuide.jpg`,
 } as const;
+
+export const titanicEscapeSimulatorImages = {
+  feature: `${R2_ASSETS_BASE}/TES-Feature-LucasGuide.jpg`,
+  start: `${R2_ASSETS_BASE}/TES-Start-LucasGuide.jpg`,
+  tes001: `${R2_ASSETS_BASE}/TES-001-Puzzle-033109-LucasGuide.jpg`,
+  tes002: `${R2_ASSETS_BASE}/TES-002-Cable-C70-LucasGuide.jpg`,
+  tes003: `${R2_ASSETS_BASE}/TES-003-Crate-404-LucasGuide.jpg`,
+  tes004: `${R2_ASSETS_BASE}/TES-004-Puzzle-0404-LucasGuide.jpg`,
+  tes005: `${R2_ASSETS_BASE}/TES-005-Wireless-Room-LucasGuide.jpg`,
+  tes006: `${R2_ASSETS_BASE}/TES-006-Boat-Deck-LucasGuide.jpg`,
+  tes007: `${R2_ASSETS_BASE}/TES-007-Turkish-Baths-LucasGuide.jpg`,
+  tes008: `${R2_ASSETS_BASE}/TES-008-F-Deck-LucasGuide.jpg`,
+  tes009: `${R2_ASSETS_BASE}/TES-009-Turkish-Baths-LucasGuide.jpg`,
+  tes010: `${R2_ASSETS_BASE}/TES-010-Mr-Graves-LucasGuide.jpg`,
+  tes015: `${R2_ASSETS_BASE}/TES-015-Escape-LucasGuide.jpg`,
+  ending1: `${R2_ASSETS_BASE}/TES-Ending-1-LucasGuide.jpg`,
+  ending2: `${R2_ASSETS_BASE}/TES-Ending-2-LucasGuide.jpg`,
+  ending3: `${R2_ASSETS_BASE}/TES-Ending-3-LucasGuide.jpg`,
+} as const;
+
+/** Cover — set when feature image is on R2 */
+export const hiddenPortalsImages = {
+  feature: undefined as string | undefined,
+} as const;

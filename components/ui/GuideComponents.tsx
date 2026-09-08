@@ -5,16 +5,19 @@ import { formatDate } from "@/lib/utils";
 
 export function GuideCard({
   guide,
+  gameName,
 }: {
   guide: Pick<Guide, "title" | "description" | "game" | "slug" | "date">;
+  gameName?: string;
 }) {
   const href = `/${guide.game}/${guide.slug}`;
+  const displayTitle = gameName ? `${gameName} — ${guide.title}` : guide.title;
 
   return (
     <Link href={href} className="card-surface-hover group block p-5">
       <time className="text-xs font-medium text-stone-400">{formatDate(guide.date)}</time>
       <h3 className="mt-2 font-display text-lg font-semibold text-stone-900 group-hover:text-brand-600 dark:text-white dark:group-hover:text-brand-400">
-        {guide.title}
+        {displayTitle}
       </h3>
       <p className="mt-2 line-clamp-2 text-sm text-stone-500 dark:text-stone-400">
         {guide.description}

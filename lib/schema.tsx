@@ -91,10 +91,11 @@ export function buildWebSiteJsonLd(siteName: string): object {
 
 export function guideToArticleSchema(
   guide: GuideFrontmatter & { html?: string },
-  canonicalUrl: string
+  canonicalUrl: string,
+  headline?: string
 ): object {
   return buildArticleJsonLd({
-    title: guide.title,
+    title: headline ?? guide.title,
     description: guide.description,
     url: canonicalUrl,
     datePublished: guide.date,

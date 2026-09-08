@@ -4,7 +4,8 @@ import matter from "gray-matter";
 import { remark } from "remark";
 import html from "remark-html";
 import gfm from "remark-gfm";
-import { getGame } from "./games";
+import { getGame, isGamePublished } from "./games";
+import { preprocessMarkdown } from "./markdown-spoilers";
 import { slugify } from "./utils";
 
 const GUIDES_DIR = path.join(process.cwd(), "guides");
@@ -35,6 +36,7 @@ export interface Guide extends GuideFrontmatter {
   type: "hub" | "guide";
   content: string;
   html: string;
+  quickAnswerHtml?: string;
   filePath: string;
 }
 
@@ -55,7 +57,8 @@ function addHeadingIds(htmlContent: string): string {
 }
 
 async function markdownToHtml(markdown: string, withHeadingIds = false): Promise<string> {
-  const result = await remark().use(gfm).use(html, { sanitize: false }).process(markdown);
+  const processed = preprocessMarkdown(markdown);
+  const result = await remark().use(gfm).use(html, { sanitize: false }).process(processed);
   const raw = result.toString();
   return withHeadingIds ? addHeadingIds(raw) : raw;
 }
@@ -139,6 +142,10 @@ export function getGamesFromGuides(): string[] {
     .map((e) => e.name);
 }
 
+export function getPublishedGamesFromGuides(): string[] {
+  return getGamesFromGuides().filter(isGamePublished);
+}
+
 export async function getHubGuide(game: string): Promise<(Guide & { toc: TocEntry[] }) | null> {
   const hubPath = path.join(GUIDES_DIR, game, "hub.md");
   if (!fs.existsSync(hubPath)) return null;
@@ -147,6 +154,9 @@ export async function getHubGuide(game: string): Promise<(Guide & { toc: TocEntr
   if (!guide) return null;
 
   guide.html = await markdownToHtml(guide.content, true);
+  if (guide.quickAnswer) {
+    guide.quickAnswerHtml = await markdownToHtml(guide.quickAnswer, false);
+  }
   const toc = extractTocFromHtml(guide.html);
   return { ...guide, toc };
 }
@@ -167,12 +177,18 @@ export async function getLeafGuide(
     const guide = parseGuideFile(match);
     if (!guide) return null;
     guide.html = await markdownToHtml(guide.content, true);
+    if (guide.quickAnswer) {
+      guide.quickAnswerHtml = await markdownToHtml(guide.quickAnswer, false);
+    }
     return { ...guide, toc: extractTocFromHtml(guide.html) };
   }
 
   const guide = parseGuideFile(filePath);
   if (!guide || guide.type === "hub") return null;
   guide.html = await markdownToHtml(guide.content, true);
+  if (guide.quickAnswer) {
+    guide.quickAnswerHtml = await markdownToHtml(guide.quickAnswer, false);
+  }
   return { ...guide, toc: extractTocFromHtml(guide.html) };
 }
 
@@ -195,6 +211,7 @@ export function getAllLeafSlugs(): { game: string; slug: string }[] {
   for (const filePath of getAllGuideFilePaths()) {
     const guide = parseGuideFile(filePath);
     if (!guide || guide.type === "hub") continue;
+    if (!isGamePublished(guide.game)) continue;
     slugs.push({ game: guide.game, slug: guide.slug });
   }
   return slugs;
@@ -233,7 +250,7 @@ export function getGameHubSummaries(): GameHubSummary[] {
   return getGamesFromGuides()
     .map((slug) => {
       const config = getGame(slug);
-      if (!config) return null;
+      if (!config || !isGamePublished(slug)) return null;
 
       const leaves = getAllGuideFilePaths()
         .map(parseGuideFile)

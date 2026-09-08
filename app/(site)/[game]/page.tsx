@@ -8,8 +8,8 @@ import {
   TableOfContents,
 } from "@/components/game/GameHubArticle";
 import { JsonLdScript, buildBreadcrumbJsonLd, buildWebSiteJsonLd } from "@/lib/schema";
-import { getGame } from "@/lib/games";
-import { getHubGuide, getGamesFromGuides } from "@/lib/guides";
+import { getGame, isGamePublished } from "@/lib/games";
+import { getHubGuide, getPublishedGamesFromGuides } from "@/lib/guides";
 import { site } from "@/lib/site";
 import { formatDate } from "@/lib/utils";
 
@@ -21,7 +21,7 @@ export async function generateMetadata({
   const { game: gameSlug } = await params;
   const game = getGame(gameSlug);
   const hub = await getHubGuide(gameSlug);
-  if (!game || !hub) return { title: "Not Found" };
+  if (!game || !hub || !isGamePublished(gameSlug)) return { title: "Not Found" };
 
   return {
     title: hub.title,
@@ -43,7 +43,7 @@ export default async function GameHubPage({
   const game = getGame(gameSlug);
   const hub = await getHubGuide(gameSlug);
 
-  if (!game || !hub) notFound();
+  if (!game || !hub || !isGamePublished(gameSlug)) notFound();
 
   return (
     <>
@@ -84,7 +84,11 @@ export default async function GameHubPage({
             </header>
 
             {hub.quickAnswer && (
-              <StartHereSection gameName={game.name} quickAnswer={hub.quickAnswer} />
+              <StartHereSection
+                gameName={game.name}
+                quickAnswer={hub.quickAnswer}
+                quickAnswerHtml={hub.quickAnswerHtml}
+              />
             )}
 
             <div
@@ -116,5 +120,5 @@ export default async function GameHubPage({
 }
 
 export function generateStaticParams() {
-  return getGamesFromGuides().map((game) => ({ game }));
+  return getPublishedGamesFromGuides().map((game) => ({ game }));
 }

@@ -8,7 +8,8 @@ import {
 } from "@/components/game/GameHubArticle";
 import { Breadcrumbs, IfThenRouter } from "@/components/ui/GuideComponents";
 import { JsonLdScript, buildBreadcrumbJsonLd, guideToArticleSchema } from "@/lib/schema";
-import { getGame } from "@/lib/games";
+import { formatLeafGuideTitle } from "@/lib/guide-titles";
+import { getGame, isGamePublished } from "@/lib/games";
 import { getLeafGuide, getAllLeafSlugs } from "@/lib/guides";
 import { site } from "@/lib/site";
 import { formatDate } from "@/lib/utils";
@@ -20,12 +21,16 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { game, slug } = await params;
   const guide = await getLeafGuide(game, slug);
-  if (!guide) return { title: "Guide Not Found" };
+  const gameConfig = getGame(game);
+  if (!guide || !isGamePublished(game)) return { title: "Guide Not Found" };
+  const pageTitle = gameConfig
+    ? formatLeafGuideTitle(gameConfig.name, guide.title)
+    : guide.title;
   return {
-    title: guide.title,
+    title: pageTitle,
     description: guide.description,
     openGraph: {
-      title: guide.title,
+      title: pageTitle,
       description: guide.description,
       type: "article",
       publishedTime: guide.date,
@@ -42,15 +47,16 @@ export default async function LeafGuidePage({
   const game = getGame(gameSlug);
   const guide = await getLeafGuide(gameSlug, slug);
 
-  if (!guide || !game) notFound();
+  if (!guide || !game || !isGamePublished(gameSlug)) notFound();
 
+  const pageTitle = formatLeafGuideTitle(game.name, guide.title);
   const canonicalUrl = `${site.url}/${gameSlug}/${slug}`;
 
   return (
     <>
       <JsonLdScript
         data={[
-          guideToArticleSchema(guide, canonicalUrl),
+          guideToArticleSchema(guide, canonicalUrl, pageTitle),
           buildBreadcrumbJsonLd([
             { name: site.name, url: site.url },
             { name: game.name, url: `${site.url}/${gameSlug}` },
@@ -75,7 +81,7 @@ export default async function LeafGuidePage({
                 {game.name} Guide
               </p>
               <h1 className="text-3xl font-bold tracking-tight text-stone-900 dark:text-stone-100 md:text-5xl">
-                {guide.title}
+                {pageTitle}
               </h1>
               {guide.description && (
                 <p className="mt-4 max-w-3xl text-lg leading-8 text-stone-600 dark:text-stone-400">
@@ -87,7 +93,12 @@ export default async function LeafGuidePage({
               </p>
             </header>
 
-            {guide.quickAnswer && <QuickAnswerSection quickAnswer={guide.quickAnswer} />}
+            {guide.quickAnswer && (
+              <QuickAnswerSection
+                quickAnswer={guide.quickAnswer}
+                quickAnswerHtml={guide.quickAnswerHtml}
+              />
+            )}
 
             <div
               className={guideProseClassName}
