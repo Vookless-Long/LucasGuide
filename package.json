@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "engines": {
+    "node": ">=20"
+  },
   "dependencies": {
     "@tabler/icons-react": "^3.31.0",
     "clsx": "^2.1.1",
