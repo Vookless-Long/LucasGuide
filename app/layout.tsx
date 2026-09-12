@@ -29,6 +29,9 @@ export const metadata: Metadata = {
   description:
     "Simple game walkthroughs from Luca, a German player. One hub per game, extra pages only when you get stuck.",
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://lucasguide.com"),
+  other: {
+    "msvalidate.01": "C81D7BD1D20BD0A8DE845A4514797CAC",
+  },
 };
 
 export default function RootLayout({

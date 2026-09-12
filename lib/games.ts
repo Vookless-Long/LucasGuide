@@ -1,5 +1,9 @@
 import type { AccentColor } from "./site";
-import { supermarketChaosImages, titanicEscapeSimulatorImages } from "./media";
+import {
+  supermarketChaosImages,
+  titanicEscapeSimulatorImages,
+  welcomeToElderfieldImages,
+} from "./media";
 
 export interface GameConfig {
   slug: string;
@@ -50,6 +54,23 @@ export const GAMES: Record<string, GameConfig> = {
     featured: false,
     published: false,
     coverGradient: "from-violet-600 via-indigo-950 to-stone-950",
+  },
+  "welcome-to-elderfield": {
+    slug: "welcome-to-elderfield",
+    name: "Welcome to Elderfield",
+    tagline: "Farm horror route — Zartekch seal, rituals, god rooms, moon events.",
+    description:
+      "Welcome to Elderfield walkthrough — farm the Zartekch shrine seal, Molly's furnace, god shrines, four god rooms, moon events, and boss fights through the first Blood Moon.",
+    hubDescription:
+      "Luca's linear route from Prologue to Blood Moon with leaf pages for bosses, rituals, blessings, and crafting.",
+    genre: "Horror / Farming RPG",
+    genres: ["Horror", "Farming", "RPG", "Indie"],
+    releaseYear: 2025,
+    accent: "emerald",
+    featured: true,
+    published: true,
+    coverGradient: "from-emerald-700 via-stone-800 to-stone-950",
+    coverImage: welcomeToElderfieldImages.feature,
   },
   "titanic-escape-simulator": {
     slug: "titanic-escape-simulator",
