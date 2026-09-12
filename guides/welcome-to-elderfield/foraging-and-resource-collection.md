@@ -13,6 +13,8 @@ quickAnswer: "Most pickups respawn Mondays (not billboards). Blood Moon resets m
 
 ![Wooden Stick — common early forage from trees and boxes](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Wooden-Stick-LucasGuide.jpg)
 
+**Wooden Stick**
+
 Foraging in Welcome to Elderfield looks like a throwaway chore until you realize how much of the early economy runs through it. Bitter Herb and Red Mushroom gate your first cooking recipes, and the random junk you pull out of boxes and garbage cans quietly funds your first equipment upgrades.
 
 I treat foraging as a scheduled route, not a wander. Below is the exact loop I run, what regenerates when, and which pickups are actually worth the inventory slot.

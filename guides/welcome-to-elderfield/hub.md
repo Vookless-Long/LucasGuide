@@ -11,8 +11,6 @@ image: "https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-t
 
 Cozy farm horror — until you realize the farm is the **main quest timer**.
 
-![Welcome to Elderfield — farm and Zartekch seal route](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Feature-LucasGuide.jpg)
-
 Every crop weakens the Zartekch seal under Hans Farm. Most players stall in week two because they treat it like Stardew and ignore the shrine thread.
 
 This hub = **full linear route** Prologue → first Blood Moon. Leaf pages only where systems actually block you.
@@ -60,7 +58,11 @@ Difficulty is locked here unless you use Custom later.
 
 ![Starting weapon after character creation](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-New-Start-Weapon-LucasGuide.jpg)
 
+**New Start Weapon**
+
 ![Extra control bindings in the options menu](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Extra-Controls-LucasGuide.jpg)
+
+**Extra Controls**
 
 > **Tip:** First week = unlocks over gold. Gold partially resets on death; unlocks don't.
 
@@ -75,9 +77,15 @@ Scripted fight against Zartekch Cultist / Imperfect Creation. Teaches the whole 
 
 ![Precision Strike in the tutorial fight](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Skill-Precision-Strike-LucasGuide.jpg)
 
+**Skill Precision Strike**
+
 ![Swift, Lethal, and Defensive combat points](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Swift-Lethal-Defensive-LucasGuide.jpg)
 
+**Swift Lethal Defensive**
+
 ![Lucky point slot at 6 o'clock on the combat wheel](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Point-6-Lucky-LucasGuide.jpg)
+
+**Point 6 Lucky**
 
 Reward: **4 XP**. Optional ritual pickup later: [Pumpkin Blast](/welcome-to-elderfield/ritual-skills-reference) in Old Woods chamber.
 
@@ -93,11 +101,19 @@ Race home after the woods fight.
 
 ![Bathtub — clears blessings, curses, and respawns the world](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Bathtub-LucasGuide.jpg)
 
+**Bathtub**
+
 ![Sleep in bed after 6 PM to save and advance time](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Bed-LucasGuide.jpg)
+
+**Bed**
 
 ![Journal note from the bookshelf](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Journal-LucasGuide.jpg)
 
+**Journal**
+
 ![TV news — hints for upcoming events and locations](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-TV-LucasGuide.jpg)
+
+**TV**
 
 > **Warning:** Bathing wipes buffs you just farmed at a shrine. Only bathe when you need the heal or want a deliberate world reset.
 
@@ -109,7 +125,11 @@ Talk to **Tanner** → west to Hans Farm.
 
 ![Tanner outside your house — points to the help-wanted sign](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Tanner-LucasGuide.jpg)
 
+**Tanner**
+
 ![Town outskirts west — path to Hans Farm](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Town-Outskirts-West-LucasGuide.jpg)
+
+**Town Outskirts West**
 
 1. Hans gives **Cleansing Balm** + **50 Gold**
 2. Crawford sells Hoe, Watering Can, Wheat Seeds
@@ -118,9 +138,15 @@ Talk to **Tanner** → west to Hans Farm.
 
 ![Farmer Hans in the farmhouse](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Farmer-Hans-LucasGuide.jpg)
 
+**Farmer Hans**
+
 ![Crawford's farming shop — hoe, watering can, seeds](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Farming-Shop-LucasGuide.jpg)
 
+**Farming Shop**
+
 ![Planting and watering crops on Hans Farm](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Grow-Crops-LucasGuide.jpg)
+
+**Grow Crops**
 
 The sealed stone door on the farm = **Zartekch shrine**. Crops and animals weaken the seal — no hidden key, no passcode. When carvings fade, door opens.
 
@@ -134,6 +160,8 @@ Main story flag once farming starts:
 
 ![Bound farmer near the sealed shrine door](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-NPC-Bound-Farmer-LucasGuide.jpg)
 
+**NPC Bound Farmer**
+
 Grab [Spare Bag](/welcome-to-elderfield/inventory-upgrade-spare-bag) from the girl in town early. Farm tool upgrades: [cooking and crafting](/welcome-to-elderfield/cooking-and-crafting).
 
 > **Tip:** After [Warp](/welcome-to-elderfield/ritual-skills-reference) from Mall F1 Ultra Video, clear **all wood and stone nodes on the farm** for easy early XP and materials. Low HP → Warp home, bath, repeat. Farm mobs are tame compared to mall corridors.
@@ -144,9 +172,15 @@ Tanner unlocks gate below Old Woods → **Tanner's cabin** → Molly.
 
 ![Tanner's cabin below the Old Woods gate](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Tanners-Cabin-LucasGuide.jpg)
 
+**Tanners Cabin**
+
 ![Mine entrance cave](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Mines-Cave-LucasGuide.jpg)
 
+**Mines Cave**
+
 ![Molly at her workshop forge](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-NPC-Molly-Romance-LucasGuide.jpg)
+
+**NPC Molly Romance**
 
 1. Bring **Copper Ore** (mine with Pickaxe — swings can backfire, bring food)
 2. Molly opens forge + gives **Furnace** recipe
@@ -162,11 +196,15 @@ Side quest from **Molly** after the workshop opens:
 
 ![Shopping Rat in the mall mine](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Mall-Rat-LucasGuide.jpg)
 
+**Mall Rat**
+
 2. Enter the **door beside the rat**
 3. Find **Douglas** → receive **Offering Pot**
 4. Deeper in — **statue** → offer → **boss fight** → **Ancient Crystal**
 
 ![Office Slime boss at the offering statue](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Enemy-Office-Slime-A-B-L-LucasGuide.jpg)
+
+**Enemy Office Slime A B L**
 
 ## Library — Professor Dayton
 
@@ -196,6 +234,8 @@ Apartment **1F** — **Adrian** (tentacles bursting through his wall).
 3. Fight the **corridor administrator** — bring **Pizza** or other big heals. **Win = permanent +1 action per turn** (two actions every round from now on)
 
 ![Mall corridor administrator fight](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Enemy-Mall-Administrator-LucasGuide.jpg)
+
+**Enemy Mall Administrator**
 
 4. Next house — talk to the **office worker**
 5. **Pond on the right** — **insect bait**, fish **Staring Octopus**
@@ -231,9 +271,15 @@ Join **Joggers Club** → paths to **Old Wood Mine** + hidden location.
 
 ![Elderfield Saloon — Joggers Club meetup spot](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Elderfield-Saloon-LucasGuide.jpg)
 
+**Elderfield Saloon**
+
 ![Saloon shop interior](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Saloon-Shop-LucasGuide.jpg)
 
+**Saloon Shop**
+
 ![Sam at the saloon](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-NPC-Sam-LucasGuide.jpg)
+
+**NPC Sam**
 
 Three keys and what they open: [key locations](/welcome-to-elderfield/key-locations).
 
@@ -242,6 +288,8 @@ Three keys and what they open: [key locations](/welcome-to-elderfield/key-locati
 **Church** — pick a deity on **Sunday**. One patron at a time.
 
 ![Father Desmond at the church](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Father-Desmond-LucasGuide.jpg)
+
+**Father Desmond**
 
 - Each god gives a **unique buff and debuff**
 - Unlocks that god's **workbench** for exclusive gear crafts
@@ -263,6 +311,8 @@ After **fog weather**, a **Tax Collector** can spawn on the **road to the farm**
 - First payment I hit: **2 Turnips + 6 Wheat**
 
 ![Tax Man on the road to the farm after fog weather](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-The-Tax-Man-LucasGuide.jpg)
+
+**The Tax Man**
 - Miss payment → harsh curse cycle ([tax curses don't wash off](#status-effects--mid-game-rules))
 
 Plant tax crops the moment Hans Farm opens.
@@ -278,7 +328,11 @@ Plant tax crops the moment Hans Farm opens.
 
 ![World map — sewer manholes and zone labels](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Map-LucasGuide.jpg)
 
+**Map**
+
 ![Police station on the town map](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Police-Station-LucasGuide.jpg)
+
+**Police Station**
 
 Farming, mining, and fishing tutorials arrive via **main quest letters**; fishing specifically needs [Cat Snacks → Lakeside](/welcome-to-elderfield/fishing).
 
@@ -287,6 +341,8 @@ Farming, mining, and fishing tutorials arrive via **main quest letters**; fishin
 **Poison the Wine** — 30 coins for Supernatural Slime at shopping center, pour in Ben's house wine, wait outside.
 
 ![Juan in town — Ben's prank quest chain](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-NPC-Juan-LucasGuide.jpg)
+
+**NPC Juan**
 
 Second prank: punch a customer in the mall (reward unclear — friendship flag?).
 

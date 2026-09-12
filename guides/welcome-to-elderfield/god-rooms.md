@@ -15,12 +15,15 @@ Treasure rooms for Old One followers. Pick the deity whose loot fits your build 
 
 ![Father Desmond — choose your deity on Sundays at church](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Father-Desmond-LucasGuide.jpg)
 
+**Father Desmond**
+
 ## Room of Daeus
 
 Most players blow past the Room of Daeus on their first mall run because it does not look like a reward room. It looks like a dead-end door beside an elevator, and the game never stops you to explain that a god is standing behind it. I have watched people clear the entire mall hallway and then ask in chat where the fishing bait comes from.
 
 The room belongs to Daeus, the God of the Deep, and it is gated behind one condition: you have to be following him when you walk in. Below is the exact location, the entry check, and the full loot table so you can grab it on your first pass instead of backtracking.
 
+| Property | Value |
 | --- | --- |
 | Location | Mall hallways, directly next to the elevator |
 | Prerequisite | You must be following Daeus, the God of the Deep |
@@ -104,7 +107,8 @@ Most players stumble into the Room of Daeus by accident because it's parked righ
 
 This guide covers the full unlock chain for the God of the Moon's room: where the task comes from, who you talk to, and the precise location on the western floor 3 staircase. I'll also be upfront about what I don't know yet — the room's contents are still unconfirmed on my end.
 
-|---|---|
+| Property | Value |
+| --- | --- |
 | Location | Western floor 3 staircase, Greystone Estates |
 | Prerequisite task | "Penpals" (notice board) |
 | Required NPC | Brittany — middle of the 3 houses south of the estates |
@@ -169,7 +173,7 @@ What I can confirm is the access chain, because that's the part that blocks peop
 If you're working through the broader god-room structure, the [treasure-rooms-of-the-old-gods](/welcome-to-elderfield) hub is where I'd track the full set rather than treating Gatis as a one-off.
 
 | Mistake | Fix |
-|---|---|
+| --- | --- |
 | Knocking on the wrong house | Brittany is the **middle** of the 3 houses south of the estates |
 | Climbing the wrong staircase | It's the **western** floor 3 staircase |
 | Room won't trigger | Confirm Gatis is your active follow target |
@@ -198,6 +202,7 @@ The Room of Nezroth is one of the easier god rooms to reach once you understand 
 
 I treat this room as a mid-run pit stop rather than a destination. You drop in, follow Nezroth, loot, and climb back out before the mines drain your resources. Here's the exact route I use.
 
+| Property | Value |
 | --- | --- |
 | Room | Room of Nezroth (God of Flesh) |
 | Location | Level 2 of the mall mines |
@@ -276,7 +281,8 @@ The Room of Delvek is the clearest example of why that's a mistake. It's the God
 
 This guide covers the exact order of operations, what the room actually gives you, and the mistakes I see people make on their first attempt.
 
-|---|---|
+| Property | Value |
+| --- | --- |
 | Location | 2nd level of the mall mines |
 | Prerequisite 1 | Follow Delvek, the God of Mysteries |
 | Prerequisite 2 | Enter the room of Nezroth and reset resources |
@@ -331,7 +337,7 @@ The room opens while you're following Delvek, the God of Mysteries. Follow him i
 Two things, and both are worth the detour.
 
 | Reward | Why It Matters |
-|---|---|
+| --- | --- |
 | Small keys | Usable in the mines — these open locked doors and containers on the mine floors |
 | Plenty of gold | Straight currency, no conversion needed |
 

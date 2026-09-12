@@ -13,6 +13,8 @@ quickAnswer: "Location: Hans Farm — the small crumbling god shrine"
 
 ![Hans Farm grounds — shrine sits near the crop plots](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Grow-Crops-LucasGuide.jpg)
 
+**Grow Crops**
+
 Most players walk past the small crumbling god shrine on Hans Farm because it looks like scenery, not a mechanic. It is a mechanic — and it is one of the cheapest stat boosts in the early chapter.
 
 This guide covers exactly one thing: finding the shrine, praying at it, and understanding the random blessing you receive. No story route, no filler.

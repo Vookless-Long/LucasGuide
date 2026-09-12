@@ -36,6 +36,8 @@ Step-by-step for all five known mysteries: **[mystery events](/welcome-to-elderf
 
 ![Amelia — Temp Babysitter quest giver](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-NPC-Amelia-LucasGuide.jpg)
 
+**NPC Amelia**
+
 **Amelia** asks you to find her kid **Ben** in the **park**.
 
 | Choice | Result |
@@ -49,6 +51,9 @@ Step-by-step for all five known mysteries: **[mystery events](/welcome-to-elderf
 2. Enter **Amelia and Martin's house** — bottles on the table straight ahead from the door
 
 ![Martin inside Amelia and Martin's house](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-NPC-Martin-LucasGuide.jpg)
+
+**NPC Martin**
+
 3. Pour slime into the bottles → leave → re-enter for the scene
 4. Report to **pumpkin head in the park**
 5. Reward: **Steel Key** — opens the **upper-left door** in Martin's house
@@ -58,6 +63,8 @@ Steel Key is separate from the [three mall keys](/welcome-to-elderfield/key-loca
 ## Cat Snacks — Dave the Cat
 
 ![Pet shop — route toward Dave and the fishing unlock letter](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Pet-Shop-LucasGuide.jpg)
+
+**Pet Shop**
 
 Neighbor black cat **Dave**.
 
@@ -71,6 +78,8 @@ Also unlocks the fishing tutorial via sewer → Lakeside route.
 
 ![Shopper enemy in the mall](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-NPC-Shopper-LucasGuide.jpg)
 
+**NPC Shopper**
+
 1. **Abby** in the **park** gives the quest
 2. Defeat enough **Shoppers** in the **mall** → done
 
@@ -79,6 +88,8 @@ Good early fight XP if your build is ready.
 ## Artificial Companion — Old Jackson
 
 ![Old Man Jackson — Artificial Companion quest](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Old-Man-Jackson-LucasGuide.jpg)
+
+**Old Man Jackson**
 
 1. Talk to **Old Jackson** for the quest
 2. **Park** — collect branches → interact with the **coat rack** inside Jackson's house

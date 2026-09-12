@@ -13,11 +13,14 @@ quickAnswer: "Three mall keys: Burgers kitchen, local store buy, lower office. S
 
 ![Basic skeleton key pickup](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Basic-Skeleton-Key-LucasGuide.jpg)
 
+**Basic Skeleton Key**
+
 Three keys gate your progress through the mall and the local store in Welcome to Elderfield, and none of them are hidden behind a puzzle. They are simply placed in spots players walk past because the game never flags them as important. I have watched too many runs stall at a locked door because the player assumed the key was a quest reward.
 
 This guide covers exactly where each key spawns or is sold, in the order I recommend grabbing them, so you can clear the mall and store section in one sweep instead of three separate trips.
 
-|---|---|---|
+| Key | Location | Notes |
+| --- | --- | --- |
 | Key 1 | Burgers Burgers kitchen, Food Court | Found on the kitchen counter/prep area |
 | Key 2 | Local store | Bought from an NPC |
 | Key 3 | Lower office, mall back hallways | Found on the counter |
@@ -59,7 +62,7 @@ Because the back hallways branch, I treat this as the last pickup and clear the 
 ### My Recommended Pickup Order
 
 | Order | Key | Why This Order |
-|---|---|---|
+| --- | --- | --- |
 | 1 | Key 1 (Burgers Burgers kitchen) | Free, on the way through the Food Court |
 | 2 | Key 2 (local store NPC) | Costs gold — buy before you spend elsewhere |
 | 3 | Key 3 (lower office counter) | Deepest location, best saved for last |

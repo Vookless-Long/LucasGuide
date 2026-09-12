@@ -15,6 +15,8 @@ Fishing gates **Mist Eel** (Cat Snacks / Mist Broth) and several cooking substit
 
 ![Fishing at the Lakeside — rod and QTE](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Fishing-LucasGuide.jpg)
 
+**Fishing**
+
 ## How to unlock
 
 1. Neighbor **Dave the black cat** sends a letter → start **Cat Snacks** ([side quest](/welcome-to-elderfield/side-quests))
@@ -60,6 +62,8 @@ Farming/mining tutorials arrive via main quest letters; fishing is the odd one o
 ## Fisherman Herb — Cast the Line
 
 ![Fisherman Herb at the Lakeside](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-NPC-Herb-LucasGuide.jpg)
+
+**NPC Herb**
 
 Lakeside fisherman **Herb** runs a short turn-in quest:
 

@@ -108,7 +108,7 @@ Blessings in Welcome to Elderfield are the quiet backbone of every strong build.
 This guide is the full list of common blessings, the stat each one feeds, and how I actually use them. If you want the wider system — curses, durations, how stacks are tracked — that lives in my [welcome to elderfield blessings and curses](/welcome-to-elderfield/blessings-and-curses) breakdown. Here I'm staying locked on the common tier only.
 
 | Blessing | Stat Boosted | Per Stack | Max (5 Stacks) |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Brutalism | Attack | +10% | +50% |
 | Stubbornness | Defense | +10% | +50% |
 | Zealotry | Magic Attack | +10% | +50% |
@@ -204,7 +204,7 @@ Elderfield's status system is the quietest run-killer in the game. Nobody dies t
 This guide is the reference sheet I keep open on a second monitor: every common curse, the exact stat it drains, and the per-stack math you need to respect. If you want the full buff/debuff framework, that lives in my [welcome to elderfield blessings and curses](/welcome-to-elderfield/blessings-and-curses) breakdown — this page is strictly the curse half.
 
 | Curse | Stat Penalized | Per Stack | At 5 Stacks |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Sickness | Attack | -10% | -50% |
 | Weakness | Defense | -10% | -50% |
 | Chaos | Magic Attack | -10% | -50% |
@@ -245,7 +245,7 @@ If you're stacking the opposite direction, my [welcome to elderfield common bles
 Curses don't spawn from nowhere — they have specific sources, and knowing them lets you predict when a stack is about to land.
 
 | Source | Typical Curse |
-|---|---|
+| --- | --- |
 | Night events while sleeping | Mixed curses + stat loss |
 | Strange moon world event | Dread |
 | Cursed altars and ritual sites | Chaos, Hex |
@@ -302,7 +302,8 @@ Heavy Eyelids is the quietest debuff in Elderfield. There's no screen-shaking cu
 
 The mechanic itself is simple: stay awake for two or more days, reach moonrise on the second day, and the game slaps a permanent-until-sleep penalty on your EXP gain. This guide covers exactly how the debuff triggers, why bathing does nothing, and the one action that removes it.
 
-|---|---|
+| Property | Value |
+| --- | --- |
 | Effect | EXP gain reduced to ~85% |
 | Stacks | No — single instance only |
 | Removable by bathing | No |
@@ -349,7 +350,7 @@ If you're deep in a resource run and want to squeeze value out of the daylight h
 This is where most players waste time. I tested the obvious candidates so you don't have to.
 
 | Method | Works? |
-|---|---|
+| --- | --- |
 | Bathing / washing | No |
 | Waiting it out | No |
 | Shrines or prayers | No |

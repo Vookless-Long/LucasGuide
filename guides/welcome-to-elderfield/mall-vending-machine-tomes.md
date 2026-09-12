@@ -13,10 +13,13 @@ quickAnswer: "The Mall vending machine is the single most underrated gold sink i
 
 ![Mall ritual tome vending machine](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Vending-Machine-LucasGuide.jpg)
 
+**Vending Machine**
+
 The Mall vending machine is the single most underrated gold sink in Welcome to Elderfield. Most players walk past it because the tomes look expensive next to a stack of potions — then they hit a mid-game wall and realize they never learned a single healing ritual. I did the math on the buy order so you don't have to.
 
 This guide covers every ritual tome sold at the Mall vending machine, what each one actually does in combat, and the exact purchase sequence I use to keep my run stable without draining my wallet. If you want the full picture of how rituals work as a system, my [ritual skills overview](/welcome-to-elderfield/ritual-skills-reference) breaks down every source in the game.
 
+| Tome | Price | Effect |
 | --- | --- | --- |
 | Lesser Mending | 25g | Restore 20 HP; +1 Recovery; usable outside battle (10 MP) |
 | Cosmic Premonition | 50g | Enemy Attack and Defense -20% for 3 turns; +1 Recovery |

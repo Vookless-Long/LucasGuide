@@ -13,10 +13,13 @@ quickAnswer: "Treasure Map 3 is one of those collectibles that punishes players 
 
 ![Alice in the Elderfield Library](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-NPC-Alice-LucasGuide.jpg)
 
+**NPC Alice**
+
 Treasure Map 3 is one of those collectibles that punishes players who treat the Library as a one-and-done story beat. Alice only hands it over if you actually stop and talk to her, and the map itself points somewhere most people sprint past on their first visit.
 
 I run the Library loop on every fresh save, so this is the exact order I use to grab the map, read it, and cash in the treasure before I move on to the next objective.
 
+| Step | Action | Detail |
 | --- | --- | --- |
 | 1 | Talk to Alice inside the Elderfield Library | Dialogue triggers |
 | 2 | Accept the map when she offers it | **Treasure Map 3** added to inventory |

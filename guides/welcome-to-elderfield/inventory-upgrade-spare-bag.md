@@ -13,10 +13,13 @@ quickAnswer: "Free +1 from lost girl in town. Department store sells further bag
 
 ![Gabby — lost girl in Elderfield Town who gives the Spare Bag](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-NPC-Gabby-LucasGuide.jpg)
 
+**NPC Gabby**
+
 Inventory space in Welcome to Elderfield is the quiet bottleneck nobody warns you about. You pick up herbs, mushrooms, ritual tomes, keys, and crafting junk faster than you can spend them, and suddenly you're standing in a dungeon deciding which item gets abandoned.
 
 The Spare Bag is the cheapest fix in the game: one conversation with a lost girl in Elderfield Town, zero gold, and a permanent +1 to your inventory. This guide covers exactly where she is, what to do, and the small mistakes that cost people the upgrade.
 
+| Step | Action | Detail |
 | --- | --- | --- |
 | 1 | Find the lost girl in Elderfield Town | She's standing around, waiting to be talked to |
 | 2 | Talk to her | She hands you the Spare Bag |
@@ -39,6 +42,8 @@ If you're already collecting materials, pair this with [foraging and resource co
 ### Department store — paid expansions
 
 ![General store — bag expansions and equipment boxes](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-General-Store-LucasGuide.jpg)
+
+**General Store**
 
 After the free Spare Bag, the **department store** sells:
 

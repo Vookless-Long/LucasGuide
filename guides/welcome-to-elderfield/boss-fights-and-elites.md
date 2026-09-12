@@ -17,6 +17,8 @@ Three fights that punish lazy prep. Farm isn't the hard part — walking into th
 
 ![Maggot Man — laundry room horror encounter](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Maggot-Man-LucasGuide.jpg)
 
+**Maggot Man**
+
 Uzumak is the first boss in Welcome to Elderfield that actually punishes lazy play. It sits in the Grey Stone Residential basement laundry room, it looks like something Junji Ito sketched on a bad night, and it will absolutely drain your MP if you spam rituals like you did against trash mobs.
 
 I tested this fight three times on the same save so I could measure MP burn per turn. The short version: heavy attacks carry the damage, rituals are support only, and healing is a reaction — not a rotation. Below is the exact sequence I use to end it in one attempt.
@@ -65,7 +67,7 @@ MP is the whole fight. If you run dry, you can't heal, and Uzumak will grind you
 My MP rules for this boss:
 
 | Situation | Action | MP Cost |
-|---|---|---|
+| --- | --- | --- |
 | HP above 60% | Heavy attack | 0 |
 | HP 40–60% | Heavy attack, prep heal next turn | 0 |
 | HP below 40% | Heal immediately | Varies |
@@ -109,6 +111,8 @@ Uzumak isn't a hard boss once you stop treating it like a damage race. It's a re
 ## Treasure Goblin — Hans Farm
 
 ![Bag Boy — treasure goblin ambush from the debris pile](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Enemy-Bag-Boy-LucasGuide.jpg)
+
+**Enemy Bag Boy**
 
 Most players treat the Hans Farm debris pile as scenery and walk right past it. That's a mistake, because searching it triggers a treasure goblin ambush that hands out one of the densest early loot packages in Welcome to Elderfield.
 
@@ -190,6 +194,8 @@ Don't overthink it — just don't start it at half health. Do that, and this is 
 
 ![The Dripper in the sewers](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Enemy-Dripper-LucasGuide.jpg)
 
+**Enemy Dripper**
+
 The Dripper is the first real gut-check in the Welcome to Elderfield sewers.
 
  It shows up while you're still mapping the tunnels, and if your gear isn't there yet, the fight punishes you for guessing. I've watched too many runs die here because players treat every encounter as a mandatory kill.
@@ -202,7 +208,7 @@ This guide is the isolated problem only: how the Dripper encounter triggers, whe
 4. Monsters regenerate after fleeing.
 
 | Choice | What Happens | When I Use It |
-|---|---|---|
+| --- | --- | --- |
 | Fight | Engage the Dripper in battle — risky if under-equipped | Only with real gear and healing |
 | Flee | Return home safely, monsters regenerate | Default when under-equipped |
 
@@ -247,7 +253,7 @@ If all three pass, I fight. The Dripper is beatable with proper gear, and the en
 This is where players get confused, so let me be blunt about the trade.
 
 | Cost | Detail |
-|---|---|
+| --- | --- |
 | Position | You're sent all the way back home |
 | Progress | Monsters regenerate — cleared sewers reset |
 | Safety | You keep your character and inventory intact |

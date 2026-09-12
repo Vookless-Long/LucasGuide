@@ -17,6 +17,8 @@ Calendar events that reset your work or debuff you overnight. Plan around them, 
 
 ![Season of Rebirth — blood-red sky world event](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Season-of-Rebirth-LucasGuide.jpg)
 
+**Season of Rebirth**
+
 The blood moon in Welcome to Elderfield is not a boss fight, not a quest, and not a reward window. It is a world-state reset that fires on its own schedule, and the first time it hit my run I assumed it was a scripted story beat. It is not. The sky turns red, every mystery you have already solved goes back to unsolved, and monsters you cleared out earlier are standing exactly where they were before.
 
 This guide covers what the blood moon actually changes, what it does not change, and the single action I never skip when it rises. If you are mid-route when it triggers, the order you do things in matters more than your build.

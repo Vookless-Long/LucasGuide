@@ -15,6 +15,8 @@ Food keeps you alive in mines. Furnace turns ore into gear. Farm tools are progr
 
 ![Spoiled Rations — what you eat if you skip cooking](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Spoiled-Rations-LucasGuide.jpg)
 
+**Spoiled Rations**
+
 ## Cooking and Recipes
 
 Cooking in Welcome to Elderfield looks like a cozy side system until you realize it's your main HP engine in the early hours. Most players ignore the cooking pot in the Player's House, then wonder why they're chugging Spoiled Rations and praying.
@@ -47,7 +49,7 @@ That means you don't need to haul mushrooms and herbs around the map. Dump them 
 ### Recipe Catalog (Confirmed)
 
 | Recipe | Ingredients | Effect |
-|---|---|---|
+| --- | --- | --- |
 | Pizza | `Bread`, `Cooked Meat`, `Red Mushroom`, `Bitter Herb`, `Secret Sauce` | Strong heal — bring to [corridor admin](/welcome-to-elderfield#clear-tentacles--adrian) |
 | Vegetable Soup | `Bitter Herb`, `Red Mushroom` | Restores 20 HP |
 | Mist Broth | `Celery` (farm), `Mist Eel` ([Lakeside](/welcome-to-elderfield/fishing)) | Cat Snacks / Dave |
@@ -117,6 +119,8 @@ Cooking in Welcome to Elderfield rewards players who read their journal and stoc
 
 ![Dough and cooking station prep](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Dough-LucasGuide.jpg)
 
+**Dough**
+
 **Mist Broth** — `Celery` (grow on farm) + `Mist Eel` (Lakeside, **leech bait** — see [fishing](/welcome-to-elderfield/fishing)). Cook it for neighbor **Dave** during **Cat Snacks** → pickle jar reward + fishing tutorial unlock.
 
 **Fisherman Herb** at the Lakeside runs **Cast the Line**:
@@ -142,7 +146,7 @@ This guide covers exactly where I grab the ingredients, how I craft in bulk, and
 I tested the early consumable options side by side, and Vegetable Soup wins on pure efficiency. Here is the math that matters:
 
 | Item | HP Restored | Ingredient Cost | Shop Needed? |
-|------|-------------|-----------------|--------------|
+| --- | --- | --- | --- |
 | Vegetable Soup | 20 HP | 2 Bitter Herb + 2 Red Mushroom | No |
 | Typical early potion | Varies (usually lower) | Gold | Yes |
 | Raw foraged item | Minimal | Free | No |
@@ -465,7 +469,7 @@ I tested this the hard way after filling three small chests with ore and herbs, 
 This is the whole rule in one table. If a container isn't on the left column, assume it won't be read by the Workbench.
 
 | Container | Feeds Workbench? | Feeds other basic machines? | Notes |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Large chest | Yes | No | Primary crafting storage |
 | Fridge | Yes | No | Best for cooking ingredients |
 | Small craftable chest | No | No | Storage only — never counts |
@@ -518,7 +522,7 @@ Once your Workbench is stocked, crafting upgrades becomes the natural next step 
 Here's the layout I settled on after too many failed crafts:
 
 | Slot | Container | Purpose |
-|---|---|---|
+| --- | --- | --- |
 | Next to Workbench | Large chest | All crafting inputs |
 | Next to Workbench | Fridge | Cooking ingredients |
 | Back wall | Small chests | Sorted overflow |

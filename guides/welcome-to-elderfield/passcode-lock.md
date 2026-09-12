@@ -13,6 +13,8 @@ quickAnswer: "Location: Dave's house, Residential Area."
 
 ![Dave's house in the Residential Area](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Daves-Home-LucasGuide.jpg)
 
+**Daves Home**
+
 Dave's house in the Residential Area hides one of the earliest hard gates in Welcome to Elderfield: a passcode lock that blocks progress until you feed it the right digits. The game gives you zero hints at the door itself, which is exactly why so many players stall here on their first run.
 
 I treat this lock as a routing problem, not a puzzle. You don't brute-force it — you find the code through the environment, then punch it in. Below is the exact sequence I use so you never waste a trip back to the Residential Area.

@@ -15,6 +15,8 @@ Rituals are not optional. You start weak — hunt chamber doors, braziers, and v
 
 ![Rituals menu — combat and utility skills](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Ritual-LucasGuide.jpg)
 
+**Ritual**
+
 ## Overview
 
 Rituals are the backbone of your combat and utility kit in Welcome to Elderfield, and the game does not hand them to you on a silver platter. You start with exactly two — Energy Blast and Guard — and everything else has to be found, bought, or earned through exploration and progression.
@@ -37,7 +39,7 @@ The trap I see new players fall into is treating rituals as optional. They are n
 ### The Two Rituals You Start With
 
 | Ritual | MP Cost | Type | Notes |
-|--------|---------|------|-------|
+| --- | --- | --- | --- |
 | Energy Blast | 2 MP | Combat | Weak shot of energy. Reliable early, falls off fast. |
 | Guard | Varies | Combat | Defensive option. Essential for surviving early ambushes. |
 
@@ -72,7 +74,7 @@ Not all rituals are built for fighting. This is the distinction that trips peopl
 Here is what I have confirmed across my runs:
 
 | Ritual | Source | Location |
-|--------|--------|----------|
+| --- | --- | --- |
 | Energy Blast | Starting ritual | — |
 | Guard | Starting ritual | — |
 | Pumpkin Blast | Chamber doors | Old Woods |
@@ -164,7 +166,7 @@ If you're building out your ritual list, this one slots in next to the other fre
 Most "the brazier is bugged" reports come down to one of three things:
 
 | Mistake | What's Actually Happening | Fix |
-|---|---|---|
+| --- | --- | --- |
 | Standing too far away | Interact prompt never renders | Walk directly up to the structure |
 | Confusing it with scenery | No prompt on decorative props | Look for the object with a distinct interaction radius |
 | Expecting a code or item | The brazier has no requirement | Just touch it — the ritual is the reward |
@@ -204,11 +206,14 @@ The old ritual brazier is the cleanest kind of unlock in Welcome to Elderfield: 
 
 ![Energy Shot — starting ritual granted at game open](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Energy-Shot-LucasGuide.jpg)
 
+**Energy Shot**
+
 Energy Blast is the first ritual most players ever fire in Welcome to Elderfield, and it is deliberately underwhelming. It is a weak shot of energy, handed to you at the start of the game before you have any real build, and its job is to teach you the ritual input loop rather than carry your damage.
 
 I treat Energy Blast as a tutorial tool, not a weapon. This guide covers exactly what it does, how I use it in combat, and the point where I stop leaning on it and swap to a real ritual.
 
-|---|---|
+| Property | Value |
+| --- | --- |
 | Type | Collectible / Ritual skill |
 | Chapter | Elderfield |
 | Prerequisite | Given at the start of the game |
@@ -263,7 +268,7 @@ I do not delete it from my mental list — I just stop pressing it. It costs not
 Here is how I rank Energy Blast against the early ritual options you will meet in Elderfield.
 
 | Ritual | Damage | Role | My Verdict |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Energy Blast | Weak single shot | Ranged filler | Starting tool only |
 | [pumpkin blast](/welcome-to-elderfield/ritual-skills-reference) | Stronger burst | Offensive ritual | Direct upgrade path |
 | [chaos thorns](/welcome-to-elderfield/ritual-skills-reference) | Area pressure | Crowd control | Better for groups |
@@ -474,7 +479,8 @@ Dark Blast is one of the first rituals in Welcome to Elderfield that actually pu
 
 The catch is that you don't buy it and you don't find it in a chest. You have to finish **Build-A-Wife** first, then go back and talk to Old Man Jackson. This guide covers the exact order, what the ritual does in combat, and why I slot it into my early rotation every run.
 
-|---|---|
+| Property | Value |
+| --- | --- |
 | Type | Ritual (collectible skill) |
 | Location | Old Man Jackson's |
 | Prerequisite | Complete **Build-A-Wife** |
@@ -529,7 +535,7 @@ Here's my honest read after running it: Dark Blast is the best MP-to-value ritua
 I keep a simple mental tier list for early rituals, and Dark Blast sits near the top for offense:
 
 | Ritual | Cost | Role |
-|---|---|---|
+| --- | --- | --- |
 | Dark Blast | 5 MP | Offense + crit/Hex setup |
 | [energy blast in welcome to elderfield](/welcome-to-elderfield/ritual-skills-reference) | Low | Weak starter damage |
 | [dark shield ritual in welcome to elderfield](/welcome-to-elderfield/ritual-skills-reference) | 3 MP | +20% Def/M.Def, +1 Recovery |
@@ -554,7 +560,8 @@ Most players walk past the Office Slime outside the Mall F1 Hallway door because
 
 This guide is the isolated route for that single pickup: where the enemy spawns, what the ritual actually does, and how I slot it into a run without wasting MP or backtracking.
 
-|---|---|
+| Property | Value |
+| --- | --- |
 | Ritual | Dark Shield |
 | Location | Mall F1 - Hallway (door, southern snack / hallway area) |
 | Prerequisite | Defeat the Office Slime in front of the Mall F1 Hallway door |
@@ -613,7 +620,7 @@ Once learned, Dark Shield is permanent. You don't need to re-farm the Slime, and
 Dark Shield is a tempo tool. The 3-turn window is short, so the value comes from timing, not uptime.
 
 | Situation | My Call |
-|---|---|
+| --- | --- |
 | Boss wind-up turn | Cast Dark Shield before the big hit lands |
 | Trash mobs | Skip it — save the 3 MP |
 | Caster-heavy room | Cast early, Magic Defense matters most here |
@@ -836,6 +843,8 @@ I keep this route short on purpose — the Sewers are not where you want to be s
 ## Warp
 
 ![Shopper in Ultra Video — free Warp ritual](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-NPC-Shopper-LucasGuide.jpg)
+
+**NPC Shopper**
 
 Warp is the single most underrated ritual in Welcome to Elderfield. It costs nothing, it's handed to you by a random Shopper in the first shop you walk into, and it deletes every long walk back to your house for the rest of the run.
 
