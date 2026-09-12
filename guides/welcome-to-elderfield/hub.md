@@ -44,6 +44,7 @@ This hub = **full linear route** Prologue → first Blood Moon. Leaf pages only 
 | Foraging | [Herbs and materials](/welcome-to-elderfield/foraging-and-resource-collection) |
 | Keys | [All 3 keys](/welcome-to-elderfield/key-locations) |
 | Side quests | [Optional tasks + branches](/welcome-to-elderfield/side-quests) |
+| Mystery events | [Five Akira mysteries — ATM, mermaid, maggots, etc.](/welcome-to-elderfield/mystery-events) |
 | Fishing | [Rod, QTE, Lakeside catches](/welcome-to-elderfield/fishing) |
 | Side pickups | [Spare bag](/welcome-to-elderfield/inventory-upgrade-spare-bag), [Emerald Ring](/welcome-to-elderfield/emerald-ring-from-smoffes), [Alice map](/welcome-to-elderfield/treasure-map-3-from-alice), [Mall tomes](/welcome-to-elderfield/mall-vending-machine-tomes), [Shrine prayer](/welcome-to-elderfield/small-god-shrine-prayer), [Dave passcode](/welcome-to-elderfield/passcode-lock) |
 
@@ -211,7 +212,7 @@ Apartment **2F** — **Akira**.
 2. Return → new task: finish **three mysteries**
 3. Keep turning in for the next chain steps
 
-Details: [side quests](/welcome-to-elderfield/side-quests). Mysteries reset on [Blood Moon](/welcome-to-elderfield/moon-events).
+Full list with routes: **[mystery events](/welcome-to-elderfield/mystery-events)** — blue ATM (mall), Lakeside mermaid, Maggot Man bait, Homeland Watch ambush, sports store counter. Mysteries reset on [Blood Moon](/welcome-to-elderfield/moon-events).
 
 ## Status Effects — Mid Game Rules
 

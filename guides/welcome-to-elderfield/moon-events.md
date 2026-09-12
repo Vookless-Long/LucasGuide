@@ -5,7 +5,7 @@ game: welcome-to-elderfield
 slug: moon-events
 topic: walkthrough
 date: "2026-09-12"
-updated: "2026-09-12"
+updated: "2026-09-13"
 quickAnswer: "Blood Moon resets mysteries and respawns monsters. Strange Moon = Dread (-10% Ability) all day — no bosses. Night Terrors = random curses on sleep — save first."
 ---
 
@@ -79,6 +79,8 @@ The reset world is a fresh world. I run it in this order every time, and it has 
 | 4 | Resume your main route | Only after the above is handled |
 
 Step 2 is where the real value is. Not every mystery is worth redoing. I prioritize the ones with stat rewards and permanent unlocks, and I skip the pure-flavor ones unless I am already passing through.
+
+Known mystery list: [mystery events](/welcome-to-elderfield/mystery-events) — blue ATM is the fastest re-run after a reset.
 
 ### Which Mysteries I Re-Farm First
 

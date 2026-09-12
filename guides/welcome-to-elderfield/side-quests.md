@@ -5,8 +5,8 @@ game: welcome-to-elderfield
 slug: side-quests
 topic: walkthrough
 date: "2026-09-12"
-updated: "2026-09-12"
-quickAnswer: "Cat Snacks unlocks fishing. Eldritch Prank gives Steel Key. Shopper Showdown = mall farming. Artificial Companion = Jackson fetch quest. Babysitter fails if you help the pumpkin kid."
+updated: "2026-09-13"
+quickAnswer: "Akira mysteries: see mystery-events leaf. Cat Snacks unlocks fishing. Eldritch Prank = Steel Key. Shopper Showdown = mall Shoppers."
 ---
 
 # Side Quests
@@ -23,14 +23,14 @@ Follow-up after [Clear Tentacles](/welcome-to-elderfield#clear-tentacles--adrian
 
 ## Time of Mysteries — Akira
 
-Apartment **2F**, NPC **Akira** (明良).
+Apartment **2F**, NPC **Akira**.
 
 1. Talk to Akira → first mystery task
 2. Complete **any one mystery**, return
 3. Accept the **three-mystery** follow-up → finish all three
 4. Keep reporting back for the next chain step
 
-Mysteries = the purple investigation prompts around town. Blood Moon resets solved ones — see [moon events](/welcome-to-elderfield/moon-events).
+Step-by-step for all five known mysteries: **[mystery events](/welcome-to-elderfield/mystery-events)** (blue ATM, Lakeside mermaid, Maggot Man, Homeland Watch, mall sports store). Blood Moon resets solved ones — [moon events](/welcome-to-elderfield/moon-events).
 
 ## Temp Babysitter → Eldritch Prank (branch)
 

@@ -5,8 +5,8 @@ game: welcome-to-elderfield
 slug: fishing
 topic: walkthrough
 date: "2026-09-12"
-updated: "2026-09-12"
-quickAnswer: "Equip bait in bag, face water, Space to cast. QTE: press Space when cursor sits on the shrinking blue bar. Unlock: Dave's letter → Cat Snacks → sewer route to Lakeside tutor."
+updated: "2026-09-13"
+quickAnswer: "Lakeside: worm/leech bait. Sewer pool: white maggots from Maggot Man (Mysterious Meat trade). QTE = Space on blue bar. Unlock via Cat Snacks → Lakeside."
 ---
 
 # Fishing
@@ -68,6 +68,15 @@ Lakeside fisherman **Herb** runs a short turn-in quest:
 3. Give him one **Mist Eel** → **Mist Broth** recipe unlock
 
 Do this the same trip you farm Mist Eel for Cat Snacks.
+
+## Sewer pool — white maggots
+
+From the [Maggot Man mystery](/welcome-to-elderfield/mystery-events#3--maggot-man-white-maggot-bait) (**Sewers, left side**):
+
+- Trade **Mysterious Meat** → **White Maggots**
+- Fish the **sewer pool** with white maggots — fish there seem to bite this bait more reliably than worm/leech
+
+Same sewer run as [Chaos Thorns](/welcome-to-elderfield/ritual-skills-reference) if you have not grabbed that ritual yet.
 
 ---
 
