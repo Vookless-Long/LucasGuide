@@ -5,7 +5,7 @@ description: "Linear route from Prologue to Blood Moon — farm seal, rituals, g
 game: welcome-to-elderfield
 date: "2026-09-12"
 updated: "2026-09-13"
-quickAnswer: "Dayton at library → farm altar door → Adrian tentacle quest → Pete shrines → Molly furnace → god rooms → tax + moon events."
+quickAnswer: "Start with Beginner's Tips if new. Then: Dayton at library → farm altar door → Adrian tentacle quest → Pete shrines → Molly furnace → god rooms → tax + moon events."
 image: "https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Feature-LucasGuide.jpg"
 ---
 
@@ -14,6 +14,8 @@ Cozy farm horror — until you realize the farm is the **main quest timer**.
 Every crop weakens the Zartekch seal under Hans Farm. Most players stall in week two because they treat it like Stardew and ignore the shrine thread.
 
 This hub = **full linear route** Prologue → first Blood Moon. Leaf pages only where systems actually block you.
+
+> **New here?** Read [Beginner's Tips](/welcome-to-elderfield/beginners-tips) first — mall-as-first-dungeon, missable Warp, church gods, gift limits, fridge vs chest, and bath-vs-sleep healing. Then come back for the step-by-step route below.
 
 ## Route order
 
@@ -33,6 +35,7 @@ This hub = **full linear route** Prologue → first Blood Moon. Leaf pages only 
 
 | Topic | Page |
 | --- | --- |
+| Beginner's tips | [First-month roadmap — explore early, mall, Warp, church, gifts](/welcome-to-elderfield/beginners-tips) |
 | Boss fights | [Uzumak, Goblin, Dripper](/welcome-to-elderfield/boss-fights-and-elites) |
 | Moon events | [Blood / Strange / Night Terrors](/welcome-to-elderfield/moon-events) |
 | Blessings & curses | [Stack rules + lists](/welcome-to-elderfield/blessings-and-curses) |
