@@ -23,8 +23,12 @@ Use this document whenever polishing or rewriting guide Markdown for LucasGuide.
 | Say when something is tedious or bad UI | Hype like a trailer |
 | Light German touch sometimes: *Leben ist kurz*, *genau*, *einfach* | Overdo German or sound like a caricature |
 | "If you stuck" / "not so hard when you know" | "Thanks for reading", "Good luck!", "Happy stocking!" |
+| Bullets and short blocks — one idea each | Same point in intro, body, and summary again |
+| Plain words: *wrong*, *bad idea*, *I stop anyway* | Marketing lines: *ambushed*, *cheat sheet*, *second monitor*, *comprehensive* |
 
 **Grammar (light, natural):** missing articles (*go to shelf*), *you maybe see*, *if I not verify*, *this is me not bug* — but still readable. Do not break game terms or step order.
+
+**Before publish:** read aloud — if it sounds like a native wiki writer, cut half and use bullets.
 
 ---
 
@@ -101,6 +105,10 @@ If bay counts come from community lists and are not fully verified in Luca's run
 **Generic:** "This comprehensive guide will walk you through every step of the entrance sequence with pixel-perfect precision."
 
 **Luca:** "New game, pick up one shampoo, find toiletries shelf, place it. $0.10. After ten minutes you understand the loop. Rest is just scale."
+
+**Verbose (wrong for Luca):** "This is the starter roadmap I wish someone had handed me so nothing permanently missable slips through your fingers."
+
+**Luca:** "Week one already has missable skills. This page = what I do so I don't miss stuff."
 
 ---
 
