@@ -6,7 +6,7 @@ slug: stone-tower-shrine-riddles
 topic: puzzle
 date: "2026-09-13"
 updated: "2026-09-13"
-quickAnswer: "3F Shrine of Zartekch crop riddles: Coffee bean, Strawberry, Gloom Hops, Grapes, Pumpkin, Bean, Cauliflower — see table."
+quickAnswer: "Stone Tower 3F — Shrine of Zartekch. Seven crop riddles; click each row to reveal the item."
 ---
 
 # Stone Tower — Shrine of Zartekch 3F Riddles
@@ -25,19 +25,21 @@ I stuck here because the clues sound clever and the game wants exact item names.
 2. Climb Stone Tower until you hit **3F / Shrine of Zartekch**
 3. Bring crops in your bag — grow or buy before the trip
 
-> **Tip:** **Gloom Hops** and **Coffee bean** are easy to forget. I plant or buy them early so I not run back mid-shrine.
+> **Tip:** Some crops are easy to forget. I plant or buy a full set before I climb so I not run back mid-shrine.
 
 ## Riddle answers
 
+Clues below — **click Reveal** for each item.
+
 | Riddle clue | Offer this item |
 | --- | --- |
-| Makes your heart beat faster | **Coffee bean** |
-| A thousand little dots | **Strawberry** |
-| Clusters of sadness | **Gloom Hops** |
-| Better with age | **Grapes** |
-| Usually faceless | **Pumpkin** |
-| Many hide inside | **Bean** |
-| Like clouds on the ground | **Cauliflower** |
+| Makes your heart beat faster | <spoiler label="Reveal item">**Coffee bean**</spoiler> |
+| A thousand little dots | <spoiler label="Reveal item">**Strawberry**</spoiler> |
+| Clusters of sadness | <spoiler label="Reveal item">**Gloom Hops**</spoiler> |
+| Better with age | <spoiler label="Reveal item">**Grapes**</spoiler> |
+| Usually faceless | <spoiler label="Reveal item">**Pumpkin**</spoiler> |
+| Many hide inside | <spoiler label="Reveal item">**Bean**</spoiler> |
+| Like clouds on the ground | <spoiler label="Reveal item">**Cauliflower**</spoiler> |
 
 Seven clues, seven items. Match the line, give the crop.
 
