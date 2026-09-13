@@ -15,7 +15,7 @@ Every crop weakens the Zartekch seal under Hans Farm. Most players stall in week
 
 This hub = **full linear route** Prologue → first Blood Moon. Leaf pages only where systems actually block you.
 
-> **New here?** Read [Beginner's Tips](/welcome-to-elderfield/beginners-tips) first — mall-as-first-dungeon, missable Warp, church gods, gift limits, fridge vs chest, and bath-vs-sleep healing. Then come back for the step-by-step route below.
+> **New here?** [Beginner's Tips](/welcome-to-elderfield/beginners-tips) first — mall, Warp, church, gifts, fridge. Then route below.
 
 ## Route order
 
@@ -35,7 +35,7 @@ This hub = **full linear route** Prologue → first Blood Moon. Leaf pages only 
 
 | Topic | Page |
 | --- | --- |
-| Beginner's tips | [First-month roadmap — explore early, mall, Warp, church, gifts](/welcome-to-elderfield/beginners-tips) |
+| Beginner's tips | [First month — mall, Warp, church, gifts](/welcome-to-elderfield/beginners-tips) |
 | Boss fights | [Uzumak, Goblin, Dripper](/welcome-to-elderfield/boss-fights-and-elites) |
 | Moon events | [Blood / Strange / Night Terrors](/welcome-to-elderfield/moon-events) |
 | Blessings & curses | [Stack rules + lists](/welcome-to-elderfield/blessings-and-curses) |
