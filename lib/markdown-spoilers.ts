@@ -18,18 +18,47 @@ function spoilerDetailsHtml(label: string, body: string, inline = false): string
   return `<details class="${klass}"><summary>${summary}</summary>\n\n${cleanBody}\n\n</details>`;
 }
 
+function replaceSpoilerTags(text: string, forceInline: boolean): string {
+  return text.replace(
+    /<spoiler(?:[ \t]+label="([^"]*)")?(?:[ \t]+inline)?\s*>([\s\S]*?)<\/spoiler>/gi,
+    (match, label, body) =>
+      expandSpoilerTag(label, body, forceInline || /\binline\b/i.test(match))
+  );
+}
+
+function isMarkdownTableRow(line: string): boolean {
+  const trimmed = line.trim();
+  if (!trimmed.startsWith("|") || !trimmed.endsWith("|")) return false;
+  // Separator row: | --- | --- |
+  return !/^\|[\s\-:|]+\|$/.test(trimmed);
+}
+
+function expandSpoilerTag(
+  label: string | undefined,
+  body: string,
+  inline: boolean
+): string {
+  return spoilerDetailsHtml(label?.trim() ?? SPOILER_DEFAULT_LABEL, body, inline);
+}
+
 /** Expand :::spoiler blocks and <spoiler> tags in markdown (before remark). */
 export function expandSpoilerBlocks(markdown: string): string {
   let md = markdown;
+
+  // Table-row spoilers must stay inline — block <details> with newlines breaks GFM table parsing.
+  md = md
+    .split("\n")
+    .map((line) => {
+      if (!line.includes("<spoiler") || !isMarkdownTableRow(line)) return line;
+      return replaceSpoilerTags(line, true);
+    })
+    .join("\n");
 
   md = md.replace(/:::spoiler(?:[ \t]+([^\n]+))?\n([\s\S]*?):::/g, (_, label, body) =>
     spoilerDetailsHtml(label?.trim() ?? SPOILER_DEFAULT_LABEL, body)
   );
 
-  md = md.replace(
-    /<spoiler(?:[ \t]+label="([^"]*)")?\s*>([\s\S]*?)<\/spoiler>/gi,
-    (_, label, body) => spoilerDetailsHtml(label?.trim() ?? SPOILER_DEFAULT_LABEL, body)
-  );
+  md = replaceSpoilerTags(md, false);
 
   return md;
 }

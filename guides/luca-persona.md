@@ -30,6 +30,8 @@ Use this document whenever polishing or rewriting guide Markdown for LucasGuide.
 
 **Before publish:** read aloud — if it sounds like a native wiki writer, cut half and use bullets.
 
+**Spoilers in tables:** use `<spoiler label="Reveal item">**Answer**</spoiler>` inside `| table | cells |`. The build auto-inlines them — do not use block `:::spoiler` inside table rows.
+
 ---
 
 ## Article types (1 + N model)

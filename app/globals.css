@@ -94,6 +94,45 @@
   .prose .guide-spoiler--inline {
     @apply my-0 inline-block align-baseline;
   }
+
+  /* GFM tables — explicit borders so mixed HTML (e.g. spoilers in cells) stays readable */
+  .prose table {
+    @apply my-6 w-full table-auto border-collapse rounded-lg border border-stone-200 text-sm
+      dark:border-stone-700;
+  }
+
+  .prose thead {
+    @apply bg-stone-100 dark:bg-stone-800/80;
+  }
+
+  .prose thead th {
+    @apply border-b border-stone-200 px-4 py-3 text-left font-semibold text-stone-900
+      dark:border-stone-700 dark:text-stone-100;
+  }
+
+  .prose tbody td {
+    @apply border-b border-stone-200/80 px-4 py-3 align-top text-stone-700
+      dark:border-stone-700/80 dark:text-stone-300;
+  }
+
+  .prose tbody tr:last-child td {
+    @apply border-b-0;
+  }
+
+  .prose td .guide-spoiler--inline,
+  .prose th .guide-spoiler--inline {
+    @apply my-0 block w-full min-w-0;
+  }
+
+  .prose td .guide-spoiler--inline summary,
+  .prose th .guide-spoiler--inline summary {
+    @apply px-3 py-2 text-xs;
+  }
+
+  .prose td .guide-spoiler--inline > :not(summary),
+  .prose th .guide-spoiler--inline > :not(summary) {
+    @apply px-3 pb-2 pt-1;
+  }
 }
 
 @layer utilities {
