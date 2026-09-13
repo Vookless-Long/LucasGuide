@@ -48,6 +48,7 @@ This hub = **full linear route** Prologue → first Blood Moon. Leaf pages only 
 | Mystery events | [Five Akira mysteries — ATM, mermaid, maggots, etc.](/welcome-to-elderfield/mystery-events) |
 | Fishing | [Rod, QTE, Lakeside catches](/welcome-to-elderfield/fishing) |
 | Side pickups | [Spare bag](/welcome-to-elderfield/inventory-upgrade-spare-bag), [Emerald Ring](/welcome-to-elderfield/emerald-ring-from-smoffes), [Alice map](/welcome-to-elderfield/treasure-map-3-from-alice), [Mall tomes](/welcome-to-elderfield/mall-vending-machine-tomes), [Shrine prayer](/welcome-to-elderfield/small-god-shrine-prayer), [Dave passcode](/welcome-to-elderfield/passcode-lock) |
+| Stone Tower riddles | [Shrine of Zartekch 3F — crop answers](/welcome-to-elderfield/stone-tower-shrine-riddles) |
 
 ---
 
@@ -160,6 +161,7 @@ Main story flag once farming starts:
 1. **Library** — far east end, talk to **Professor Dayton**
 2. Learn the tower is a **Zartekch** sanctuary; the farm keeps the seal dormant
 3. **Return to Hans Farm** — inspect the **altar door** on the giant sealed stone (deep notches track progress)
+4. **Stone Tower 3F** — Shrine of Zartekch crop riddles → [answer table](/welcome-to-elderfield/stone-tower-shrine-riddles)
 
 ![Bound farmer near the sealed shrine door](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-NPC-Bound-Farmer-LucasGuide.jpg)
 
