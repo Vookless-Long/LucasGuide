@@ -50,9 +50,13 @@ function ensureGuidesDir(): void {
 }
 
 function addHeadingIds(htmlContent: string): string {
-  return htmlContent.replace(/<h2>([^<]+)<\/h2>/g, (_, text: string) => {
+  const withH2 = htmlContent.replace(/<h2>([^<]+)<\/h2>/g, (_, text: string) => {
     const id = slugify(text.replace(/<[^>]+>/g, ""));
     return `<h2 id="${id}">${text}</h2>`;
+  });
+  return withH2.replace(/<h3>([^<]+)<\/h3>/g, (_, text: string) => {
+    const id = slugify(text.replace(/<[^>]+>/g, ""));
+    return `<h3 id="${id}">${text}</h3>`;
   });
 }
 

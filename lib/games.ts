@@ -1,5 +1,6 @@
 import type { AccentColor } from "./site";
 import {
+  monsterAlchemyImages,
   supermarketChaosImages,
   titanicEscapeSimulatorImages,
   welcomeToElderfieldImages,
@@ -88,6 +89,23 @@ export const GAMES: Record<string, GameConfig> = {
     published: true,
     coverGradient: "from-amber-600 via-stone-800 to-stone-950",
     coverImage: titanicEscapeSimulatorImages.feature,
+  },
+  "monster-alchemy": {
+    slug: "monster-alchemy",
+    name: "Monster Alchemy",
+    tagline: "EA route — desert, Mausoleum, Necromancer unlock, tower crafting loop.",
+    description:
+      "Monster Alchemy walkthrough — Marlo Town, Telepathy Gloves, Western Desert, Mausoleum, Vampire Adapt boss, Necromancer initiation, and Alchemist Tower fusion/summoning/mutation systems.",
+    hubDescription:
+      "Luca's Early Access route through Necromancer unlock with leaf pages for recipes, fusion tables, boss fight, and mutations.",
+    genre: "RPG / Monster collecting",
+    genres: ["RPG", "Crafting", "Monster collecting", "Indie"],
+    releaseYear: 2025,
+    accent: "rose",
+    featured: true,
+    published: true,
+    coverGradient: "from-rose-600 via-purple-950 to-stone-950",
+    coverImage: monsterAlchemyImages.feature,
   },
 };
 

@@ -100,6 +100,39 @@ export const welcomeToElderfieldImages = {
   policeStation: `${R2_ASSETS_BASE}/Welcome-to-Elderfield-Police-Station-LucasGuide.jpg`,
 } as const;
 
+export const monsterAlchemyImages = {
+  feature: `${R2_ASSETS_BASE}/Monster-Alchemy-Feature-LucasGuide.jpg`,
+  alchemistTower: `${R2_ASSETS_BASE}/Monster-Alchemy-Alchemist-Tower-LucasGuide.jpg`,
+  assignedMonsters: `${R2_ASSETS_BASE}/Monster-Alchemy-Assigned-Monsters-LucasGuide.jpg`,
+  baLhaBridgeMap: `${R2_ASSETS_BASE}/Monster-Alchemy-Ba-lha-Bridge-Map-Location-LucasGuide.jpg`,
+  basicAttack: `${R2_ASSETS_BASE}/Monster-Alchemy-Basic-Attack-LucasGuide.jpg`,
+  bossVampireAdept: `${R2_ASSETS_BASE}/Monster-Alchemy-Boss-Vampire-Adept-LucasGuide.jpg`,
+  chimericChamber: `${R2_ASSETS_BASE}/Monster-Alchemy-Chimeric-Chamber-LucasGuide.jpg`,
+  createMonsters: `${R2_ASSETS_BASE}/Monster-Alchemy-Create-Monsters-LucasGuide.jpg`,
+  dashtPlateauTowerMap: `${R2_ASSETS_BASE}/Monster-Alchemy-Dasht-Plateau-Alchemist-Tower-Map-Location-LucasGuide.jpg`,
+  marloTownTowerMap: `${R2_ASSETS_BASE}/Monster-Alchemy-Marlo-Town-Alchemist-Tower-Map-Location-LucasGuide.jpg`,
+  mausoleumF1: `${R2_ASSETS_BASE}/Monster-Alchemy-Mausoleum-Dungeon-F1-LucasGuide.jpg`,
+  mausoleumF2: `${R2_ASSETS_BASE}/Monster-Alchemy-Mausoleum-Dungeon-F2-LucasGuide.jpg`,
+  mausoleumF3: `${R2_ASSETS_BASE}/Monster-Alchemy-Mausoleum-Dungeon-F3-LucasGuide.jpg`,
+  mausoleumF3Key: `${R2_ASSETS_BASE}/Monster-Alchemy-Mausoleum-Dungeon-F3-Key-Location-LucasGuide.jpg`,
+  mausoleumF4: `${R2_ASSETS_BASE}/Monster-Alchemy-Mausoleum-Dungeon-F4-Location-LucasGuide.jpg`,
+  mausoleumF5: `${R2_ASSETS_BASE}/Monster-Alchemy-Mausoleum-Dungeon-F5-Location-LucasGuide.jpg`,
+  monsterManager: `${R2_ASSETS_BASE}/Monster-Alchemy-Monster-Manager-LucasGuide.jpg`,
+  pondVillageTowerMap: `${R2_ASSETS_BASE}/Monster-Alchemy-Pond-Village-Alchemist-Tower-Map-Location-LucasGuide.jpg`,
+  questFindAlchemist: `${R2_ASSETS_BASE}/Monster-Alchemy-Quest-Find-the-Alchemist-LucasGuide.jpg`,
+  questRecoverArtifact: `${R2_ASSETS_BASE}/Monster-Alchemy-Quest-Recover-the-Artifact-LucasGuide.jpg`,
+  questStrangeIdea: `${R2_ASSETS_BASE}/Monster-Alchemy-Quest-Strange-Idea-LucasGuide.jpg`,
+  circleOfNecromancy: `${R2_ASSETS_BASE}/Monster-Alchemy-Recipe-Circle-of-Necromancy-LucasGuide.jpg`,
+  skeletonServant: `${R2_ASSETS_BASE}/Monster-Alchemy-Recipe-Skeleton-Servant-LucasGuide.jpg`,
+  recipesMenu: `${R2_ASSETS_BASE}/Monster-Alchemy-Recipes-Menu-LucasGuide.jpg`,
+  shop: `${R2_ASSETS_BASE}/Monster-Alchemy-Shop-LucasGuide.jpg`,
+  startMenu: `${R2_ASSETS_BASE}/Monster-Alchemy-Start-Menu-LucasGuide.jpg`,
+  startMonsterChoosing: `${R2_ASSETS_BASE}/Monster-Alchemy-Start-Moonster-Choosing-LucasGuide.jpg`,
+  sythelTowerMap: `${R2_ASSETS_BASE}/Monster-Alchemy-Sythel-Alchemist-Tower-Map-Location-LucasGuide.jpg`,
+  towerManager: `${R2_ASSETS_BASE}/Monster-Alchemy-Tower-Manager-LucasGuide.jpg`,
+  uncannyValleyTowerMap: `${R2_ASSETS_BASE}/Monster-Alchemy-Uncanny-Valley-Alchemist-Tower-Map-Location-LucasGuide.jpg`,
+} as const;
+
 /** Cover — set when feature image is on R2 */
 export const hiddenPortalsImages = {
   feature: undefined as string | undefined,

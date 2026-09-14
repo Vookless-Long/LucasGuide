@@ -1,0 +1,1051 @@
+{
+  "version": "1.0",
+  "game": {
+    "name": "Monster Alchemy",
+    "slug": "monster-alchemy"
+  },
+  "hub": {
+    "type": "hub",
+    "title": "Desert Progression and Mausoleum Route",
+    "titleEn": "Desert Progression and Mausoleum Route",
+    "description": "Marlo Town -> Telepathy Gloves -> Western Desert -> Alchemist Tower -> Mausoleum -> Vampire Adapt -> Necromancer initiation -> Circle of Necromancy -> fusion, summoning, and mutation systems.",
+    "quickAnswer": "Marlo Town -> Telepathy Gloves -> Western Desert -> Alchemist Tower -> Mausoleum -> Vampire Adapt -> Necromancer initiation -> Circle of Necromancy -> fusion, summoning, and mutation systems.",
+    "flowPreview": "This flow preview follows the route order from Marlo Town through the western desert, into the Mausoleum dungeon, up to the Vampire Adapt boss, and then into the broader Alchemist Tower systems for Necromancy, fusion, and mutations. The game uses a classic Pokémon-style route gate: the Telepathy Gloves unlock the western path out of Marlo Town. Once in the desert, enemies are around level 18+, so farm materials, level your party, and use rest stops to heal and save. The desert leads to the Alchemist Tower and later the Mausoleum dungeon. The Mausoleum spans six floors: free trapped monsters when prompted, collect keys, handle scheduled encounters, heal before the boss, and defeat the Vampire Adapt on the final floor. Vampire Adapt is not immune to burn, so fire-based attacks are effective. After the boss, complete the initiation ritual to become a Necromancer and unlock the Circle of Necromancy room in the Alchemist Tower, which requires 10 iron bars. From there, progression opens into Necromancy Recipes, Circle of Summoning Recipes, Chimeric Chamber fusion mechanics, Cauldron Recipes, Tier 1 and Tier 2 fusion recipes, additional fusion recipes, and mutation stat effects. The Bone Trail Puzzle is found in the desert near Roaring Mount; start from a colored bone and repeat the action 11 times. Overall, the route moves from linear area gating into a hub-based collection and crafting loop centered on the Alchemist Tower.",
+    "phases": [
+      {
+        "id": "phase-1",
+        "title": "Marlo Town and Western Desert Progression",
+        "steps": [
+          {
+            "id": "1-1",
+            "text": "Return to `Marlo Town`.",
+            "terms": [
+              "Marlo Town"
+            ],
+            "leafRef": "desert-progression-and-telepathy-gloves"
+          },
+          {
+            "id": "1-2",
+            "text": "Equip and use the `Telepathy Gloves` to unlock the western path.",
+            "terms": [
+              "Telepathy Gloves"
+            ],
+            "leafRef": "desert-progression-and-telepathy-gloves"
+          },
+          {
+            "id": "1-3",
+            "text": "Proceed west into the desert; expect higher-level enemies (level 18+).",
+            "terms": [
+              "Telepathy Gloves"
+            ],
+            "leafRef": "desert-progression-and-telepathy-gloves"
+          },
+          {
+            "id": "1-4",
+            "text": "Farm materials and level up your party before engaging tough encounters.",
+            "terms": [],
+            "leafRef": "desert-progression-and-telepathy-gloves"
+          },
+          {
+            "id": "1-5",
+            "text": "Locate rest stops to heal and save progress.",
+            "terms": [],
+            "leafRef": "desert-progression-and-telepathy-gloves"
+          },
+          {
+            "id": "1-6",
+            "text": "Discover the `Alchemist Tower` and later the `Mausoleum` dungeon.",
+            "terms": [
+              "Alchemist Tower",
+              "Mausoleum"
+            ],
+            "leafRef": "desert-progression-and-telepathy-gloves"
+          },
+          {
+            "id": "1-7",
+            "text": "Complete the Mausoleum initiation ritual to become a Necromancer.",
+            "terms": [
+              "Mausoleum",
+              "Necromancer"
+            ],
+            "leafRef": "desert-progression-and-telepathy-gloves"
+          },
+          {
+            "id": "1-8",
+            "text": "Unlock the `Circle of Necromancy` room in the tower (requires 10 iron bars).",
+            "terms": [
+              "Circle of Necromancy",
+              "iron bars"
+            ],
+            "leafRef": "desert-progression-and-telepathy-gloves"
+          }
+        ]
+      },
+      {
+        "id": "phase-2",
+        "title": "Mausoleum Dungeon Walkthrough",
+        "steps": [
+          {
+            "id": "2-1",
+            "text": "Enter the Mausoleum.",
+            "terms": [
+              "Mausoleum"
+            ],
+            "leafRef": "mausoleum-dungeon-walkthrough"
+          },
+          {
+            "id": "2-2",
+            "text": "Free trapped monsters when prompted (e.g., level 24 monster).",
+            "terms": [
+              "Mausoleum"
+            ],
+            "leafRef": "mausoleum-dungeon-walkthrough"
+          },
+          {
+            "id": "2-3",
+            "text": "Collect keys to open doors.",
+            "terms": [
+              "Mausoleum"
+            ],
+            "leafRef": "mausoleum-dungeon-walkthrough"
+          },
+          {
+            "id": "2-4",
+            "text": "Defeat scheduled encounters.",
+            "terms": [
+              "Mausoleum"
+            ],
+            "leafRef": "mausoleum-dungeon-walkthrough"
+          },
+          {
+            "id": "2-5",
+            "text": "Heal before the boss fight.",
+            "terms": [
+              "Vampire Adapt"
+            ],
+            "leafRef": "mausoleum-dungeon-walkthrough"
+          },
+          {
+            "id": "2-6",
+            "text": "Defeat the Vampire Adapt boss on the final floor.",
+            "terms": [
+              "Vampire Adapt",
+              "Mausoleum"
+            ],
+            "leafRef": "mausoleum-dungeon-walkthrough"
+          }
+        ]
+      },
+      {
+        "id": "phase-3",
+        "title": "Vampire Adapt Boss Fight",
+        "steps": [
+          {
+            "id": "3-1",
+            "text": "Fight the Vampire Adapt boss on the final floor of the Mausoleum.",
+            "terms": [
+              "Mausoleum",
+              "Vampire Adapt"
+            ],
+            "leafRef": "Vampire Adapt Boss Fight"
+          },
+          {
+            "id": "3-2",
+            "text": "It is not immune to burn, so fire-based attacks are effective.",
+            "terms": [
+              "Vampire Adapt",
+              "burn"
+            ],
+            "leafRef": "Vampire Adapt Boss Fight"
+          },
+          {
+            "id": "3-3",
+            "text": "After defeating it, obtain Blood, Black Wood, Iron, Shadow Fragment, and Necromancer robes.",
+            "terms": [
+              "Blood",
+              "Black Wood",
+              "Iron",
+              "Shadow Fragment",
+              "Necromancer robes"
+            ],
+            "leafRef": "Vampire Adapt Boss Fight"
+          }
+        ]
+      },
+      {
+        "id": "phase-4",
+        "title": "Bone Trail Puzzle",
+        "steps": [
+          {
+            "id": "4-1",
+            "text": "Go to the desert near Roaring Mount.",
+            "terms": [
+              "Roaring Mount"
+            ],
+            "leafRef": "Bone Trail Puzzle"
+          },
+          {
+            "id": "4-2",
+            "text": "Follow a trail of bones starting from a colored bone.",
+            "terms": [
+              "Bone Trail Puzzle"
+            ],
+            "leafRef": "Bone Trail Puzzle"
+          },
+          {
+            "id": "4-3",
+            "text": "Repeat the action 11 times to solve the puzzle.",
+            "terms": [
+              "Bone Trail Puzzle"
+            ],
+            "leafRef": "Bone Trail Puzzle"
+          }
+        ]
+      },
+      {
+        "id": "phase-5",
+        "title": "Chimeric Chamber Fusion Mechanics",
+        "steps": [
+          {
+            "id": "5-1",
+            "text": "Combine two monsters or types in the Chimeric Chamber to produce a new monster.",
+            "terms": [
+              "Chimeric Chamber"
+            ],
+            "leafRef": "Chimeric Chamber Fusion Mechanics"
+          },
+          {
+            "id": "5-2",
+            "text": "Specific combinations override default element-based results.",
+            "terms": [
+              "Chimeric Chamber"
+            ],
+            "leafRef": "Chimeric Chamber Fusion Mechanics"
+          },
+          {
+            "id": "5-3",
+            "text": "Relevant monsters include Corolus, Twitchy Fluff, Floating Helmet, Northern Warrior, and Raging Gunner.",
+            "terms": [
+              "Corolus",
+              "Twitchy Fluff",
+              "Floating Helmet",
+              "Northern Warrior",
+              "Raging Gunner"
+            ],
+            "leafRef": "Chimeric Chamber Fusion Mechanics"
+          }
+        ]
+      },
+      {
+        "id": "phase-6",
+        "title": "Monster Fusion Recipes",
+        "steps": [
+          {
+            "id": "6-1",
+            "text": "Combine base monsters and essences in the Alchemy Lab / Monster Bin to create new creatures.",
+            "terms": [
+              "Alchemy Lab / Monster Bin"
+            ],
+            "leafRef": "Monster Fusion Recipes"
+          },
+          {
+            "id": "6-2",
+            "text": "Recipes are discovered by experimentation or found in the world.",
+            "terms": [
+              "Monster Fusion Recipes"
+            ],
+            "leafRef": "Monster Fusion Recipes"
+          }
+        ]
+      },
+      {
+        "id": "phase-7",
+        "title": "Necromancy Recipes",
+        "steps": [
+          {
+            "id": "7-1",
+            "text": "Unlock undead monster recipes in the Circle of Necromancy at the Alchemist Tower.",
+            "terms": [
+              "Alchemist Tower",
+              "Circle of Necromancy"
+            ],
+            "leafRef": "Necromancy Recipes"
+          },
+          {
+            "id": "7-2",
+            "text": "Unlock Recipe: Banshee, Recipe: Skeleton Servant, Recipe: Liquid Shadow, and Recipe: Ritual Powder.",
+            "terms": [
+              "Recipe: Banshee",
+              "Recipe: Skeleton Servant",
+              "Recipe: Liquid Shadow",
+              "Recipe: Ritual Powder"
+            ],
+            "leafRef": "Necromancy Recipes"
+          }
+        ]
+      },
+      {
+        "id": "phase-8",
+        "title": "Circle of Summoning Recipes",
+        "steps": [
+          {
+            "id": "8-1",
+            "text": "Use specific items in the Circle of Summoning to complete summoning recipes.",
+            "terms": [
+              "Circle of Summoning"
+            ],
+            "leafRef": "Circle of Summoning Recipes"
+          },
+          {
+            "id": "8-2",
+            "text": "Summon monsters such as Amalgameye, Bellotto, Bone Crawler, Brachillo, and Dragonling.",
+            "terms": [
+              "Amalgameye",
+              "Bellotto",
+              "Bone Crawler",
+              "Brachillo",
+              "Dragonling"
+            ],
+            "leafRef": "Circle of Summoning Recipes"
+          }
+        ]
+      },
+      {
+        "id": "phase-9",
+        "title": "Chimeric Chamber Fusion Recipes",
+        "steps": [
+          {
+            "id": "9-1",
+            "text": "Try known fusion combinations in the Chimeric Chamber.",
+            "terms": [
+              "Chimeric Chamber"
+            ],
+            "leafRef": "Chimeric Chamber Fusion Recipes"
+          },
+          {
+            "id": "9-2",
+            "text": "Record results such as Corolus, Twitchy Fluff, Floating Helmet, Northern Warrior, and Raging Gunner.",
+            "terms": [
+              "Corolus",
+              "Twitchy Fluff",
+              "Floating Helmet",
+              "Northern Warrior",
+              "Raging Gunner"
+            ],
+            "leafRef": "Chimeric Chamber Fusion Recipes"
+          }
+        ]
+      },
+      {
+        "id": "phase-10",
+        "title": "Mutation Types and Stat Effects",
+        "steps": [
+          {
+            "id": "10-1",
+            "text": "Review monster mutation rarity and stat modifications based on player observations.",
+            "terms": [
+              "Monster Alchemy"
+            ],
+            "leafRef": "Mutation Types and Stat Effects"
+          },
+          {
+            "id": "10-2",
+            "text": "Hollow mutation: -50% HP, +50% STR, +100% Soul.",
+            "terms": [
+              "Hollow"
+            ],
+            "leafRef": "Hollow Mutation Stat Changes"
+          },
+          {
+            "id": "10-3",
+            "text": "Gigantic mutation: HP and STR +50%, Mind and AGI -33%, and Work Power doubled.",
+            "terms": [
+              "Gigantic"
+            ],
+            "leafRef": "Gigantic Mutation Stat Changes"
+          },
+          {
+            "id": "10-4",
+            "text": "Mutant pet stats: Spectral, Giant, Arcane, Mini, and Tainted each have different modifiers.",
+            "terms": [
+              "Spectral",
+              "Giant",
+              "Arcane",
+              "Mini",
+              "Tainted"
+            ],
+            "leafRef": "Mutant Pet Stats"
+          }
+        ]
+      },
+      {
+        "id": "phase-11",
+        "title": "Cauldron Recipes",
+        "steps": [
+          {
+            "id": "11-1",
+            "text": "Craft essences and mixtures in The Cauldron for summoning and fusion.",
+            "terms": [
+              "The Cauldron"
+            ],
+            "leafRef": "Cauldron Recipes"
+          },
+          {
+            "id": "11-2",
+            "text": "Relevant recipes include Gooey Concentrate, Putrid Mixture, Ember Gel, Marine Essence, and Fungal Extract.",
+            "terms": [
+              "Gooey Concentrate",
+              "Putrid Mixture",
+              "Ember Gel",
+              "Marine Essence",
+              "Fungal Extract"
+            ],
+            "leafRef": "Cauldron Recipes"
+          }
+        ]
+      },
+      {
+        "id": "phase-12",
+        "title": "Tier 1 Fusion Recipes",
+        "steps": [
+          {
+            "id": "12-1",
+            "text": "Create Tier 1 monsters in the Chimeric Chamber.",
+            "terms": [
+              "Chimeric Chamber"
+            ],
+            "leafRef": "Tier 1 Fusion Recipes"
+          },
+          {
+            "id": "12-2",
+            "text": "Involves Red Slime, Blue Slime, Green Slime, Goblin Gunner, and Steel Head.",
+            "terms": [
+              "Red Slime",
+              "Blue Slime",
+              "Green Slime",
+              "Goblin Gunner",
+              "Steel Head"
+            ],
+            "leafRef": "Tier 1 Fusion Recipes"
+          }
+        ]
+      },
+      {
+        "id": "phase-13",
+        "title": "Tier 2 Fusion Recipes",
+        "steps": [
+          {
+            "id": "13-1",
+            "text": "Create Tier 2 monsters in the Chimeric Chamber.",
+            "terms": [
+              "Chimeric Chamber"
+            ],
+            "leafRef": "Tier 2 Fusion Recipes"
+          },
+          {
+            "id": "13-2",
+            "text": "Involves Long Slime, Wave Creeper, Mamclops, Merfolk Lancer, and Clawless.",
+            "terms": [
+              "Long Slime",
+              "Wave Creeper",
+              "Mamclops",
+              "Merfolk Lancer",
+              "Clawless"
+            ],
+            "leafRef": "Tier 2 Fusion Recipes"
+          }
+        ]
+      },
+      {
+        "id": "phase-14",
+        "title": "Additional Fusion Recipes",
+        "steps": [
+          {
+            "id": "14-1",
+            "text": "Try more fusion combinations in the Chimeric Chamber.",
+            "terms": [
+              "Chimeric Chamber"
+            ],
+            "leafRef": "Additional Fusion Recipes"
+          },
+          {
+            "id": "14-2",
+            "text": "Involves Skullhead, Diamond Head, Burny Fluff, Flint Golem, and Bandikko.",
+            "terms": [
+              "Skullhead",
+              "Diamond Head",
+              "Burny Fluff",
+              "Flint Golem",
+              "Bandikko"
+            ],
+            "leafRef": "Additional Fusion Recipes"
+          }
+        ]
+      }
+    ],
+    "canonicalTerms": [
+      "Marlo Town",
+      "Telepathy Gloves",
+      "Alchemist Tower",
+      "Mausoleum",
+      "Vampire Adapt",
+      "Blood",
+      "Black Wood",
+      "Iron",
+      "Shadow Fragment",
+      "Necromancer robes",
+      "Necromancer",
+      "Circle of Necromancy",
+      "iron bars",
+      "Roaring Mount",
+      "Bone Trail Puzzle",
+      "Chimeric Chamber",
+      "Corolus",
+      "Twitchy Fluff",
+      "Floating Helmet",
+      "Northern Warrior",
+      "Raging Gunner",
+      "Alchemy Lab / Monster Bin",
+      "Recipe: Banshee",
+      "Recipe: Skeleton Servant",
+      "Recipe: Liquid Shadow",
+      "Recipe: Ritual Powder",
+      "Circle of Summoning",
+      "Amalgameye",
+      "Bellotto",
+      "Bone Crawler",
+      "Brachillo",
+      "Dragonling",
+      "Hollow",
+      "Gigantic",
+      "Spectral",
+      "Giant",
+      "Arcane",
+      "Mini",
+      "Tainted",
+      "The Cauldron",
+      "Gooey Concentrate",
+      "Putrid Mixture",
+      "Ember Gel",
+      "Marine Essence",
+      "Fungal Extract",
+      "Red Slime",
+      "Blue Slime",
+      "Green Slime",
+      "Goblin Gunner",
+      "Steel Head",
+      "Long Slime",
+      "Wave Creeper",
+      "Mamclops",
+      "Merfolk Lancer",
+      "Clawless",
+      "Skullhead",
+      "Diamond Head",
+      "Burny Fluff",
+      "Flint Golem",
+      "Bandikko"
+    ],
+    "inlinePages": [
+      {
+        "slug": "desert-progression-and-telepathy-gloves",
+        "title": "Desert Progression and Telepathy Gloves",
+        "type": "walkthrough",
+        "chapter": "Marlo Town and Western Desert",
+        "content": {
+          "prerequisites": "Obtain `Telepathy Gloves` to pass certain barriers.",
+          "summary": "Use the Telepathy Gloves to progress westward from Marlo Town into higher-level desert areas. The game uses a route system similar to classic Pokémon, gating areas by key items.",
+          "steps": [
+            "Return to `Marlo Town`.",
+            "Equip and use the `Telepathy Gloves` to unlock the western path.",
+            "Proceed west into the desert; expect higher-level enemies (level 18+).",
+            "Farm materials and level up your party before engaging tough encounters.",
+            "Locate rest stops to heal and save progress.",
+            "Discover the `Alchemist Tower` and later the `Mausoleum` dungeon.",
+            "Complete the Mausoleum initiation ritual to become a Necromancer.",
+            "Unlock the `Circle of Necromancy` room in the tower (requires 10 iron bars)."
+          ],
+          "code_or_key": "`Telepathy Gloves`",
+          "choices": [],
+          "rewards": [
+            "Access to new areas",
+            "Alchemist Tower discovery",
+            "Necromancer class unlock",
+            "Circle of Necromancy room"
+          ]
+        }
+      },
+      {
+        "slug": "mausoleum-dungeon-walkthrough",
+        "title": "Mausoleum Dungeon Walkthrough",
+        "type": "walkthrough",
+        "chapter": "Mausoleum (Floors 1-6)",
+        "content": {
+          "prerequisites": "Access to the desert area and sufficient party level.",
+          "summary": "Navigate the multi-floor Mausoleum dungeon, collect keys, free trapped monsters, and defeat the boss.",
+          "steps": [
+            "Enter the Mausoleum.",
+            "Free trapped monsters when prompted (e.g., level 24 monster).",
+            "Collect keys to open doors.",
+            "Defeat scheduled encounters.",
+            "Heal before the boss fight.",
+            "Defeat the Vampire Adapt boss on the final floor."
+          ],
+          "choices": [],
+          "rewards": [
+            "Key items",
+            "Monster recruits",
+            "Boss loot"
+          ]
+        }
+      }
+    ]
+  },
+  "analysis": {
+    "completenessScore": 72,
+    "summary": "The main route and core systems are covered, but several recipes, mutation details, and puzzle rewards still lack concrete data.",
+    "coveredAreas": [
+      {
+        "area": "Marlo Town and Western Desert Progression",
+        "status": "complete",
+        "note": "Key item, area gating, level warning, and rest stops are covered."
+      },
+      {
+        "area": "Mausoleum Dungeon",
+        "status": "complete",
+        "note": "Six-floor flow, keys, trapped monsters, and boss fight are described."
+      },
+      {
+        "area": "Vampire Adapt Boss",
+        "status": "complete",
+        "note": "Weakness and drops are listed."
+      },
+      {
+        "area": "Bone Trail Puzzle",
+        "status": "partial",
+        "note": "Solution steps are clear, but the reward is still TBD."
+      },
+      {
+        "area": "Chimeric Chamber Fusion Mechanics",
+        "status": "partial",
+        "note": "Mechanics and related monsters are listed, but specific combinations are missing."
+      },
+      {
+        "area": "Monster Fusion Recipes",
+        "status": "partial",
+        "note": "Only discovery methods are described; full recipes are not listed."
+      },
+      {
+        "area": "Necromancy Recipes",
+        "status": "partial",
+        "note": "Recipe names are listed, but materials and unlock conditions are missing."
+      },
+      {
+        "area": "Circle of Summoning Recipes",
+        "status": "partial",
+        "note": "Summonable monsters are listed, but specific item requirements are missing."
+      },
+      {
+        "area": "Mutation Types and Stat Effects",
+        "status": "partial",
+        "note": "Hollow and Gigantic have concrete values; other mutations lack full data."
+      },
+      {
+        "area": "Cauldron Recipes",
+        "status": "partial",
+        "note": "Output names are listed, but recipe materials are missing."
+      },
+      {
+        "area": "Tier 1 / Tier 2 / Additional Fusion Recipes",
+        "status": "partial",
+        "note": "Related monsters are listed, but exact fusion combinations are not provided."
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "title": "Bone Trail Puzzle reward missing",
+        "reason": "Currently marked TBD, so the actual reward for solving the puzzle is unknown.",
+        "priority": "high"
+      },
+      {
+        "id": "g2",
+        "title": "Fusion recipes lack specific combinations",
+        "reason": "Tier 1, Tier 2, and additional fusion recipes only list monster names without showing which two monsters or essences produce the target.",
+        "priority": "high"
+      },
+      {
+        "id": "g3",
+        "title": "Necromancy and Circle of Summoning recipe materials missing",
+        "reason": "Recipe names are listed, but required materials, unlock conditions, and crafting locations are missing.",
+        "priority": "high"
+      },
+      {
+        "id": "g4",
+        "title": "Mutation system data incomplete",
+        "reason": "Except for Hollow and Gigantic, other mutation types lack rarity, stat modifiers, and acquisition methods.",
+        "priority": "medium"
+      },
+      {
+        "id": "g5",
+        "title": "Cauldron recipes lack material tables",
+        "reason": "Outputs such as Gooey Concentrate and Putrid Mixture are listed, but their crafting materials are not explained.",
+        "priority": "medium"
+      },
+      {
+        "id": "g6",
+        "title": "Mausoleum floor details insufficient",
+        "reason": "Per-floor layout, key locations, trapped monster level distribution, and scheduled encounter order are not described.",
+        "priority": "medium"
+      }
+    ],
+    "supplementDirections": [
+      "Add the Bone Trail Puzzle reward and trigger conditions.",
+      "Create a table for all fusion recipes in the format 'Material A + Material B -> Result'.",
+      "Add materials, unlock conditions, and crafting locations for Necromancy and Circle of Summoning recipes.",
+      "Complete the mutation type list with rarity, stat modifiers, and appearance conditions.",
+      "Add Cauldron recipe materials and product uses.",
+      "Detail each Mausoleum floor map, key locations, and enemy placements."
+    ]
+  },
+  "leafGuides": [
+    {
+      "id": "leaf-1",
+      "selected": true,
+      "slug": "vampire-adapt-boss-fight",
+      "titleEn": "Vampire Adapt Boss Fight",
+      "topic": "boss",
+      "reason": "Fight the Vampire Adapt boss. It is not immune to burn, so fire-based attacks are effective.",
+      "preview": "Fight the Vampire Adapt boss. It is not immune to burn, so fire-based attacks are effective.\n\n1. Enter the boss room at the end of the Mausoleum.\n2. Use `Bubble Blast` and burn-inflicting skills.\n3. Maintain healing to keep party alive.\n4. Defeat the boss to complete the initiation ritual.",
+      "anchorPhase": "Mausoleum (final floor)",
+      "quickAnswer": "Fight the Vampire Adapt boss. It is not immune to burn, so fire-based attacks are effective.",
+      "pageSlug": "vampire-adapt-boss-fight",
+      "steps": [
+        "Enter the boss room at the end of the Mausoleum.",
+        "Use `Bubble Blast` and burn-inflicting skills.",
+        "Maintain healing to keep party alive.",
+        "Defeat the boss to complete the initiation ritual."
+      ],
+      "summary": "Fight the Vampire Adapt boss. It is not immune to burn, so fire-based attacks are effective."
+    },
+    {
+      "id": "leaf-2",
+      "selected": true,
+      "slug": "bone-trail-puzzle",
+      "titleEn": "Bone Trail Puzzle",
+      "topic": "puzzle",
+      "reason": "Follow a trail of bones starting from a colored bone and repeat the action 11 times to solve the puzzle.",
+      "preview": "Follow a trail of bones starting from a colored bone and repeat the action 11 times to solve the puzzle.\n\n1. Locate the bones in the desert sand.\n2. Identify the colored bone to start the sequence.\n3. Follow the direction the bones point.\n4. Repeat the sequence 11 times.\n5. [TBD: exact reward or outcome]",
+      "anchorPhase": "Desert near Roaring Mount",
+      "quickAnswer": "Follow a trail of bones starting from a colored bone and repeat the action 11 times to solve the puzzle.",
+      "pageSlug": "bone-trail-puzzle",
+      "steps": [
+        "Locate the bones in the desert sand.",
+        "Identify the colored bone to start the sequence.",
+        "Follow the direction the bones point.",
+        "Repeat the sequence 11 times.",
+        "[TBD: exact reward or outcome]"
+      ],
+      "summary": "Follow a trail of bones starting from a colored bone and repeat the action 11 times to solve the puzzle."
+    },
+    {
+      "id": "leaf-3",
+      "selected": true,
+      "slug": "chimeric-chamber-fusion-mechanics",
+      "titleEn": "Chimeric Chamber Fusion Mechanics",
+      "topic": "puzzle",
+      "reason": "Fusion system that combines two monsters or types to produce a new monster, with specific combinations overriding default element-based results.",
+      "preview": "Fusion system that combines two monsters or types to produce a new monster, with specific combinations overriding default element-based results.\n\n1. Place two monsters into the Chimeric Chamber.\n2. The game checks for specific monster combinations; if none match, it defaults to the element type of both monsters.\n3. Fusing monsters rerolls their mutation chance, so it may be beneficial to fuse for mutations.",
+      "anchorPhase": "Chimeric Chamber",
+      "quickAnswer": "Fusion system that combines two monsters or types to produce a new monster, with specific combinations overriding default element-based results.",
+      "pageSlug": "chimeric-chamber-fusion-mechanics",
+      "steps": [
+        "Place two monsters into the Chimeric Chamber.",
+        "The game checks for specific monster combinations; if none match, it defaults to the element type of both monsters.",
+        "Fusing monsters rerolls their mutation chance, so it may be beneficial to fuse for mutations."
+      ],
+      "summary": "Fusion system that combines two monsters or types to produce a new monster, with specific combinations overriding default element-based results."
+    },
+    {
+      "id": "leaf-4",
+      "selected": true,
+      "slug": "monster-fusion-recipes",
+      "titleEn": "Monster Fusion Recipes",
+      "topic": "collectible",
+      "reason": "Combine base monsters and essences to create new creatures. Recipes are discovered by experimentation or found in the world.",
+      "preview": "Combine base monsters and essences to create new creatures. Recipes are discovered by experimentation or found in the world.\n\n1. Combine `Marine Essence` + `Goo` to create `Merkid`.\n2. Combine two `Slime` units to test tier progression (result: another tier 1 `Slime`).\n3. Combine `Slime` + `Gecklar` to create `Green Slime`.\n4. Combine `Gecklar` + `Red Slime` to create `Scorched Juggler`.\n5. Combine `Gecklar` + `Bone` to create `Moss Hat`.\n6. Combine `Red Slime` + `Slime` to create `Scorched Juggler`.\n7. Combine `Goblin Harpooner` + `Merkid` to create `Merfolk Lancer`.\n8. Combine `Larvapod` + `Flint Golem` to create `Flint Golem` (recipe confirmed).\n9. Combine `Red Slime` + `Witchy Fluff` to create `Burning Fluff`.",
+      "anchorPhase": "Alchemy Lab / Monster Bin",
+      "quickAnswer": "Combine base monsters and essences to create new creatures. Recipes are discovered by experimentation or found in the world.",
+      "pageSlug": "monster-fusion-recipes",
+      "steps": [
+        "Combine `Marine Essence` + `Goo` to create `Merkid`.",
+        "Combine two `Slime` units to test tier progression (result: another tier 1 `Slime`).",
+        "Combine `Slime` + `Gecklar` to create `Green Slime`.",
+        "Combine `Gecklar` + `Red Slime` to create `Scorched Juggler`.",
+        "Combine `Gecklar` + `Bone` to create `Moss Hat`.",
+        "Combine `Red Slime` + `Slime` to create `Scorched Juggler`.",
+        "Combine `Goblin Harpooner` + `Merkid` to create `Merfolk Lancer`.",
+        "Combine `Larvapod` + `Flint Golem` to create `Flint Golem` (recipe confirmed).",
+        "Combine `Red Slime` + `Witchy Fluff` to create `Burning Fluff`."
+      ],
+      "summary": "Combine base monsters and essences to create new creatures. Recipes are discovered by experimentation or found in the world."
+    },
+    {
+      "id": "leaf-5",
+      "selected": true,
+      "slug": "necromancy-recipes",
+      "titleEn": "Necromancy Recipes",
+      "topic": "collectible",
+      "reason": "Unlock recipes for undead monsters such as Banshee and Skeleton Servant.",
+      "preview": "Unlock recipes for undead monsters such as Banshee and Skeleton Servant.\n\n1. Build the Circle of Necromancy room using 10 iron bars.\n2. Access the new fusion options.\n3. Discover recipes for `Banshee` and `Skeleton Servant`.\n4. Note: Skeleton Servant is tier 1 with low stats but gains 3 rage per other bone army monster at battle start.",
+      "anchorPhase": "Circle of Necromancy (Alchemist Tower)",
+      "quickAnswer": "Unlock recipes for undead monsters such as Banshee and Skeleton Servant.",
+      "pageSlug": "necromancy-recipes",
+      "steps": [
+        "Build the Circle of Necromancy room using 10 iron bars.",
+        "Access the new fusion options.",
+        "Discover recipes for `Banshee` and `Skeleton Servant`.",
+        "Note: Skeleton Servant is tier 1 with low stats but gains 3 rage per other bone army monster at battle start."
+      ],
+      "summary": "Unlock recipes for undead monsters such as Banshee and Skeleton Servant."
+    },
+    {
+      "id": "leaf-6",
+      "selected": true,
+      "slug": "circle-of-summoning-recipes",
+      "titleEn": "Circle of Summoning Recipes",
+      "topic": "collectible",
+      "reason": "Complete list of monster summoning recipes using specific items in the Circle of Summoning.",
+      "preview": "Complete list of monster summoning recipes using specific items in the Circle of Summoning.\n\n1. Place the required items into the Circle of Summoning to summon the corresponding monster.\n2. Refer to the recipe table for exact item quantities.\n3. Summon Ork with 10x Wood + 10x Stone + 1x Gooey Concentrate + 2x Putrid Mixture.\n4. Summon Stick Golem with 8x Wood + 15x Stone.\n5. Summon Slime with 1x Gooey.\n6. Summon Goblin Pillager with 1x Putrid Mixture + 20x Stone.\n7. Summon Scout with 1x Putrid Mixture + 20x Wood.\n8. Summon Bone Crawler with 2x Gooey Concentrate + 5x Bone + 30x Wood.\n9. Summon Goblin Hexer with 1x Putrid Mixture + 4x Bone.\n10. Summon Merkid with 1x Marine Essence + 1x Gooey Concentrate.\n11. Summon Imp with 1x Ember Gel + 2x Putrid Mixture.\n12. Summon Wiwo with 1x Putrid Mixture + 2x Rough Fur.\n13. Summon Twitchy Fluff with 1x Fungal Extract + 2x Rough Fur.\n14. Summon Brachillo with 1x Marine Essence + 5x Bone + 50x Stone.\n15. Summon Noodle with 1x Gooey Concentrate + 1x Putrid Mixture.\n16. Summon Fungus Bufo with 1x Fungal Extract + 30x Wood.",
+      "anchorPhase": "Circle of Summoning",
+      "quickAnswer": "Complete list of monster summoning recipes using specific items in the Circle of Summoning.",
+      "pageSlug": "circle-of-summoning-recipes",
+      "steps": [
+        "Place the required items into the Circle of Summoning to summon the corresponding monster.",
+        "Refer to the recipe table for exact item quantities.",
+        "Summon Ork with 10x Wood + 10x Stone + 1x Gooey Concentrate + 2x Putrid Mixture.",
+        "Summon Stick Golem with 8x Wood + 15x Stone.",
+        "Summon Slime with 1x Gooey.",
+        "Summon Goblin Pillager with 1x Putrid Mixture + 20x Stone.",
+        "Summon Scout with 1x Putrid Mixture + 20x Wood.",
+        "Summon Bone Crawler with 2x Gooey Concentrate + 5x Bone + 30x Wood.",
+        "Summon Goblin Hexer with 1x Putrid Mixture + 4x Bone.",
+        "Summon Merkid with 1x Marine Essence + 1x Gooey Concentrate.",
+        "Summon Imp with 1x Ember Gel + 2x Putrid Mixture.",
+        "Summon Wiwo with 1x Putrid Mixture + 2x Rough Fur.",
+        "Summon Twitchy Fluff with 1x Fungal Extract + 2x Rough Fur.",
+        "Summon Brachillo with 1x Marine Essence + 5x Bone + 50x Stone.",
+        "Summon Noodle with 1x Gooey Concentrate + 1x Putrid Mixture.",
+        "Summon Fungus Bufo with 1x Fungal Extract + 30x Wood."
+      ],
+      "summary": "Complete list of monster summoning recipes using specific items in the Circle of Summoning."
+    },
+    {
+      "id": "leaf-7",
+      "selected": true,
+      "slug": "chimeric-chamber-fusion-recipes",
+      "titleEn": "Chimeric Chamber Fusion Recipes",
+      "topic": "collectible",
+      "reason": "List of known monster fusion combinations and their results.",
+      "preview": "List of known monster fusion combinations and their results.\n\n1. Combine the two specified monsters or types in the Chimeric Chamber to obtain the resulting fusion.\n2. See Tier 1 Fusion Recipes for base-tier combinations.\n3. See Tier 2 Fusion Recipes for mid-tier combinations.\n4. See Additional Fusion Recipes for advanced combinations.",
+      "anchorPhase": "Chimeric Chamber",
+      "quickAnswer": "List of known monster fusion combinations and their results.",
+      "pageSlug": "chimeric-chamber-fusion-recipes",
+      "steps": [
+        "Combine the two specified monsters or types in the Chimeric Chamber to obtain the resulting fusion.",
+        "See Tier 1 Fusion Recipes for base-tier combinations.",
+        "See Tier 2 Fusion Recipes for mid-tier combinations.",
+        "See Additional Fusion Recipes for advanced combinations."
+      ],
+      "summary": "List of known monster fusion combinations and their results."
+    },
+    {
+      "id": "leaf-8",
+      "selected": true,
+      "slug": "mutation-types-and-stat-effects",
+      "titleEn": "Mutation Types and Stat Effects",
+      "topic": "collectible",
+      "reason": "Overview of monster mutations, their rarity, and stat modifications based on player observations.",
+      "preview": "Overview of monster mutations, their rarity, and stat modifications based on player observations.\n\n1. Note that mutations are rare variants of monsters.\n2. Observe that Hollow and Spectral are the rarest mutations.\n3. Increase the chance of mutation by repeatedly creating the same monster.\n4. Expect stat changes of approximately 25% per mutation, though specific examples show larger changes.",
+      "anchorPhase": "Monster Alchemy",
+      "quickAnswer": "Overview of monster mutations, their rarity, and stat modifications based on player observations.",
+      "pageSlug": "mutation-types-and-stat-effects",
+      "steps": [
+        "Note that mutations are rare variants of monsters.",
+        "Observe that Hollow and Spectral are the rarest mutations.",
+        "Increase the chance of mutation by repeatedly creating the same monster.",
+        "Expect stat changes of approximately 25% per mutation, though specific examples show larger changes."
+      ],
+      "summary": "Overview of monster mutations, their rarity, and stat modifications based on player observations."
+    },
+    {
+      "id": "leaf-9",
+      "selected": true,
+      "slug": "hollow-mutation-stat-changes",
+      "titleEn": "Hollow Mutation Stat Changes",
+      "topic": "collectible",
+      "reason": "Hollow mutation significantly alters stats: -50% HP, +50% STR, +100% Soul.",
+      "preview": "Hollow mutation significantly alters stats: -50% HP, +50% STR, +100% Soul.\n\n1. Compare a Hollow mutated monster with a normal one of similar level.\n2. Note the stat differences: HP halved, STR increased by 50%, Soul doubled.",
+      "anchorPhase": "Monster Alchemy",
+      "quickAnswer": "Hollow mutation significantly alters stats: -50% HP, +50% STR, +100% Soul.",
+      "pageSlug": "hollow-mutation-stat-changes",
+      "steps": [
+        "Compare a Hollow mutated monster with a normal one of similar level.",
+        "Note the stat differences: HP halved, STR increased by 50%, Soul doubled."
+      ],
+      "summary": "Hollow mutation significantly alters stats: -50% HP, +50% STR, +100% Soul."
+    },
+    {
+      "id": "leaf-10",
+      "selected": true,
+      "slug": "gigantic-mutation-stat-changes",
+      "titleEn": "Gigantic Mutation Stat Changes",
+      "topic": "collectible",
+      "reason": "Gigantic mutation increases HP and STR by 50%, reduces Mind and AGI by 33%, and doubles Work Power.",
+      "preview": "Gigantic mutation increases HP and STR by 50%, reduces Mind and AGI by 33%, and doubles Work Power.\n\n1. Compare a Gigantic mutated monster with a normal one of similar level.\n2. Note the stat differences: HP +50%, STR +50%, Mind -33%, AGI -33%, Work +100%.",
+      "anchorPhase": "Monster Alchemy",
+      "quickAnswer": "Gigantic mutation increases HP and STR by 50%, reduces Mind and AGI by 33%, and doubles Work Power.",
+      "pageSlug": "gigantic-mutation-stat-changes",
+      "steps": [
+        "Compare a Gigantic mutated monster with a normal one of similar level.",
+        "Note the stat differences: HP +50%, STR +50%, Mind -33%, AGI -33%, Work +100%."
+      ],
+      "summary": "Gigantic mutation increases HP and STR by 50%, reduces Mind and AGI by 33%, and doubles Work Power."
+    },
+    {
+      "id": "leaf-11",
+      "selected": true,
+      "slug": "mutant-pet-stats",
+      "titleEn": "Mutant Pet Stats",
+      "topic": "collectible",
+      "reason": "Stat modifiers for each mutant pet type in Monster Alchemy.",
+      "preview": "Stat modifiers for each mutant pet type in Monster Alchemy.\n\n1. Obtain the Spectral mutant pet to gain -2 Attack, +3 Armor, +3 Soul (Blue).\n2. Obtain the Giant mutant pet to gain +3 Attack, -2 Will, +6 HP, -2 Agility, +10 Labor (Huge).\n3. Obtain the Arcane mutant pet to gain -2 Attack, +3 Will, -4 HP, +3 Soul (Green).\n4. Obtain the Mini mutant pet to gain -2 Attack, +7 Agility (Tiny).\n5. Obtain the Tainted mutant pet to gain +3 Attack, +3 Armor, -1 Soul, -2 Agility (Yellow).\n6. Obtain the Nocturnal mutant pet to gain +3 Attack, -2 Armor, -2 Soul, +4 Agility (Black-Purple).",
+      "anchorPhase": "Pets",
+      "quickAnswer": "Stat modifiers for each mutant pet type in Monster Alchemy.",
+      "pageSlug": "mutant-pet-stats",
+      "steps": [
+        "Obtain the Spectral mutant pet to gain -2 Attack, +3 Armor, +3 Soul (Blue).",
+        "Obtain the Giant mutant pet to gain +3 Attack, -2 Will, +6 HP, -2 Agility, +10 Labor (Huge).",
+        "Obtain the Arcane mutant pet to gain -2 Attack, +3 Will, -4 HP, +3 Soul (Green).",
+        "Obtain the Mini mutant pet to gain -2 Attack, +7 Agility (Tiny).",
+        "Obtain the Tainted mutant pet to gain +3 Attack, +3 Armor, -1 Soul, -2 Agility (Yellow).",
+        "Obtain the Nocturnal mutant pet to gain +3 Attack, -2 Armor, -2 Soul, +4 Agility (Black-Purple)."
+      ],
+      "summary": "Stat modifiers for each mutant pet type in Monster Alchemy."
+    },
+    {
+      "id": "leaf-12",
+      "selected": true,
+      "slug": "cauldron-recipes",
+      "titleEn": "Cauldron Recipes",
+      "topic": "collectible",
+      "reason": "Recipes for crafting essences and mixtures used in summoning and fusion.",
+      "preview": "Recipes for crafting essences and mixtures used in summoning and fusion.\n\n1. Combine 5x Goo to create Gooey Concentrate.\n2. Combine 4x Scraggy Meat + 2x Goo to create Putrid Mixture.\n3. Combine 2x Flame Tendon + 4x Bone to create Ember Gel.\n4. Combine 3x Hydro Gland + 10x Salt to create Marine Essence.\n5. Combine 8x Condensed Spores + 10x Goo to create Fungal Extract.",
+      "anchorPhase": "The Cauldron",
+      "quickAnswer": "Recipes for crafting essences and mixtures used in summoning and fusion.",
+      "pageSlug": "cauldron-recipes",
+      "steps": [
+        "Combine 5x Goo to create Gooey Concentrate.",
+        "Combine 4x Scraggy Meat + 2x Goo to create Putrid Mixture.",
+        "Combine 2x Flame Tendon + 4x Bone to create Ember Gel.",
+        "Combine 3x Hydro Gland + 10x Salt to create Marine Essence.",
+        "Combine 8x Condensed Spores + 10x Goo to create Fungal Extract."
+      ],
+      "summary": "Recipes for crafting essences and mixtures used in summoning and fusion."
+    },
+    {
+      "id": "leaf-13",
+      "selected": true,
+      "slug": "tier-1-fusion-recipes",
+      "titleEn": "Tier 1 Fusion Recipes",
+      "topic": "collectible",
+      "reason": "Fusion combinations for creating Tier 1 monsters.",
+      "preview": "Fusion combinations for creating Tier 1 monsters.\n\n1. Fuse Slime (T1 hammer) + Imp (T1 fire) to create Red Slime.\n2. Fuse Slime (T1 hammer) + Brachillo (T1 water) to create Blue Slime.\n3. Fuse Slime (T1 hammer) + Fungus Bufo (T1 plant) to create Green Slime.\n4. Fuse Scout + Goblin Pillager to create Goblin Gunner.\n5. Fuse Slime + Stick Golem to create Steel Head.\n6. Fuse Slime (T1 hammer) + Goblin Pillager (T1 sword) to create Floating Helmet.\n7. Fuse Fungus Bufo (T1 plant) + Stick Golem (T1 hammer) to create Corolus.\n8. Fuse Fungus Bufo (T1 plant) + Scout (T1 ranged) to create Belloto.\n9. Fuse Imp (T1 fire) + Goblin Pillager (T1 sword) to create Dragonling.\n10. Fuse Imp (T1 fire) + Scout (T1 ranged) to create Scorched Juggler.\n11. Fuse Merkid (T1 water) + Scout (T1 ranged) to create Bruxis.\n12. Fuse Merkid (T1 water) + Stick Golem (T1 hammer) to create Stompal.\n13. Fuse Imp (T1 fire) + Merkid (T1 water) to create Naster.\n14. Fuse Fungus Bufo (T1 plant) + Goblin Pillager (T1 sword) to create Gekklar.\n15. Fuse Imp (T1 fire) + Stick Golem (T1 hammer) to create Illuminator.\n16. Fuse Merkid (T1 water) + Goblin Pillager (T1 sword) to create Northern Warrior.\n17. Fuse Merkid (T1 water) + Fungus Bufo (T1 plant) to create Mosshat.\n18. Fuse Imp (T1 fire) + Fungus Bufo (T1 plant) to create Lavapod.",
+      "anchorPhase": "Chimeric Chamber",
+      "quickAnswer": "Fusion combinations for creating Tier 1 monsters.",
+      "pageSlug": "tier-1-fusion-recipes",
+      "steps": [
+        "Fuse Slime (T1 hammer) + Imp (T1 fire) to create Red Slime.",
+        "Fuse Slime (T1 hammer) + Brachillo (T1 water) to create Blue Slime.",
+        "Fuse Slime (T1 hammer) + Fungus Bufo (T1 plant) to create Green Slime.",
+        "Fuse Scout + Goblin Pillager to create Goblin Gunner.",
+        "Fuse Slime + Stick Golem to create Steel Head.",
+        "Fuse Slime (T1 hammer) + Goblin Pillager (T1 sword) to create Floating Helmet.",
+        "Fuse Fungus Bufo (T1 plant) + Stick Golem (T1 hammer) to create Corolus.",
+        "Fuse Fungus Bufo (T1 plant) + Scout (T1 ranged) to create Belloto.",
+        "Fuse Imp (T1 fire) + Goblin Pillager (T1 sword) to create Dragonling.",
+        "Fuse Imp (T1 fire) + Scout (T1 ranged) to create Scorched Juggler.",
+        "Fuse Merkid (T1 water) + Scout (T1 ranged) to create Bruxis.",
+        "Fuse Merkid (T1 water) + Stick Golem (T1 hammer) to create Stompal.",
+        "Fuse Imp (T1 fire) + Merkid (T1 water) to create Naster.",
+        "Fuse Fungus Bufo (T1 plant) + Goblin Pillager (T1 sword) to create Gekklar.",
+        "Fuse Imp (T1 fire) + Stick Golem (T1 hammer) to create Illuminator.",
+        "Fuse Merkid (T1 water) + Goblin Pillager (T1 sword) to create Northern Warrior.",
+        "Fuse Merkid (T1 water) + Fungus Bufo (T1 plant) to create Mosshat.",
+        "Fuse Imp (T1 fire) + Fungus Bufo (T1 plant) to create Lavapod."
+      ],
+      "summary": "Fusion combinations for creating Tier 1 monsters."
+    },
+    {
+      "id": "leaf-14",
+      "selected": true,
+      "slug": "tier-2-fusion-recipes",
+      "titleEn": "Tier 2 Fusion Recipes",
+      "topic": "collectible",
+      "reason": "Fusion combinations for creating Tier 2 monsters.",
+      "preview": "Fusion combinations for creating Tier 2 monsters.\n\n1. Fuse Slime + Noodle to create Long Slime.\n2. Fuse Bone Crawler + Brachillo to create Wave Creeper.\n3. Fuse Wave Creeper (T2 water) + Long Slime (T2 hammer) to create Mamclops.\n4. Fuse Mamclops (T2 water) + Wave Creeper (T2 sword) to create Merfolk Lancer.\n5. Fuse Torch Demon, Flint Golem, or Burny Fluff + Tall Slime or Scale Disciple to create Clawless.\n6. Fuse Mamclops, Merfolk Lancer, Wave Creeper, or Tundra Ranger + Torch Demon, Flint Golem, or Burny Fluff to create Cloud Elemental.",
+      "anchorPhase": "Chimeric Chamber",
+      "quickAnswer": "Fusion combinations for creating Tier 2 monsters.",
+      "pageSlug": "tier-2-fusion-recipes",
+      "steps": [
+        "Fuse Slime + Noodle to create Long Slime.",
+        "Fuse Bone Crawler + Brachillo to create Wave Creeper.",
+        "Fuse Wave Creeper (T2 water) + Long Slime (T2 hammer) to create Mamclops.",
+        "Fuse Mamclops (T2 water) + Wave Creeper (T2 sword) to create Merfolk Lancer.",
+        "Fuse Torch Demon, Flint Golem, or Burny Fluff + Tall Slime or Scale Disciple to create Clawless.",
+        "Fuse Mamclops, Merfolk Lancer, Wave Creeper, or Tundra Ranger + Torch Demon, Flint Golem, or Burny Fluff to create Cloud Elemental."
+      ],
+      "summary": "Fusion combinations for creating Tier 2 monsters."
+    },
+    {
+      "id": "leaf-15",
+      "selected": true,
+      "slug": "additional-fusion-recipes",
+      "titleEn": "Additional Fusion Recipes",
+      "topic": "collectible",
+      "reason": "More fusion combinations for various monsters.",
+      "preview": "More fusion combinations for various monsters.\n\n1. Fuse Scale Disciple + Long Slime to create Skullhead.\n2. Fuse Skullhead + Steel Head to create Diamond Head.\n3. Fuse Twitchy Fluff + Fire Slime to create Burny Fluff.\n4. Fuse Stick Golem + Lavapod to create Flint Golem.\n5. Fuse Clawless + Gekklar to create Bandikko.\n6. Fuse Bandikko + Torch Demon, Flint Golem, or Clawless to create Snapjaw.\n7. Fuse Bandikko + Burny Fluff to create Chameledrake.\n8. Fuse Merkid + Goblin Harpooner to create Merfolk Lancer.\n9. Fuse Scout + Northern Warrior to create Tundra Ranger.\n10. Fuse Tundra Ranger + Cloud Elemental to create Bubblex.",
+      "anchorPhase": "Chimeric Chamber",
+      "quickAnswer": "More fusion combinations for various monsters.",
+      "pageSlug": "additional-fusion-recipes",
+      "steps": [
+        "Fuse Scale Disciple + Long Slime to create Skullhead.",
+        "Fuse Skullhead + Steel Head to create Diamond Head.",
+        "Fuse Twitchy Fluff + Fire Slime to create Burny Fluff.",
+        "Fuse Stick Golem + Lavapod to create Flint Golem.",
+        "Fuse Clawless + Gekklar to create Bandikko.",
+        "Fuse Bandikko + Torch Demon, Flint Golem, or Clawless to create Snapjaw.",
+        "Fuse Bandikko + Burny Fluff to create Chameledrake.",
+        "Fuse Merkid + Goblin Harpooner to create Merfolk Lancer.",
+        "Fuse Scout + Northern Warrior to create Tundra Ranger.",
+        "Fuse Tundra Ranger + Cloud Elemental to create Bubblex."
+      ],
+      "summary": "More fusion combinations for various monsters."
+    }
+  ],
+  "plan": {
+    "foldedIntoHub": [
+      "Monster Alchemy Walkthrough & Guide Hub: My Full Route From Marlo Town to the Necromancer Unlock",
+      "Desert Progression and Telepathy Gloves",
+      "Mausoleum Dungeon Walkthrough"
+    ],
+    "notes": [
+      "3 walkthrough/route topics are folded into the Hub (1) and will not be separate N guides.",
+      "15 N-side guides (above the common 3–10 reference range). Fine for puzzle/decrypt games; confirm each is a searchable side topic, not a weak main-route split."
+    ]
+  },
+  "meta": {
+    "sourceType": "walkthrough-wiki",
+    "wikiUpdatedAt": "2026-09-14T13:38:54.192Z",
+    "exportedAt": "2026-09-14T14:13:56.578Z"
+  }
+}
