@@ -100,6 +100,32 @@ export const welcomeToElderfieldImages = {
   policeStation: `${R2_ASSETS_BASE}/Welcome-to-Elderfield-Police-Station-LucasGuide.jpg`,
 } as const;
 
+export const animalyBarNoHumanityImages = {
+  feature: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Feature-LucasGuide.jpg`,
+  startIntro: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Start-Intro-LucasGuide.jpg`,
+  buyOrangeJuice: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Buy-Orange-Juice-LucasGuide.jpg`,
+  recipes: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Recipes-LucasGuide.jpg`,
+  agentPengu: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Agent-Pengu-LucasGuide.jpg`,
+  suspicionCriteria: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Suspicion-Criteria-LucasGuide.jpg`,
+  press1GunShoot: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Press-1-Gun-Shoot-LucasGuide.jpg`,
+  panda: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Panda-LucasGuide.jpg`,
+  cat: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Cat-LucasGuide.jpg`,
+  turtle: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Turtle-LucasGuide.jpg`,
+  bull: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Bull-LucasGuide.jpg`,
+  owl: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Owl-LucasGuide.jpg`,
+  elephant: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Elephant-LucasGuide.jpg`,
+  bearBadNews: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Bear-Bad-News-LucasGuide.jpg`,
+  crocodilePoorBeer: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Crocodile-Poor-Beer-LucasGuide.jpg`,
+  giraffe: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Giraffe-LucasGuide.jpg`,
+  hamster: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Hamster-LucasGuide.jpg`,
+  pig: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Pig-LucasGuide.jpg`,
+  pigeon: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Pigeon-LucasGuide.jpg`,
+  rhino: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Rhino-LucasGuide.jpg`,
+  tiger: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Tiger-LucasGuide.jpg`,
+  whoBathroom: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Who-Bathroom-LucasGuide.jpg`,
+  itsMyFather: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Its-My-Father-LucasGuide.jpg`,
+} as const;
+
 export const monsterAlchemyImages = {
   feature: `${R2_ASSETS_BASE}/Monster-Alchemy-Feature-LucasGuide.jpg`,
   alchemistTower: `${R2_ASSETS_BASE}/Monster-Alchemy-Alchemist-Tower-LucasGuide.jpg`,

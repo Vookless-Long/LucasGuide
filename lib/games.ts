@@ -1,5 +1,6 @@
 import type { AccentColor } from "./site";
 import {
+  animalyBarNoHumanityImages,
   monsterAlchemyImages,
   supermarketChaosImages,
   titanicEscapeSimulatorImages,
@@ -89,6 +90,23 @@ export const GAMES: Record<string, GameConfig> = {
     published: true,
     coverGradient: "from-amber-600 via-stone-800 to-stone-950",
     coverImage: titanicEscapeSimulatorImages.feature,
+  },
+  "animaly-bar-no-humanity": {
+    slug: "animaly-bar-no-humanity",
+    name: "Animaly Bar: NO HUMANITY",
+    tagline: "Bar sim route — human checks, Festival Day, three endings, three achievements.",
+    description:
+      "Animaly Bar: NO HUMANITY walkthrough — Day 1 routine, Agent Pingu contract, four suspicion criteria, shotgun and scanner, Festival Day, looter defense, all endings and achievements.",
+    hubDescription:
+      "Luca's full bar route with leaf pages for tips, all endings, and all achievements.",
+    genre: "Horror / Simulation",
+    genres: ["Horror", "Simulation", "Indie", "Bar management"],
+    releaseYear: 2025,
+    accent: "purple",
+    featured: true,
+    published: true,
+    coverGradient: "from-purple-600 via-fuchsia-950 to-stone-950",
+    coverImage: animalyBarNoHumanityImages.feature,
   },
   "monster-alchemy": {
     slug: "monster-alchemy",
