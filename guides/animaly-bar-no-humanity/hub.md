@@ -1,6 +1,6 @@
 ---
 type: hub
-title: "Animaly Bar: NO HUMANITY Guide: All Achievements and Endings"
+title: "Animaly Bar: NO HUMANITY Walkthrough: All Achievements and Endings"
 description: "Full route — Day 1 bar loop, Agent Pingu contract, human checks, Festival Day, looter defense, and links to all endings and achievements."
 game: animaly-bar-no-humanity
 image: "https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Animaly-Bar-No-Humanity-Feature-LucasGuide.jpg"

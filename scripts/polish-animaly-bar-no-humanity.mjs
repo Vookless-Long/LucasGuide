@@ -310,7 +310,7 @@ ${fig(IMG.itsMyFather, "Confession — the human spirit is my father", "It's my 
   writeGuide({
     slug: "hub",
     type: "hub",
-    title: "Animaly Bar: NO HUMANITY Guide: All Achievements and Endings",
+    title: "Animaly Bar: NO HUMANITY Walkthrough: All Achievements and Endings",
     description:
       "Full route — Day 1 bar loop, Agent Pingu contract, human checks, Festival Day, looter defense, and links to all endings and achievements.",
     quickAnswer:
