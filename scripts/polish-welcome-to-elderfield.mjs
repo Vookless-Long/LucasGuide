@@ -175,6 +175,13 @@ const OUTPUT_SLUGS = new Set([
   ...Object.keys(MERGES),
   ...Object.keys(STANDALONE),
   "hub",
+  // Hand-maintained leaves (not generated from export sources)
+  "beginners-tips",
+  "side-quests",
+  "mystery-events",
+  "fishing",
+  "stone-tower-shrine-riddles",
+  "art-gallery-painting-list",
 ]);
 
 function cleanTitle(h1) {

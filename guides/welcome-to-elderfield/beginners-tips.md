@@ -27,6 +27,16 @@ Sewers, mall, Greystone, farm, [fishing](/welcome-to-elderfield/fishing) — all
 
 > **Tip:** Hard enemy = come back later. Not "never go here."
 
+## World map — NPC locations
+
+I keep this open on second monitor when I route side quests — every **NPC name on the overworld**, plus zone labels and **sewer manhole** icons.
+
+![World map with all NPC names labeled — zones and sewer manholes](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Map-NPC-Labled-LucasGuide.jpg)
+
+**NPC-labeled world map**
+
+Zoom if you on phone. Mall, Hans Farm, Lakeside, Old Woods, Residential — names match who I talk to in quest text. For locked doors and key pickups, pair with [key locations](/welcome-to-elderfield/key-locations).
+
 ## Mall = first dungeon
 
 Game sends you there. Easy to ignore. **Tell:** NPC side quests all point to mall.

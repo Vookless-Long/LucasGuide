@@ -49,6 +49,7 @@ This hub = **full linear route** Prologue → first Blood Moon. Leaf pages only 
 | Fishing | [Rod, QTE, Lakeside catches](/welcome-to-elderfield/fishing) |
 | Side pickups | [Spare bag](/welcome-to-elderfield/inventory-upgrade-spare-bag), [Emerald Ring](/welcome-to-elderfield/emerald-ring-from-smoffes), [Alice map](/welcome-to-elderfield/treasure-map-3-from-alice), [Mall tomes](/welcome-to-elderfield/mall-vending-machine-tomes), [Shrine prayer](/welcome-to-elderfield/small-god-shrine-prayer), [Dave passcode](/welcome-to-elderfield/passcode-lock) |
 | Stone Tower riddles | [Shrine of Zartekch 3F — crop answers](/welcome-to-elderfield/stone-tower-shrine-riddles) |
+| Art gallery | [All painting item tables — Floor 1 & 2](/welcome-to-elderfield/art-gallery-painting-list) |
 
 ---
 
@@ -328,12 +329,10 @@ Plant tax crops the moment Hans Farm opens.
 | --- | --- |
 | Weekly reset | Most **forage pickups** respawn **Mondays** (billboards excluded) |
 | Blood Moon | Resets **all mysteries** — see [moon events](/welcome-to-elderfield/moon-events) |
-| Sewers | Every entrance is on the **world map** — match the **manhole icon** |
+| Sewers | Every entrance is on the **world map** — match the **manhole icon** ([NPC map](/welcome-to-elderfield/beginners-tips#world-map--npc-locations)) |
 | Department store | **Bag expansions** + **random equipment boxes** — cheap early stat bumps |
 
-![World map — sewer manholes and zone labels](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Map-LucasGuide.jpg)
-
-**Map**
+Full **NPC-labeled overworld map** (names + zones + manholes) lives on [Beginner's Tips](/welcome-to-elderfield/beginners-tips#world-map--npc-locations) only — I not duplicate it here.
 
 ![Police station on the town map](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Welcome-to-Elderfield-Police-Station-LucasGuide.jpg)
 

@@ -69,6 +69,7 @@ export const welcomeToElderfieldImages = {
   enemyOfficeSlime: `${R2_ASSETS_BASE}/Welcome-to-Elderfield-Enemy-Office-Slime-A-B-L-LucasGuide.jpg`,
   enemyMallAdministrator: `${R2_ASSETS_BASE}/Welcome-to-Elderfield-Enemy-Mall-Administrator-LucasGuide.jpg`,
   map: `${R2_ASSETS_BASE}/Welcome-to-Elderfield-Map-LucasGuide.jpg`,
+  mapNpcLabeled: `${R2_ASSETS_BASE}/Welcome-to-Elderfield-Map-NPC-Labled-LucasGuide.jpg`,
   taxMan: `${R2_ASSETS_BASE}/Welcome-to-Elderfield-The-Tax-Man-LucasGuide.jpg`,
   fatherDesmond: `${R2_ASSETS_BASE}/Welcome-to-Elderfield-Father-Desmond-LucasGuide.jpg`,
   seasonOfRebirth: `${R2_ASSETS_BASE}/Welcome-to-Elderfield-Season-of-Rebirth-LucasGuide.jpg`,
