@@ -38,7 +38,7 @@ Steam global unlock % (approx.) — hard ones at bottom.
 | **First Sale** | 94.1% | Complete your **first drink sale** |
 | **First Kill** | 92.0% | Kill your **first human** (post–Agent Pingu) |
 | **Looters** | 87.1% | Survive the **looter attack** — Greedy humans |
-| **Artwork** | 63.8% | Trigger **Artwork** — *YOU CAN'T BE SERIOUS!* |
+| **Artwork** | 63.8% | Shoot the guy by the **barrel** on **Day 2** — stay back or he runs |
 | **Time to Go** | 56.0% | Let humans finish their tasks — **no interference** |
 | **Good Guess** | 31.0% | **Defeat the clown** — Festival number game |
 | **Knock Knock** | 13.1% | Kill **5 animals** on one day |
@@ -46,7 +46,7 @@ Steam global unlock % (approx.) — hard ones at bottom.
 
 ## 100% route
 
-1. **One normal run** — First Day, First Sale, First Kill, Looters (Festival defense). Grab **Artwork** when you see the interact prompt on bar art.
+1. **One normal run** — First Day, First Sale, First Kill, Looters (Festival defense). On **Day 2**, shoot the guy by the **barrel** for **Artwork** ([details below](#achievement-artwork)).
 2. **Festival Day** — [Good Guess](/animaly-bar-no-humanity/achievements#achievement-good-guess) (clown minigame) on same run or replay from last day.
 3. **Three cleanup runs** (game lets you continue from last day after credits) — **Time to Go**, **Knock Knock**, **Traitors**. See [Endings](/animaly-bar-no-humanity/endings) for Festival branch rules.
 
@@ -82,9 +82,13 @@ Use [adrenaline syringe](/animaly-bar-no-humanity#adrenaline-syringe) if you str
 
 ## Achievement: Artwork
 
-Steam description only says **YOU CAN'T BE SERIOUS!** — interact with the **artwork** in the bar (wall piece / poster) when the prompt appears during a shift.
+Steam name = **YOU CAN'T BE SERIOUS!** — not a wall poster. You need to **shoot the guy near the barrel on Day 2**.
 
-> **Note:** Exact spot I not pin on map yet. Low priority — 63% of players have it; click around bar art between customers if you miss it first run.
+1. **Day 2** — after you have the shotgun and [scanner](/animaly-bar-no-humanity#day-2--scanner), spot the guy standing by the **barrel**.
+2. **Stay back** — if you walk too close, he **runs away** and you miss the shot window.
+3. Talk if the game asks, then shoot from range before he bolts.
+
+> **Tip:** I treat this like a sniper check, not a serve-and-chat customer. Miss him on Day 2 = replay from last day after credits if you hunt 100%.
 
 ## Achievement: Time to Go
 
