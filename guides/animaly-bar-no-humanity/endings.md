@@ -46,9 +46,8 @@ You get this ending if during Festival Day you **kill all humans dressed as anim
 - Shoot the kangaroo.
 
 
-<div class="my-6 aspect-video w-full overflow-hidden rounded-xl border border-stone-200 shadow-sm dark:border-stone-800">
+<div class="guide-youtube">
   <iframe
-    class="h-full w-full"
     src="https://www.youtube.com/embed/E4kQRjJxYd8"
     title="Animaly Bar: NO HUMANITY — TRAITOR ending (1/3)"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -65,9 +64,8 @@ During Festival Day you need to **let at least one human escape** — serve thei
 - During Festival Day, serve and then release either the wolf, chicken, elephant, eagle, or kangaroo.
 
 
-<div class="my-6 aspect-video w-full overflow-hidden rounded-xl border border-stone-200 shadow-sm dark:border-stone-800">
+<div class="guide-youtube">
   <iframe
-    class="h-full w-full"
     src="https://www.youtube.com/embed/x-cWVxTU9pw"
     title="Animaly Bar: NO HUMANITY — Time To Go ending (2/3)"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -84,9 +82,8 @@ As Agent Pengu said, you need to **kill five animals**. On Festival Day, **just 
 - During Festival Day, shoot every animal that appears.
 
 
-<div class="my-6 aspect-video w-full overflow-hidden rounded-xl border border-stone-200 shadow-sm dark:border-stone-800">
+<div class="guide-youtube">
   <iframe
-    class="h-full w-full"
     src="https://www.youtube.com/embed/2m1I_Ye9FPs"
     title="Animaly Bar: NO HUMANITY — Knock, Knock ending (3/3)"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"

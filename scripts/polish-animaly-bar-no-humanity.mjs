@@ -51,9 +51,8 @@ const YT = {
 
 function youtubeEmbed(videoId, title) {
   return `
-<div class="my-6 aspect-video w-full overflow-hidden rounded-xl border border-stone-200 shadow-sm dark:border-stone-800">
+<div class="guide-youtube">
   <iframe
-    class="h-full w-full"
     src="https://www.youtube.com/embed/${videoId}"
     title="${title}"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
