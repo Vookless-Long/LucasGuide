@@ -243,7 +243,7 @@ Prepare the bar for the festival by restocking, hanging decorations, and being e
 
 ## Festival endings — where to go next
 
-Festival Day kills decide your branch. I not repeat full steps here — see **[All Endings](/animaly-bar-no-humanity/endings)** for Traitor, Time To Go, Knock Knock, caravan promise, and Human Confession.
+Festival Day kills decide your branch — **three endings total**. Full triggers, steps, and ending videos: **[All Endings](/animaly-bar-no-humanity/endings)** (TRAITOR · Time To Go · Knock, Knock).
 
 ## Escape after the bear dies
 
@@ -260,7 +260,25 @@ After the bear is killed, the group must flee the bar immediately. Meet behind t
 **Bear — bad news**
 
 
-Confession scene after time skip = **[Endings](/animaly-bar-no-humanity/endings#ending-2-human-confession)** (screenshot on endings page only).
+### Human Confession (post-credits)
+
+After the week skip, talk to the gorilla:
+
+- Talk to the gorilla after the week-long time skip.
+- Confess that you are human.
+- The gorilla reveals he already knew because you lack an animal mark, always drink fruit punch, and have cotton coming out of your butt.
+- Answer that you are still friends.
+- Explain that the human spirit haunting you is your father.
+- Confess that you put holes in the donkey.
+- Ending 2 of 3 is triggered.
+
+
+![Confession — the human spirit is my father](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Animaly-Bar-No-Humanity-Its-My-Father-LucasGuide.jpg)
+
+**It's my father — Human Confession**
+
+
+> **Note:** Gorilla already knew — no animal mark, fruit punch habit, cotton tail. Not one of the three Festival endings; this plays after the bear escape epilogue.
 
 ## Leaf guides
 

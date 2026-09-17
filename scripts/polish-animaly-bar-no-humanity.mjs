@@ -43,6 +43,27 @@ function fig(src, alt, label) {
   return `\n![${alt}](${src})\n\n**${caption}**\n`;
 }
 
+const YT = {
+  traitor: "E4kQRjJxYd8",
+  timeToGo: "x-cWVxTU9pw",
+  knockKnock: "2m1I_Ye9FPs",
+};
+
+function youtubeEmbed(videoId, title) {
+  return `
+<div class="my-6 aspect-video w-full overflow-hidden rounded-xl border border-stone-200 shadow-sm dark:border-stone-800">
+  <iframe
+    class="h-full w-full"
+    src="https://www.youtube.com/embed/${videoId}"
+    title="${title}"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    loading="lazy"
+  ></iframe>
+</div>
+`;
+}
+
 function escapeFm(value) {
   return String(value || "")
     .replace(/\\/g, "\\\\")
@@ -146,6 +167,7 @@ function buildHub(data) {
   const clown = leafBySlug(data, "clown-number-guessing-game");
   const looters = leafBySlug(data, "defending-bar-from-looters");
   const adrenaline = leafBySlug(data, "adrenaline-syringe-looter-defense");
+  const confession = leafBySlug(data, "ending-2-human-confession");
 
   const body = `Bar sim + horror — mop drinks by day, shotgun humans by night. Agent Pingu pays **$100 per human scalp**. Mess up five times and you dead.
 
@@ -257,7 +279,7 @@ ${stepsToList(adrenaline?.steps)}
 
 ## Festival endings — where to go next
 
-Festival Day kills decide your branch. I not repeat full steps here — see **[All Endings](/animaly-bar-no-humanity/endings)** for Traitor, Time To Go, Knock Knock, caravan promise, and Human Confession.
+Festival Day kills decide your branch — **three endings total**. Full triggers, steps, and ending videos: **[All Endings](/animaly-bar-no-humanity/endings)** (TRAITOR · Time To Go · Knock, Knock).
 
 ## Escape after the bear dies
 
@@ -267,7 +289,15 @@ ${numberedSteps(escape?.content?.steps)}
 
 ${fig(IMG.bearBadNews, "Bad news after the bear is killed", "Bear — bad news")}
 
-Confession scene after time skip = **[Endings](/animaly-bar-no-humanity/endings#ending-2-human-confession)** (screenshot on endings page only).
+### Human Confession (post-credits)
+
+After the week skip, talk to the gorilla:
+
+${stepsToList(confession?.steps)}
+
+${fig(IMG.itsMyFather, "Confession — the human spirit is my father", "It's my father — Human Confession")}
+
+> **Note:** Gorilla already knew — no animal mark, fruit punch habit, cotton tail. Not one of the three Festival endings; this plays after the bear escape epilogue.
 
 ## Leaf guides
 
@@ -321,7 +351,7 @@ ${fig(IMG.whoBathroom, "Who bathroom line joke during a busy shift", "Who bathro
 
 - Five **costumed humans** on Festival Day — wolf, chicken, elephant, eagle, kangaroo. Your shots here lock [endings](/animaly-bar-no-humanity/endings). Elephant screenshot = [hub Festival section](/animaly-bar-no-humanity#festival-day-preparations).
 - **President Lion** — if anything happens to him, Agent Pingu ends you. I not test that twice.
-- **Five animal kills** on any day = Agent Pingu visit. Separate from [Knock-knock achievement](/animaly-bar-no-humanity/achievements#achievement-knock-knock).
+- **Five animal kills** on any day = Agent Pingu visit. Separate from [Knock Knock achievement](/animaly-bar-no-humanity/achievements#achievement-knock-knock).
 
 Hub route: [full walkthrough](/animaly-bar-no-humanity).`;
 
@@ -341,59 +371,55 @@ function buildEndingsLeaf(data) {
   const traitor = leafBySlug(data, "traitor-ending");
   const timeToGo = leafBySlug(data, "time-to-go-ending");
   const knockKnock = leafBySlug(data, "knock-knock-ending");
-  const caravan = leafBySlug(data, "final-day-outcome-caravan-promise");
-  const confession = leafBySlug(data, "ending-2-human-confession");
 
-  const body = `Three **Festival Day** branches plus post-game confession. Pick your route **before** you start shooting costumes.
+  const body = `**Three endings** — all locked in on **Festival Day**. Decide your route **before** you equip the shotgun.
 
 ${jumpToSection([
-    "Festival endings overview",
-    "Traitor Ending",
-    "Time To Go Ending",
-    "Knock, Knock Ending",
-    "Caravan promise",
-    "Ending 2 — Human Confession",
+    "All three endings overview",
+    "Ending 1/3 — TRAITOR",
+    "Ending 2/3 — Time To Go",
+    "Ending 3/3 — Knock, Knock",
   ])}
 
-## Festival endings overview
+## All three endings overview
 
-| Ending | What you do on Festival Day | Achievement tie-in |
-| --- | --- | --- |
-| **Traitor** | Kill all five costumed humans | [Traitors](/animaly-bar-no-humanity/achievements#achievement-traitors) |
-| **Time To Go** | Let ≥1 costumed human leave alive | [Time to go](/animaly-bar-no-humanity/achievements#achievement-time-to-go) |
-| **Knock, Knock** | Shoot every real animal that day | [Knock-knock](/animaly-bar-no-humanity/achievements#achievement-knock-knock) |
+| # | Ending | Festival Day trigger | Achievement |
+| --- | --- | --- | --- |
+| **1/3** | **TRAITOR** | Kill all five costumed humans | [Traitors](/animaly-bar-no-humanity/achievements#achievement-traitors) |
+| **2/3** | **Time To Go** | Let ≥1 costumed human escape alive | [Time to Go](/animaly-bar-no-humanity/achievements#achievement-time-to-go) |
+| **3/3** | **Knock, Knock** | Kill five animals — shoot everybody | [Knock Knock](/animaly-bar-no-humanity/achievements#achievement-knock-knock) |
 
-Costumed humans on Festival Day: **wolf, chicken, elephant, eagle, kangaroo**.
+Costumed humans on Festival Day: **wolf, chicken, elephant, eagle, kangaroo**. Serve and release, or shoot — that mix picks your credit roll.
 
-> **Tip:** Save mentally before Festival opens if you hunt multiple endings — game lets you continue from last day after credits.
+> **Tip:** After any ending you can continue from the **last day** and try another branch.
 
-## Traitor Ending
+## Ending 1/3 — TRAITOR
+
+You get this ending if during Festival Day you **kill all humans dressed as animals**.
+
+**Shoot every costume on the list:** wolf, chicken, elephant, eagle, kangaroo.
 
 ${stepsToList(traitor?.steps)}
 
-## Time To Go Ending
+${youtubeEmbed(YT.traitor, "Animaly Bar: NO HUMANITY — TRAITOR ending (1/3)")}
+
+## Ending 2/3 — Time To Go
+
+During Festival Day you need to **let at least one human escape** — serve their drink and release **either** wolf, chicken, elephant, eagle, or kangaroo without shooting them.
 
 ${stepsToList(timeToGo?.steps)}
 
-## Knock, Knock Ending
+${youtubeEmbed(YT.timeToGo, "Animaly Bar: NO HUMANITY — Time To Go ending (2/3)")}
+
+## Ending 3/3 — Knock, Knock
+
+As Agent Pengu said, you need to **kill five animals**. On Festival Day, **just shoot everybody** — every real animal that walks in — and you get this ending.
 
 ${stepsToList(knockKnock?.steps)}
 
-## Caravan promise
+${youtubeEmbed(YT.knockKnock, "Animaly Bar: NO HUMANITY — Knock, Knock ending (3/3)")}
 
-${stepsToList(caravan?.steps)}
-
-If you **zero human escapes** on Festival Day, Agent Pingu pays enough for a **caravan** — leave with your **bear friend**. This is the good-payoff route I aim for on first clear.
-
-## Ending 2 — Human Confession
-
-After [bear escape](/animaly-bar-no-humanity#escape-after-the-bear-dies) and the week skip:
-
-${fig(IMG.itsMyFather, "Confession — the human spirit is my father", "It's my father — Human Confession")}
-
-${stepsToList(confession?.steps)}
-
-> **Note:** Gorilla already knew — no mark, fruit punch habit, cotton tail. Ending **2 of 3** in credits.
+Post-credits confession after [bear escape](/animaly-bar-no-humanity#human-confession-post-credits) is separate from these three.
 
 Hub: [full route](/animaly-bar-no-humanity).`;
 
@@ -401,10 +427,10 @@ Hub: [full route](/animaly-bar-no-humanity).`;
     slug: "endings",
     title: "Animaly Bar: NO HUMANITY — All Endings",
     description:
-      "Traitor, Time To Go, Knock Knock, caravan promise, and Human Confession — Festival Day triggers and steps.",
+      "All 3 endings — TRAITOR, Time To Go, and Knock Knock — Festival Day triggers, steps, and embedded ending videos.",
     topic: "walkthrough",
     quickAnswer:
-      "Festival Day: kill all five costumes (Traitor), let one leave (Time To Go), or shoot all animals (Knock Knock). Confession after bear escape week skip.",
+      "Festival Day only: kill all five costumes (1/3 TRAITOR), let one escape (2/3 Time To Go), or shoot five animals / everybody (3/3 Knock Knock).",
     body,
   });
 }
@@ -413,23 +439,98 @@ function buildAchievementsLeaf(data) {
   const traitors = leafBySlug(data, "achievement-traitors");
   const knock = leafBySlug(data, "achievement-knock-knock");
   const timeToGo = leafBySlug(data, "achievement-time-to-go");
+  const clown = leafBySlug(data, "clown-number-guessing-game");
+  const looters = leafBySlug(data, "defending-bar-from-looters");
 
-  const body = `Three Steam achievements. All tie to **who you shoot or spare** — see [Endings](/animaly-bar-no-humanity/endings) for story branches.
+  const body = `**Nine** Steam achievements. First four = normal story. Middle two = Festival side stuff. Last three = hard shoot/spare branches — tie to [Endings](/animaly-bar-no-humanity/endings).
 
 ${jumpToSection([
     "Achievement overview",
+    "100% route",
+    "Achievement: First Day",
+    "Achievement: First Sale",
+    "Achievement: First Kill",
+    "Achievement: Looters",
+    "Achievement: Artwork",
+    "Achievement: Time to Go",
+    "Achievement: Good Guess",
+    "Achievement: Knock Knock",
     "Achievement: Traitors",
-    "Achievement: Knock-knock",
-    "Achievement: Time to go",
   ])}
 
 ## Achievement overview
 
-| Achievement | Condition |
-| --- | --- |
-| **Traitors** | Kill every human in disguise; **no innocent animals** |
-| **Knock-knock** | Kill **5 animals** on a **single day** |
-| **Time to go** | Let humans finish their tasks — **do not kill or block them** |
+Steam global unlock % (approx.) — hard ones at bottom.
+
+| Achievement | Global | How to unlock |
+| --- | --- | --- |
+| **First Day** | 95.6% | Finish your **first day** at the bar |
+| **First Sale** | 94.1% | Complete your **first drink sale** |
+| **First Kill** | 92.0% | Kill your **first human** (post–Agent Pingu) |
+| **Looters** | 87.1% | Survive the **looter attack** — Greedy humans |
+| **Artwork** | 63.8% | Trigger **Artwork** — *YOU CAN'T BE SERIOUS!* |
+| **Time to Go** | 56.0% | Let humans finish their tasks — **no interference** |
+| **Good Guess** | 31.0% | **Defeat the clown** — Festival number game |
+| **Knock Knock** | 13.1% | Kill **5 animals** on one day |
+| **Traitors** | 7.6% | Kill **all** humans in disguise; **zero** animal kills |
+
+## 100% route
+
+1. **One normal run** — First Day, First Sale, First Kill, Looters (Festival defense). Grab **Artwork** when you see the interact prompt on bar art.
+2. **Festival Day** — [Good Guess](/animaly-bar-no-humanity/achievements#achievement-good-guess) (clown minigame) on same run or replay from last day.
+3. **Three cleanup runs** (game lets you continue from last day after credits) — **Time to Go**, **Knock Knock**, **Traitors**. See [Endings](/animaly-bar-no-humanity/endings) for Festival branch rules.
+
+> **Tip:** Traitors + human roster = hardest. Use table below — same script every run.
+
+## Achievement: First Day
+
+Finish **Day 1** — task board, restock, open bar, serve shift, close out. Story progress; you get this on any first playthrough.
+
+Hub: [Day 1 routine](/animaly-bar-no-humanity#day-1--opening-routine).
+
+## Achievement: First Sale
+
+Serve your **first completed drink** to a customer. Happens naturally once bar is open — follow [drink service](/animaly-bar-no-humanity#drink-service).
+
+## Achievement: First Kill
+
+After [Agent Pingu](/animaly-bar-no-humanity#agent-pingu--contract-and-human-checks) gives you the shotgun, identify a human and shoot them. **First Kill** pops on that scalp.
+
+> **Tip:** Talk first — game requires speak-before-shoot.
+
+## Achievement: Looters
+
+**Greedy humans** raid the bar on Festival Day. Clear the [looter attack](/animaly-bar-no-humanity#looter-attack):
+
+${stepsToList(looters?.steps)}
+
+Use [adrenaline syringe](/animaly-bar-no-humanity#adrenaline-syringe) if you struggle — inject chest, run into looters.
+
+## Achievement: Artwork
+
+Steam description only says **YOU CAN'T BE SERIOUS!** — interact with the **artwork** in the bar (wall piece / poster) when the prompt appears during a shift.
+
+> **Note:** Exact spot I not pin on map yet. Low priority — 63% of players have it; click around bar art between customers if you miss it first run.
+
+## Achievement: Time to Go
+
+${stepsToList(timeToGo?.steps)}
+
+Pairs with [Time To Go ending](/animaly-bar-no-humanity/endings#ending-23-time-to-go) — Festival costumed humans must **leave alive**.
+
+## Achievement: Good Guess
+
+**Defeat the clown** in the Festival [number game](/animaly-bar-no-humanity#clown-number-game):
+
+${stepsToList(clown?.steps)}
+
+Match the clown's hidden number (**1–9**) — that is the **good guess**. Wrong number = big tip but no achievement.
+
+## Achievement: Knock Knock
+
+${stepsToList(knock?.steps)}
+
+Easiest on a throwaway day when you not care about Agent Pingu's mistake limit — stacks with [Knock Knock ending](/animaly-bar-no-humanity/endings#ending-33-knock-knock).
 
 ## Achievement: Traitors
 
@@ -443,19 +544,7 @@ ${stepsToList(traitors?.steps)}
 | **Day 2** | Owl, Horse, Hedgehog, Bunny |
 | **Day 3 (Festival)** | Wolf, Eagle, Chicken, Kangaroo, Elephant |
 
-> **Tip:** Script is fixed — same faces each run. Write list on sticky note day one.
-
-## Achievement: Knock-knock
-
-${stepsToList(knock?.steps)}
-
-Easiest on a slow day when you not care about Agent Pingu's five-mistake limit — or stack with [Knock Knock ending](/animaly-bar-no-humanity/endings#knock-knock-ending).
-
-## Achievement: Time to go
-
-${stepsToList(timeToGo?.steps)}
-
-Pairs with [Time To Go ending](/animaly-bar-no-humanity/endings#time-to-go-ending) — serve Festival humans and **let them walk out**.
+Hub ID screenshots: [Day 1 humans](/animaly-bar-no-humanity#day-1-humans-in-disguise-scripted), [Owl](/animaly-bar-no-humanity#day-2--scanner), [Elephant](/animaly-bar-no-humanity#festival-day-preparations). Pairs with [TRAITOR ending](/animaly-bar-no-humanity/endings#ending-13-traitor).
 
 Hub: [full walkthrough](/animaly-bar-no-humanity).`;
 
@@ -463,10 +552,10 @@ Hub: [full walkthrough](/animaly-bar-no-humanity).`;
     slug: "achievements",
     title: "Animaly Bar: NO HUMANITY — All Achievements",
     description:
-      "Traitors, Knock-knock, and Time to go — human roster by day and unlock conditions.",
+      "All 9 Steam achievements — First Day through Traitors, with global unlock rates and 100% route.",
     topic: "collectibles",
     quickAnswer:
-      "Traitors = kill all listed humans zero animals; Knock-knock = 5 animals one day; Time to go = do not interfere with humans.",
+      "9 total — story four auto; Artwork + Good Guess on Festival; Time to Go / Knock Knock / Traitors need planned shoot-or-spare runs.",
     body,
   });
 }

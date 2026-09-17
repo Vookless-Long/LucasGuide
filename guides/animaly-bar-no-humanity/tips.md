@@ -51,6 +51,6 @@ Stuff I wish I knew before day three — not story spoilers, just workflow.
 
 - Five **costumed humans** on Festival Day — wolf, chicken, elephant, eagle, kangaroo. Your shots here lock [endings](/animaly-bar-no-humanity/endings). Elephant screenshot = [hub Festival section](/animaly-bar-no-humanity#festival-day-preparations).
 - **President Lion** — if anything happens to him, Agent Pingu ends you. I not test that twice.
-- **Five animal kills** on any day = Agent Pingu visit. Separate from [Knock-knock achievement](/animaly-bar-no-humanity/achievements#achievement-knock-knock).
+- **Five animal kills** on any day = Agent Pingu visit. Separate from [Knock Knock achievement](/animaly-bar-no-humanity/achievements#achievement-knock-knock).
 
 Hub route: [full walkthrough](/animaly-bar-no-humanity).

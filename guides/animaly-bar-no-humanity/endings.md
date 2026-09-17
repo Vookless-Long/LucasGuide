@@ -1,41 +1,43 @@
 ---
 title: "Animaly Bar: NO HUMANITY — All Endings"
-description: "Traitor, Time To Go, Knock Knock, caravan promise, and Human Confession — Festival Day triggers and steps."
+description: "All 3 endings — TRAITOR, Time To Go, and Knock Knock — Festival Day triggers, steps, and embedded ending videos."
 game: animaly-bar-no-humanity
 slug: endings
 topic: walkthrough
 date: "2026-09-17"
 updated: "2026-09-17"
-quickAnswer: "Festival Day: kill all five costumes (Traitor), let one leave (Time To Go), or shoot all animals (Knock Knock). Confession after bear escape week skip."
+quickAnswer: "Festival Day only: kill all five costumes (1/3 TRAITOR), let one escape (2/3 Time To Go), or shoot five animals / everybody (3/3 Knock Knock)."
 ---
 
 # Animaly Bar: NO HUMANITY — All Endings
 
-Three **Festival Day** branches plus post-game confession. Pick your route **before** you start shooting costumes.
+**Three endings** — all locked in on **Festival Day**. Decide your route **before** you equip the shotgun.
 
 ## Jump to
 
-- [Festival endings overview](#festival-endings-overview)
-- [Traitor Ending](#traitor-ending)
-- [Time To Go Ending](#time-to-go-ending)
-- [Knock, Knock Ending](#knock-knock-ending)
-- [Caravan promise](#caravan-promise)
-- [Ending 2 — Human Confession](#ending-2-human-confession)
+- [All three endings overview](#all-three-endings-overview)
+- [Ending 1/3 — TRAITOR](#ending-13-traitor)
+- [Ending 2/3 — Time To Go](#ending-23-time-to-go)
+- [Ending 3/3 — Knock, Knock](#ending-33-knock-knock)
 
 
-## Festival endings overview
+## All three endings overview
 
-| Ending | What you do on Festival Day | Achievement tie-in |
-| --- | --- | --- |
-| **Traitor** | Kill all five costumed humans | [Traitors](/animaly-bar-no-humanity/achievements#achievement-traitors) |
-| **Time To Go** | Let ≥1 costumed human leave alive | [Time to go](/animaly-bar-no-humanity/achievements#achievement-time-to-go) |
-| **Knock, Knock** | Shoot every real animal that day | [Knock-knock](/animaly-bar-no-humanity/achievements#achievement-knock-knock) |
+| # | Ending | Festival Day trigger | Achievement |
+| --- | --- | --- | --- |
+| **1/3** | **TRAITOR** | Kill all five costumed humans | [Traitors](/animaly-bar-no-humanity/achievements#achievement-traitors) |
+| **2/3** | **Time To Go** | Let ≥1 costumed human escape alive | [Time to Go](/animaly-bar-no-humanity/achievements#achievement-time-to-go) |
+| **3/3** | **Knock, Knock** | Kill five animals — shoot everybody | [Knock Knock](/animaly-bar-no-humanity/achievements#achievement-knock-knock) |
 
-Costumed humans on Festival Day: **wolf, chicken, elephant, eagle, kangaroo**.
+Costumed humans on Festival Day: **wolf, chicken, elephant, eagle, kangaroo**. Serve and release, or shoot — that mix picks your credit roll.
 
-> **Tip:** Save mentally before Festival opens if you hunt multiple endings — game lets you continue from last day after credits.
+> **Tip:** After any ending you can continue from the **last day** and try another branch.
 
-## Traitor Ending
+## Ending 1/3 — TRAITOR
+
+You get this ending if during Festival Day you **kill all humans dressed as animals**.
+
+**Shoot every costume on the list:** wolf, chicken, elephant, eagle, kangaroo.
 
 - During Festival Day, shoot the wolf.
 - Shoot the chicken.
@@ -43,41 +45,57 @@ Costumed humans on Festival Day: **wolf, chicken, elephant, eagle, kangaroo**.
 - Shoot the eagle.
 - Shoot the kangaroo.
 
-## Time To Go Ending
+
+<div class="my-6 aspect-video w-full overflow-hidden rounded-xl border border-stone-200 shadow-sm dark:border-stone-800">
+  <iframe
+    class="h-full w-full"
+    src="https://www.youtube.com/embed/E4kQRjJxYd8"
+    title="Animaly Bar: NO HUMANITY — TRAITOR ending (1/3)"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    loading="lazy"
+  ></iframe>
+</div>
+
+
+## Ending 2/3 — Time To Go
+
+During Festival Day you need to **let at least one human escape** — serve their drink and release **either** wolf, chicken, elephant, eagle, or kangaroo without shooting them.
 
 - During Festival Day, serve and then release either the wolf, chicken, elephant, eagle, or kangaroo.
 
-## Knock, Knock Ending
+
+<div class="my-6 aspect-video w-full overflow-hidden rounded-xl border border-stone-200 shadow-sm dark:border-stone-800">
+  <iframe
+    class="h-full w-full"
+    src="https://www.youtube.com/embed/x-cWVxTU9pw"
+    title="Animaly Bar: NO HUMANITY — Time To Go ending (2/3)"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    loading="lazy"
+  ></iframe>
+</div>
+
+
+## Ending 3/3 — Knock, Knock
+
+As Agent Pengu said, you need to **kill five animals**. On Festival Day, **just shoot everybody** — every real animal that walks in — and you get this ending.
 
 - During Festival Day, shoot every animal that appears.
 
-## Caravan promise
 
-- Survive the festival day.
-- Do not let any humans escape.
-- Receive enough money to buy whatever caravan you want.
-- Leave with your bear friend on the caravan trip.
-
-If you **zero human escapes** on Festival Day, Agent Pingu pays enough for a **caravan** — leave with your **bear friend**. This is the good-payoff route I aim for on first clear.
-
-## Ending 2 — Human Confession
-
-After [bear escape](/animaly-bar-no-humanity#escape-after-the-bear-dies) and the week skip:
-
-
-![Confession — the human spirit is my father](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/Animaly-Bar-No-Humanity-Its-My-Father-LucasGuide.jpg)
-
-**It's my father — Human Confession**
+<div class="my-6 aspect-video w-full overflow-hidden rounded-xl border border-stone-200 shadow-sm dark:border-stone-800">
+  <iframe
+    class="h-full w-full"
+    src="https://www.youtube.com/embed/2m1I_Ye9FPs"
+    title="Animaly Bar: NO HUMANITY — Knock, Knock ending (3/3)"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen
+    loading="lazy"
+  ></iframe>
+</div>
 
 
-- Talk to the gorilla after the week-long time skip.
-- Confess that you are human.
-- The gorilla reveals he already knew because you lack an animal mark, always drink fruit punch, and have cotton coming out of your butt.
-- Answer that you are still friends.
-- Explain that the human spirit haunting you is your father.
-- Confess that you put holes in the donkey.
-- Ending 2 of 3 is triggered.
-
-> **Note:** Gorilla already knew — no mark, fruit punch habit, cotton tail. Ending **2 of 3** in credits.
+Post-credits confession after [bear escape](/animaly-bar-no-humanity#human-confession-post-credits) is separate from these three.
 
 Hub: [full route](/animaly-bar-no-humanity).
