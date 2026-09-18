@@ -11,13 +11,7 @@ quickAnswer: "Linear 20 mazes + tutorial. Spoiler blocks below for every route, 
 
 Twenty micro mazes and one achievement — whole game fits one coffee break. I wrote every solution below so you not stare at a three-pixel corridor for twenty minutes.
 
-
-![20 More, Somehow Even Smaller, Mazes title screen](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/20-More-Somehow-Even-Smaller-Mazes-Feature-LucasGuide.jpg)
-
-**Feature**
-
-
-**Controls:** arrow keys move the dot (or the maze, depending on level). **Zoom** matters on the last few — mouse wheel or zoom buttons.
+**Controls:** arrow keys move the dot (or the maze, depending on level). **Zoom** matters on the last few — mouse wheel or zoom buttons. Screenshots sit **inside spoilers** next to the route — open only when you stuck.
 
 ## Jump to
 
@@ -102,12 +96,9 @@ Twenty micro mazes and one achievement — whole game fits one coffee break. I w
 
 **Mechanic:** Digit locks on the grid — enter the code, then walk the trivial exit.
 
-:::spoiler Code to enter
-**2 4 1**
+:::spoiler 3-digit code puzzle
+Enter **2 4 1**, then walk out — path is trivial after the code accepts.
 :::
-
-
-After the code accepts, the path out is obvious — no long route needed.
 
 ## Maze 3 — Squash and Stretch
 
@@ -121,11 +112,9 @@ After the code accepts, the path out is obvious — no long route needed.
 
 **Mechanic:** Slide the four tiles into one connected maze first.
 
+:::spoiler Solution
 ![Maze 4 — moving dots puzzle](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/20-More-Somehow-Even-Smaller-Mazes-Moving-Dots-Puzzles-4-LucasGuide.jpg)
 
-**Maze 4**
-
-:::spoiler Assembly moves
 `Up, Left, Down, Left, Left, Up, Right, Up, Left, Up, Right, Right, Right, Down, Left`
 :::
 
@@ -152,11 +141,9 @@ Once assembled, exit is trivial.
 
 **Mechanic:** Viewport scrolls — plan moves before you trap yourself in a one-tile corridor.
 
-![Maze 7 — 3-digit combination puzzle](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/20-More-Somehow-Even-Smaller-Mazes-3-Digits-Puzzles-7-LucasGuide.jpg)
+:::spoiler 3-digit code puzzle
+![Maze 7 — 3-digit code puzzle](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/20-More-Somehow-Even-Smaller-Mazes-3-Digits-Puzzles-7-LucasGuide.jpg)
 
-**Maze 7**
-
-:::spoiler Full route
 `Right, Up, Right, Down, Right, Up, Up, Left, Up, Right, Up, Right, Down, Down`
 :::
 
@@ -164,21 +151,19 @@ Once assembled, exit is trivial.
 
 **Mechanic:** Build **this shape** from the scattered pieces (match the preview silhouette).
 
-![Block puzzle — assemble the shape from pieces](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/20-More-Somehow-Even-Smaller-Mazes-Blocks-Puzzles-8-LucasGuide.jpg)
-
-**Maze 8**
+:::spoiler Solution
+![Maze 8 — puzzle blocks](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/20-More-Somehow-Even-Smaller-Mazes-Blocks-Puzzles-8-LucasGuide.jpg)
 
 Assemble the shape shown in-game. Once it locks together, the dot path is trivial.
+:::
 
 ## Maze 9 — Eat All The Dots!
 
 **Mechanic:** Pac-man rules — clear every dot, don't trap yourself.
 
-![Pac-Man snake maze — eat every dot](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/20-More-Somehow-Even-Smaller-Mazes-Pacman-Snake-Puzzles-9-LucasGuide.jpg)
+:::spoiler Solution
+![Maze 9 — Pac-Man snake](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/20-More-Somehow-Even-Smaller-Mazes-Pacman-Snake-Puzzles-9-LucasGuide.jpg)
 
-**Maze 9**
-
-:::spoiler Full route
 `Up, Right, Down, Right, Down, Left, Up, Left, Down, Right, Down, Left, Up, Left, Down, Left, Down, Right, Down, Left, Up, Left, Down, Left, Up, Right, Up, Left, Up, Right, Up, Left, Up, Right, Down, Left, Down, Right, Down, Right, Up, Right, Down, Right, Down, Right, Up, Left, Up, Left, Up, Right, Up, Right, Up, Left, Down, Left, Up, Left`
 :::
 
@@ -258,16 +243,14 @@ Move the magnifying glass onto the micro-maze. Solution inside the lens is trivi
 
 **Mechanic:** Maze **explodes** into pieces — reassemble, or brute-force the path.
 
-![Maze 17 — connect-the-dots puzzle](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/20-More-Somehow-Even-Smaller-Mazes-Connect-the-Dot-Puzzles-17-LucasGuide.jpg)
-
-**Maze 17**
-
 Reassemble after the explosion — exit is trivial.
 
 Or skip rebuild:
 
 
-:::spoiler Full route (no reassemble)
+:::spoiler Solution (no reassemble)
+![Maze 17 — connect the dots](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/20-More-Somehow-Even-Smaller-Mazes-Connect-the-Dot-Puzzles-17-LucasGuide.jpg)
+
 `Up, Up, Up, Up, Up, Up, Up, Left, Down, Down, Down, Down, Left, Down, Down, Right, Down, Left, Left, Up, Up, Left, Up, Left, Left, Left, Down, Left, Up, Up, Right, Up, Up, Up, Right, Right, Down, Left, Down, Right, Down, Right`
 :::
 

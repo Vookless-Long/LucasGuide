@@ -26,6 +26,19 @@ function fig(src, alt, label) {
   return `\n![${alt}](${src})\n\n**${caption}**\n`;
 }
 
+function spoilerImg(src, alt) {
+  if (!src) return "";
+  return `![${alt}](${src})\n\n`;
+}
+
+function spoilerWith(label, body, src, alt) {
+  return spoiler(label, `${spoilerImg(src, alt)}${body.trim()}`);
+}
+
+function dirSpoilerImg(label, directions, src, alt) {
+  return spoilerWith(label, `\`${dirBlock(directions)}\``, src, alt);
+}
+
 function escapeFm(value) {
   return String(value || "")
     .replace(/\\/g, "\\\\")
@@ -79,7 +92,7 @@ const MAZES = [
     title: "1 2 3 4 5",
     mechanic: "Digit locks on the grid — enter the code, then walk the trivial exit.",
     solution: () =>
-      `${spoiler("Code to enter", "**2 4 1**")}\n\nAfter the code accepts, the path out is obvious — no long route needed.`,
+      `${spoiler("3-digit code puzzle", "Enter **2 4 1**, then walk out — path is trivial after the code accepts.")}`,
   },
   {
     n: 3,
@@ -94,12 +107,9 @@ const MAZES = [
   {
     n: 4,
     title: "Four Square",
-    img: IMG.movingDots4,
-    imgAlt: "Maze 4 — moving dots puzzle",
-    imgLabel: "Maze 4",
     mechanic: "Slide the four tiles into one connected maze first.",
     solution: () =>
-      `${dirSpoiler("Assembly moves", "Up, Left, Down, Left, Left, Up, Right, Up, Left, Up, Right, Right, Right, Down, Left")}\n\nOnce assembled, exit is trivial.`,
+      `${dirSpoilerImg("Solution", "Up, Left, Down, Left, Left, Up, Right, Up, Left, Up, Right, Right, Right, Down, Left", IMG.movingDots4, "Maze 4 — moving dots puzzle")}\n\nOnce assembled, exit is trivial.`,
   },
   {
     n: 5,
@@ -122,33 +132,37 @@ const MAZES = [
   {
     n: 7,
     title: "Scrolling, Narrow Puzzle",
-    img: IMG.threeDigits7,
-    imgAlt: "Maze 7 — 3-digit combination puzzle",
-    imgLabel: "Maze 7",
     mechanic: "Viewport scrolls — plan moves before you trap yourself in a one-tile corridor.",
     solution: () =>
-      dirSpoiler("Full route", "Right, Up, Right, Down, Right, Up, Up, Left, Up, Right, Up, Right, Down, Down"),
+      dirSpoilerImg(
+        "3-digit code puzzle",
+        "Right, Up, Right, Down, Right, Up, Up, Left, Up, Right, Up, Right, Down, Down",
+        IMG.threeDigits7,
+        "Maze 7 — 3-digit code puzzle"
+      ),
   },
   {
     n: 8,
     title: "Some Assembly Required",
-    img: IMG.blocks8,
-    imgAlt: "Block puzzle — assemble the shape from pieces",
-    imgLabel: "Maze 8",
     mechanic: "Build **this shape** from the scattered pieces (match the preview silhouette).",
-    solution: () => `Assemble the shape shown in-game. Once it locks together, the dot path is trivial.`,
+    solution: () =>
+      spoilerWith(
+        "Solution",
+        "Assemble the shape shown in-game. Once it locks together, the dot path is trivial.",
+        IMG.blocks8,
+        "Maze 8 — puzzle blocks"
+      ),
   },
   {
     n: 9,
     title: "Eat All The Dots!",
-    img: IMG.pacmanSnake9,
-    imgAlt: "Pac-Man snake maze — eat every dot",
-    imgLabel: "Maze 9",
     mechanic: "Pac-man rules — clear every dot, don't trap yourself.",
     solution: () =>
-      dirSpoiler(
-        "Full route",
-        "Up, Right, Down, Right, Down, Left, Up, Left, Down, Right, Down, Left, Up, Left, Down, Left, Down, Right, Down, Left, Up, Left, Down, Left, Up, Right, Up, Left, Up, Right, Up, Left, Up, Right, Down, Left, Down, Right, Down, Right, Up, Right, Down, Right, Down, Right, Up, Left, Up, Left, Up, Right, Up, Right, Up, Left, Down, Left, Up, Left"
+      dirSpoilerImg(
+        "Solution",
+        "Up, Right, Down, Right, Down, Left, Up, Left, Down, Right, Down, Left, Up, Left, Down, Left, Down, Right, Down, Left, Up, Left, Down, Left, Up, Right, Up, Left, Up, Right, Up, Left, Up, Right, Down, Left, Down, Right, Down, Right, Up, Right, Down, Right, Down, Right, Up, Left, Up, Left, Up, Right, Up, Right, Up, Left, Down, Left, Up, Left",
+        IMG.pacmanSnake9,
+        "Maze 9 — Pac-Man snake"
       ),
   },
   {
@@ -218,12 +232,9 @@ const MAZES = [
   {
     n: 17,
     title: "Gee, I Hope This Maze Doesn't Explode",
-    img: IMG.connectDots17,
-    imgAlt: "Maze 17 — connect-the-dots puzzle",
-    imgLabel: "Maze 17",
     mechanic: "Maze **explodes** into pieces — reassemble, or brute-force the path.",
     solution: () =>
-      `Reassemble after the explosion — exit is trivial.\n\nOr skip rebuild:\n\n${dirSpoiler("Full route (no reassemble)", "Up, Up, Up, Up, Up, Up, Up, Left, Down, Down, Down, Down, Left, Down, Down, Right, Down, Left, Left, Up, Up, Left, Up, Left, Left, Left, Down, Left, Up, Up, Right, Up, Up, Up, Right, Right, Down, Left, Down, Right, Down, Right")}`,
+      `Reassemble after the explosion — exit is trivial.\n\nOr skip rebuild:\n\n${dirSpoilerImg("Solution (no reassemble)", "Up, Up, Up, Up, Up, Up, Up, Left, Down, Down, Down, Down, Left, Down, Down, Right, Down, Left, Left, Up, Up, Left, Up, Left, Left, Left, Down, Left, Up, Up, Right, Up, Up, Up, Right, Right, Down, Left, Down, Right, Down, Right", IMG.connectDots17, "Maze 17 — connect the dots")}`,
   },
   {
     n: 18,
@@ -251,11 +262,10 @@ const MAZES = [
 function mazeSection(maze) {
   const label = maze.n === "Tutorial" ? "Tutorial" : `Maze ${maze.n}`;
   const heading = `${label} — ${maze.title}`;
-  const image = maze.img ? fig(maze.img, maze.imgAlt, maze.imgLabel) : "";
   return `## ${heading}
 
 **Mechanic:** ${maze.mechanic}
-${image}
+
 ${maze.solution().trim()}`;
 }
 
@@ -267,9 +277,7 @@ function buildHub() {
 
   const body = `Twenty micro mazes and one achievement — whole game fits one coffee break. I wrote every solution below so you not stare at a three-pixel corridor for twenty minutes.
 
-${fig(IMG.feature, "20 More, Somehow Even Smaller, Mazes title screen", "Feature")}
-
-**Controls:** arrow keys move the dot (or the maze, depending on level). **Zoom** matters on the last few — mouse wheel or zoom buttons.
+**Controls:** arrow keys move the dot (or the maze, depending on level). **Zoom** matters on the last few — mouse wheel or zoom buttons. Screenshots sit **inside spoilers** next to the route — open only when you stuck.
 
 ${jumpTo(MAZES.map((m) => ({ title: m.n === "Tutorial" ? `Tutorial — ${m.title}` : `Maze ${m.n} — ${m.title}`, anchor: `${m.n === "Tutorial" ? "Tutorial" : `Maze ${m.n}`} — ${m.title}` })))}
 
