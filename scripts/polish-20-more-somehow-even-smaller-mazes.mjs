@@ -92,7 +92,12 @@ const MAZES = [
     title: "1 2 3 4 5",
     mechanic: "Digit locks on the grid — enter the code, then walk the trivial exit.",
     solution: () =>
-      `${spoiler("3-digit code puzzle", "Enter **2 4 1**, then walk out — exit is trivial after the code accepts.")}`,
+      spoilerWith(
+        "3-digit code puzzle",
+        "Enter **2 4 1**. Exit is trivial once the code accepts.",
+        IMG.threeDigits7,
+        "3-digit code puzzle"
+      ),
   },
   {
     n: 3,
@@ -109,15 +114,15 @@ const MAZES = [
     title: "Four Square",
     mechanic: "Slide the four tiles into one connected maze first.",
     solution: () =>
-      `${dirSpoilerImg("Solution", "Up, Left, Down, Left, Left, Up, Right, Up, Left, Up, Right, Right, Right, Down, Left", IMG.movingDots4, "Maze 4 — moving dots puzzle")}\n\nOnce assembled, exit is trivial.`,
+      `${dirSpoiler("Solution", "Up, Left, Down, Left, Left, Up, Right, Up, Left, Up, Right, Right, Right, Down, Left")}\n\nExit is trivial once assembled.`,
   },
   {
     n: 5,
     title: "Move Two Matchsticks",
     mechanic: "Matchstick layout — two moves unlock the ball path.",
-    solution: () => `1. Move the matchstick **left of the ball** into the **gap below** it.
-2. Move the matchstick **beneath the door** into the **gap to its left**.
-3. Press **Left** to roll the ball out — exit is trivial from there.`,
+    solution: () => `1. Move the matchstick **left of the ball** to the gap **below** it.
+2. Move the matchstick **beneath the door** to the gap to its **left**.
+3. Press **Left** to exit the box — exit is trivial from there.`,
   },
   {
     n: 6,
@@ -134,11 +139,9 @@ const MAZES = [
     title: "Scrolling, Narrow Puzzle",
     mechanic: "Viewport scrolls — plan moves before you trap yourself in a one-tile corridor.",
     solution: () =>
-      dirSpoilerImg(
-        "3-digit code puzzle",
-        "Right, Up, Right, Down, Right, Up, Up, Left, Up, Right, Up, Right, Down, Down",
-        IMG.threeDigits7,
-        "Maze 7 — 3-digit code puzzle"
+      dirSpoiler(
+        "Solution",
+        "Right, Up, Right, Down, Right, Up, Up, Left, Up, Right, Up, Right, Down, Down"
       ),
   },
   {
@@ -148,9 +151,9 @@ const MAZES = [
     solution: () =>
       spoilerWith(
         "Solution",
-        "Assemble the shape shown in-game. Once it locks together, the dot path is trivial.",
+        "Assemble this shape. Exit is trivial once assembled.",
         IMG.blocks8,
-        "Maze 8 — puzzle blocks"
+        "Some Assembly Required — puzzle blocks"
       ),
   },
   {
@@ -174,30 +177,24 @@ const MAZES = [
   {
     n: 11,
     title: "Auto-Tiles",
-    mechanic: "Arrange tiles — connected dots **auto-complete** the path when the layout is correct.",
-    solution: () => `Assemble the arrangement shown in-game. When the tile pattern is right, dots finish the maze for you.`,
+    mechanic: "Moving dots puzzle — arrange the tiles so connected dots **auto-complete** the maze.",
+    solution: () =>
+      spoilerWith(
+        "Solution",
+        "Assemble this arrangement. The dots will then complete the puzzle automatically.",
+        IMG.movingDots4,
+        "Auto-Tiles — moving dots puzzle"
+      ),
   },
   {
     n: 12,
     title: "Unwanted Advertising",
     mechanic: "Pop-up ads block the maze — build an **X** close button, click it, repeat for every ad.",
-    solution: () => `**Ad 1 — Goblin Turtle Peace Treaty**
-- Click the **X** to close (if you can).
-- Push the **X block**: Right, Up, Up, Up, Right, Right, Right, Down, Down, Right, Right, Up, Up, Up, Up into the **broken corner**, then click **X**.
-
-**Ad 2 — Have Mazes Gone Too Far?**
-- Push the **bottom-left piece**: Right, Up, Up, Up.
-- Push the **two left pieces**: Right, Right.
-- Push the **two left pieces** again: Down.
-- Push the **right piece**: Left.
-- Click the assembled **X**.
-
-**Ad 3 — Play Strange Jigsaws**
-- Push the **red square**: Left ×6, then Down ×5.
-- Click the assembled **X**.
-
-**Ad 4 — Extrareality Codebreaker**
-- Move **Up, Up** to dismiss **How Many Mazes?**`,
+    solution: () => `1. Click the **X** to close the **Goblin Turtle Peace Treaty** ad.
+2. **Push** the **X block**: Right, Up, Up, Up, Right, Right, Right, Down, Down, Right, Right, Up, Up, Up, Up. Once it is in the broken corner, click **X** to close **Have Mazes Gone Too Far?**
+3. **Push** the bottom-left piece: Right, Up, Up, Up. **Push** the two pieces on the left: Right, Right. **Push** those two pieces again: Down. **Push** the piece on the right: Left. Click the assembled **X** to close **Play Strange Jigsaws**.
+4. **Push** the red square: Left ×6, Down ×5. Click the assembled **X** to close **Extrareality Codebreaker**.
+5. Move **Up, Up** — closes **How Many Mazes?**`,
   },
   {
     n: 13,
@@ -214,48 +211,55 @@ const MAZES = [
     title: "Back From The Klondike",
     mechanic: "Solitaire-style logic — **Learn with Flebby** slides teach the rules first.",
     solution: () =>
-      `Click through **Learn with Flebby!** until the tutorial dismisses.\n\n${dirSpoiler("Solution", "Right, Left, Down, Down, Up, Left, Down, Up, Down, Right")}`,
+      `**Learn with Flebby!** — click through the slides.\n\n${dirSpoiler("Solution", "Right, Left, Down, Down, Up, Left, Down, Up, Down, Right")}`,
   },
   {
     n: 15,
     title: "The Dots In These Mazes Do Not Move",
     mechanic: "Static dots — enter the three-digit code, then walk.",
     solution: () =>
-      `${spoiler("Code to enter", "**5 1 3**")}\n\nExit after the code is straightforward.`,
+      `${spoiler("3-digit code puzzle", "Enter **5 1 3**. Exit is trivial once the code accepts.")}`,
   },
   {
     n: 16,
     title: "Magnifying Glass (Whoops Too Small)",
     mechanic: "Drag the **magnifying glass** over the tiny maze in the **bottom-left** — clear surrounding mazes first so you can see it.",
-    solution: () => `Move the magnifying glass onto the micro-maze. Solution inside the lens is trivial once zoomed.`,
+    solution: () =>
+      `Move the magnifying glass to examine the tiny maze in the **bottom-left**, once you have cleared away enough other mazes to see it. The solution inside the lens is trivial.`,
   },
   {
     n: 17,
     title: "Gee, I Hope This Maze Doesn't Explode",
-    mechanic: "Maze **explodes** into pieces — reassemble, or brute-force the path.",
+    mechanic: "Maze **explodes** into pieces — reassemble, or use the alternative below.",
     solution: () =>
-      `Reassemble after the explosion — exit is trivial.\n\nOr skip rebuild:\n\n${dirSpoilerImg("Solution", "Up, Up, Up, Up, Up, Up, Up, Left, Down, Down, Down, Down, Left, Down, Down, Right, Down, Left, Left, Up, Up, Left, Up, Left, Left, Left, Down, Left, Up, Up, Right, Up, Up, Up, Right, Right, Down, Left, Down, Right, Down, Right", IMG.connectDots17, "Maze 17 — connect the dots")}`,
+      `Reassemble the maze after it explodes. Exit is trivial.\n\nAlternatively:\n\n${dirSpoiler("Solution", "Up, Up, Up, Up, Up, Up, Up, Left, Down, Down, Down, Down, Left, Down, Down, Right, Down, Left, Left, Up, Up, Left, Up, Left, Left, Left, Down, Left, Up, Up, Right, Up, Up, Up, Right, Right, Down, Left, Down, Right, Down, Right")}`,
   },
   {
     n: 18,
     title: "Connect 100% Of The Dots",
     mechanic: "Numbered dots — connect **100%** in the order the puzzle shows.",
-    solution: () => `Connect every dot in the **numbered order on screen** (1 → 2 → 3 … until the line hits 100%). Order is visible on the napkin — follow the labels, not a blind zigzag.`,
+    solution: () =>
+      spoilerWith(
+        "Solution",
+        "Connect the dots in this order.",
+        IMG.connectDots17,
+        "Connect 100% Of The Dots"
+      ),
   },
   {
     n: 19,
     title: "Enable Puzzle (Here Is A Door. Where Is The Dot?)",
     mechanic: "Press **Enable Puzzle**, then **Zoom Out** — drag the **sun** into the **door**.",
     solution: () => `1. Press **Enable Puzzle**.
-2. Press **Zoom Out**.
-3. Drag the **sun** into the **door** — a spiral maze appears and forces another zoom-out to solve.`,
+2. Press **Zoom Out**, then drag the **sun** into the **door**.
+3. A trivial spiral maze appears — zoom out again to finish.`,
   },
   {
     n: 20,
     title: "The Final Maze",
     mechanic: "Spell **LABYRINTH** with movement keys (each letter = a move). Then unlock extra zoom.",
     solution: () =>
-      `${spoiler("Spell LABYRINTH", "**L** = Right, Right · **A** = Right · **B** = Left · **Y** = Left · **R** = Up · **I** = Right · **N** = Up · **T** = Up · **H** = Left\n\n(Follow in-game letter prompts on the grid.)")}\n\n${dirSpoiler("Solution", "Right, Right, Right, Left, Left, Up, Right, Up, Up, Right, Right, Right, Up, Right, Up, Left, Right, Right")}\n\nAfter credits roll, use your new **zoom out further** ability if the last screen asks for it.`,
+      `${spoiler("Spell LABYRINTH", "Follow in-game letter prompts on the grid.")}\n\n${dirSpoiler("Solution", "Right, Right, Right, Left, Left, Up, Right, Up, Right, Up, Up, Right, Right, Right, Up, Right, Up, Left, Right, Right")}\n\nUse your newly unlocked ability to **zoom out further** after credits.`,
   },
 ];
 
@@ -287,7 +291,7 @@ ${jumpTo(MAZES.map((m) => ({ title: m.n === "Tutorial" ? `Tutorial — ${m.title
 | --- | --- | --- |
 ${overviewRows}
 
-> **Tip:** Stuck on one maze only? Use **Jump to** above — order is linear; no backtracking between levels.
+> **Tip:** Mazes can be tackled in any order — use **Jump to** to find the puzzle name you stuck on.
 
 ## Solutions
 
@@ -295,7 +299,7 @@ ${MAZES.map(mazeSection).join("\n\n")}
 
 ## Ending and achievement
 
-Clear **Maze 20** → watch the ending sequence. One Steam achievement: **100% completion**. No missables if you follow the list top to bottom.
+Clear **The Final Maze** → watch the ending sequence. One Steam achievement: **100% completion**. No missables once every puzzle is solved.
 
 ${fig(IMG.endingAchievement, "Ending screen — 100% completion achievement", "Ending — 100% achievement")}
 
@@ -309,7 +313,7 @@ game: ${GAME}
 image: "${IMG.feature}"
 date: "2026-09-18"
 updated: "2026-09-18"
-quickAnswer: "Linear 20 mazes + tutorial. Spoiler blocks below for every solution, digit code, and ad-puzzle X assembly."
+quickAnswer: "20 puzzles + tutorial — no fixed order. Spoiler blocks below for every solution, digit code, and ad-puzzle X assembly."
 ---
 
 `;
