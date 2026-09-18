@@ -77,9 +77,6 @@ const MAZES = [
   {
     n: 2,
     title: "1 2 3 4 5",
-    img: IMG.threeDigits7,
-    imgAlt: "3-digit combination locks on the grid",
-    imgLabel: "3-digit code puzzle",
     mechanic: "Digit locks on the grid — enter the code, then walk the trivial exit.",
     solution: () =>
       `${spoiler("Code to enter", "**2 4 1**")}\n\nAfter the code accepts, the path out is obvious — no long route needed.`,
@@ -97,6 +94,9 @@ const MAZES = [
   {
     n: 4,
     title: "Four Square",
+    img: IMG.movingDots4,
+    imgAlt: "Maze 4 — moving dots puzzle",
+    imgLabel: "Maze 4",
     mechanic: "Slide the four tiles into one connected maze first.",
     solution: () =>
       `${dirSpoiler("Assembly moves", "Up, Left, Down, Left, Left, Up, Right, Up, Left, Up, Right, Right, Right, Down, Left")}\n\nOnce assembled, exit is trivial.`,
@@ -122,9 +122,9 @@ const MAZES = [
   {
     n: 7,
     title: "Scrolling, Narrow Puzzle",
-    img: IMG.movingDots4,
-    imgAlt: "Moving dots puzzle — narrow scrolling maze",
-    imgLabel: "Moving dots puzzle",
+    img: IMG.threeDigits7,
+    imgAlt: "Maze 7 — 3-digit combination puzzle",
+    imgLabel: "Maze 7",
     mechanic: "Viewport scrolls — plan moves before you trap yourself in a one-tile corridor.",
     solution: () =>
       dirSpoiler("Full route", "Right, Up, Right, Down, Right, Up, Up, Left, Up, Right, Up, Right, Down, Down"),
@@ -134,7 +134,7 @@ const MAZES = [
     title: "Some Assembly Required",
     img: IMG.blocks8,
     imgAlt: "Block puzzle — assemble the shape from pieces",
-    imgLabel: "Puzzle blocks",
+    imgLabel: "Maze 8",
     mechanic: "Build **this shape** from the scattered pieces (match the preview silhouette).",
     solution: () => `Assemble the shape shown in-game. Once it locks together, the dot path is trivial.`,
   },
@@ -143,7 +143,7 @@ const MAZES = [
     title: "Eat All The Dots!",
     img: IMG.pacmanSnake9,
     imgAlt: "Pac-Man snake maze — eat every dot",
-    imgLabel: "Pac-Man snake",
+    imgLabel: "Maze 9",
     mechanic: "Pac-man rules — clear every dot, don't trap yourself.",
     solution: () =>
       dirSpoiler(
@@ -218,6 +218,9 @@ const MAZES = [
   {
     n: 17,
     title: "Gee, I Hope This Maze Doesn't Explode",
+    img: IMG.connectDots17,
+    imgAlt: "Maze 17 — connect-the-dots puzzle",
+    imgLabel: "Maze 17",
     mechanic: "Maze **explodes** into pieces — reassemble, or brute-force the path.",
     solution: () =>
       `Reassemble after the explosion — exit is trivial.\n\nOr skip rebuild:\n\n${dirSpoiler("Full route (no reassemble)", "Up, Up, Up, Up, Up, Up, Up, Left, Down, Down, Down, Down, Left, Down, Down, Right, Down, Left, Left, Up, Up, Left, Up, Left, Left, Left, Down, Left, Up, Up, Right, Up, Up, Up, Right, Right, Down, Left, Down, Right, Down, Right")}`,
@@ -225,9 +228,6 @@ const MAZES = [
   {
     n: 18,
     title: "Connect 100% Of The Dots",
-    img: IMG.connectDots17,
-    imgAlt: "Connect-the-dots puzzle — numbered path to 100%",
-    imgLabel: "Connect the dots",
     mechanic: "Numbered dots — connect **100%** in the order the puzzle shows.",
     solution: () => `Connect every dot in the **numbered order on screen** (1 → 2 → 3 … until the line hits 100%). Order is visible on the napkin — follow the labels, not a blind zigzag.`,
   },
