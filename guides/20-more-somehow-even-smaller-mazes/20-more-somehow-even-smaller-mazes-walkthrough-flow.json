@@ -1,0 +1,373 @@
+{
+  "version": "1.0",
+  "game": {
+    "name": "20 More, Somehow Even Smaller, Mazes",
+    "slug": "20-more-somehow-even-smaller-mazes"
+  },
+  "hub": {
+    "type": "hub",
+    "title": "Full 100% Playthrough - All 20 Mazes",
+    "titleEn": "Full 100% Playthrough - All 20 Mazes",
+    "description": "Tutorial → Maze 1 → Maze 2 → Maze 3 → Maze 4 → Maze 5 → Maze 6 → Maze 7 → Maze 8 → Maze 9 → Maze 10 → Maze 11 → Maze 12 → Maze 13 → Maze 14 → Maze 15 → Maze 16 → Maze 17 → Maze 18 → Maze 19 → Ending",
+    "quickAnswer": "Tutorial → Maze 1 → Maze 2 → Maze 3 → Maze 4 → Maze 5 → Maze 6 → Maze 7 → Maze 8 → Maze 9 → Maze 10 → Maze 11 → Maze 12 → Maze 13 → Maze 14 → Maze 15 → Maze 16 → Maze 17 → Maze 18 → Maze 19 → Ending",
+    "flowPreview": "This flow preview covers all 20 mazes and the ending of '20 More, Somehow Even Smaller, Mazes'. Starting with the tutorial maze, you solve Maze 1 through Maze 19 in order, then view the ending to unlock the achievement. Each maze features unique mechanics such as double locks, expanding, slides, moving dots, rotating, and digit combinations. Key puzzles include Maze 7's 3 Digits combination and Maze 16's Rainbow 3 Digits combination. After completing all mazes, the game ends with 100% completion.",
+    "phases": [
+      {
+        "id": "phase-1",
+        "title": "Tutorial and Early Mazes",
+        "steps": [
+          {
+            "id": "1-1",
+            "text": "Complete the tutorial maze.",
+            "terms": [],
+            "leafRef": null
+          },
+          {
+            "id": "1-2",
+            "text": "Solve Maze 1: Double locks maze with different scales.",
+            "terms": [
+              "Double locks"
+            ],
+            "leafRef": null
+          },
+          {
+            "id": "1-3",
+            "text": "Solve Maze 2: Expanding maze (↔️↕️).",
+            "terms": [
+              "Expanding maze"
+            ],
+            "leafRef": null
+          },
+          {
+            "id": "1-4",
+            "text": "Solve Maze 3: Slides & Ladders (🪜🛝).",
+            "terms": [
+              "Slides & Ladders"
+            ],
+            "leafRef": null
+          },
+          {
+            "id": "1-5",
+            "text": "Solve Maze 4: Moving dots (🔵).",
+            "terms": [
+              "Moving dots"
+            ],
+            "leafRef": null
+          },
+          {
+            "id": "1-6",
+            "text": "Solve Maze 5: 4x4 Grid (⬛).",
+            "terms": [
+              "4x4 Grid"
+            ],
+            "leafRef": null
+          }
+        ]
+      },
+      {
+        "id": "phase-2",
+        "title": "Mid-Game Mazes",
+        "steps": [
+          {
+            "id": "2-1",
+            "text": "Solve Maze 6: Rotating maze (🔄).",
+            "terms": [
+              "Rotating maze"
+            ],
+            "leafRef": null
+          },
+          {
+            "id": "2-2",
+            "text": "Solve Maze 7: 3 Digits combination maze (🔢).",
+            "terms": [
+              "3 Digits combination"
+            ],
+            "leafRef": "3 Digits Combination Maze"
+          },
+          {
+            "id": "2-3",
+            "text": "Solve Maze 8: Puzzle blocks.",
+            "terms": [
+              "Puzzle blocks"
+            ],
+            "leafRef": null
+          },
+          {
+            "id": "2-4",
+            "text": "Solve Maze 9: Pacman Snake maze (🐍).",
+            "terms": [
+              "Pacman Snake"
+            ],
+            "leafRef": null
+          },
+          {
+            "id": "2-5",
+            "text": "Solve Maze 10: Napkin Maze (🧻).",
+            "terms": [
+              "Napkin Maze"
+            ],
+            "leafRef": null
+          },
+          {
+            "id": "2-6",
+            "text": "Solve Maze 11: Matches maze (🔥).",
+            "terms": [
+              "Matches maze"
+            ],
+            "leafRef": null
+          },
+          {
+            "id": "2-7",
+            "text": "Solve Maze 12: Advertisements (❌).",
+            "terms": [
+              "Advertisements"
+            ],
+            "leafRef": null
+          },
+          {
+            "id": "2-8",
+            "text": "Solve Maze 13: Klondike maze (🔢).",
+            "terms": [
+              "Klondike maze"
+            ],
+            "leafRef": null
+          },
+          {
+            "id": "2-9",
+            "text": "Solve Maze 14: Teared maze (💣).",
+            "terms": [
+              "Teared maze"
+            ],
+            "leafRef": null
+          }
+        ]
+      },
+      {
+        "id": "phase-3",
+        "title": "Late-Game Mazes and Ending",
+        "steps": [
+          {
+            "id": "3-1",
+            "text": "Solve Maze 15: Tiniest maze (🔎).",
+            "terms": [
+              "Tiniest maze"
+            ],
+            "leafRef": null
+          },
+          {
+            "id": "3-2",
+            "text": "Solve Maze 16: Rainbow 3 Digits combination.",
+            "terms": [
+              "Rainbow 3 Digits combination"
+            ],
+            "leafRef": "Rainbow 3 Digits Combination"
+          },
+          {
+            "id": "3-3",
+            "text": "Solve Maze 17: Connect the dots (🟢).",
+            "terms": [
+              "Connect the dots"
+            ],
+            "leafRef": null
+          },
+          {
+            "id": "3-4",
+            "text": "Solve Maze 18: Moving maze.",
+            "terms": [
+              "Moving maze"
+            ],
+            "leafRef": null
+          },
+          {
+            "id": "3-5",
+            "text": "Solve Maze 19: Big yellow door.",
+            "terms": [
+              "Big yellow door"
+            ],
+            "leafRef": null
+          },
+          {
+            "id": "3-6",
+            "text": "View the ending sequence to unlock the achievement: 100% completion.",
+            "terms": [
+              "Achievement: 100% completion"
+            ],
+            "leafRef": "Ending"
+          }
+        ]
+      }
+    ],
+    "canonicalTerms": [
+      "Double locks",
+      "Expanding maze",
+      "Slides & Ladders",
+      "Moving dots",
+      "4x4 Grid",
+      "Rotating maze",
+      "3 Digits combination",
+      "Puzzle blocks",
+      "Pacman Snake",
+      "Napkin Maze",
+      "Matches maze",
+      "Advertisements",
+      "Klondike maze",
+      "Teared maze",
+      "Tiniest maze",
+      "Rainbow 3 Digits combination",
+      "Connect the dots",
+      "Moving maze",
+      "Big yellow door",
+      "Achievement: 100% completion"
+    ],
+    "inlinePages": [
+      {
+        "slug": "full-100-percent-playthrough-all-20-mazes",
+        "title": "Full 100% Playthrough - All 20 Mazes",
+        "type": "walkthrough",
+        "chapter": "Main Game",
+        "content": {
+          "prerequisites": "Start the game.",
+          "summary": "Complete all 20 mazes and unlock the single achievement for 100% completion.",
+          "steps": [
+            "Complete the tutorial maze.",
+            "Solve Maze 1: Double locks maze with different scales.",
+            "Solve Maze 2: Expanding maze (↔️↕️).",
+            "Solve Maze 3: Slides & Ladders (🪜🛝).",
+            "Solve Maze 4: Moving dots (🔵).",
+            "Solve Maze 5: 4x4 Grid (⬛).",
+            "Solve Maze 6: Rotating maze (🔄).",
+            "Solve Maze 7: 3 Digits combination maze (🔢).",
+            "Solve Maze 8: Puzzle blocks.",
+            "Solve Maze 9: Pacman Snake maze (🐍).",
+            "Solve Maze 10: Napkin Maze (🧻).",
+            "Solve Maze 11: Matches maze (🔥).",
+            "Solve Maze 12: Advertisements (❌).",
+            "Solve Maze 13: Klondike maze (🔢).",
+            "Solve Maze 14: Teared maze (💣).",
+            "Solve Maze 15: Tiniest maze (🔎).",
+            "Solve Maze 16: Rainbow 3 Digits combination.",
+            "Solve Maze 17: Connect the dots (🟢).",
+            "Solve Maze 18: Moving maze.",
+            "Solve Maze 19: Big yellow door.",
+            "Solve Maze 20: Final maze (🔤).",
+            "View the ending to unlock the achievement."
+          ],
+          "code_or_key": "[TBD: specific codes/keys for each maze]",
+          "choices": [],
+          "rewards": [
+            "Achievement: 100% completion (1/1)"
+          ]
+        }
+      }
+    ]
+  },
+  "analysis": {
+    "completenessScore": 85,
+    "summary": "Data is mostly complete, covering all mazes and the ending, but lacks specific puzzle solutions and full achievement details.",
+    "coveredAreas": [
+      {
+        "area": "Main mazes",
+        "status": "complete",
+        "note": "All 20 mazes are listed."
+      },
+      {
+        "area": "Ending",
+        "status": "complete",
+        "note": "Ending step is included."
+      },
+      {
+        "area": "Achievements",
+        "status": "partial",
+        "note": "Only one achievement mentioned, but name and description are missing."
+      },
+      {
+        "area": "Puzzle details",
+        "status": "partial",
+        "note": "Some mazes have names but lack specific solutions."
+      }
+    ],
+    "gaps": [
+      {
+        "id": "g1",
+        "title": "Missing achievement details",
+        "reason": "Achievement name and description are not provided, affecting the completeness of the 100% guide.",
+        "priority": "medium"
+      },
+      {
+        "id": "g2",
+        "title": "Missing solutions for some mazes",
+        "reason": "Mechanics like Maze 1's double locks or Maze 6's rotating are not explained in detail.",
+        "priority": "low"
+      }
+    ],
+    "supplementDirections": [
+      "Add the full achievement name and description.",
+      "Include step-by-step solutions or hints for complex mazes."
+    ]
+  },
+  "leafGuides": [
+    {
+      "id": "leaf-1",
+      "selected": true,
+      "slug": "ending",
+      "titleEn": "Ending",
+      "topic": "ending",
+      "reason": "View the ending sequence to finish the game.",
+      "preview": "View the ending sequence to finish the game.\n\n1. After solving Maze 20, watch the ending video and screen.",
+      "anchorPhase": "Final",
+      "quickAnswer": "View the ending sequence to finish the game.",
+      "pageSlug": "ending",
+      "steps": [
+        "After solving Maze 20, watch the ending video and screen."
+      ],
+      "summary": "View the ending sequence to finish the game."
+    },
+    {
+      "id": "leaf-2",
+      "selected": true,
+      "slug": "3-digits-combination-maze",
+      "titleEn": "3 Digits Combination Maze",
+      "topic": "puzzle",
+      "reason": "Solve a maze that requires entering a 3-digit combination.",
+      "preview": "Solve a maze that requires entering a 3-digit combination.\n\n1. Find the 3-digit code within the maze.\n2. Enter the code to proceed.",
+      "anchorPhase": "Maze 7",
+      "quickAnswer": "Solve a maze that requires entering a 3-digit combination.",
+      "pageSlug": "3-digits-combination-maze",
+      "steps": [
+        "Find the 3-digit code within the maze.",
+        "Enter the code to proceed."
+      ],
+      "summary": "Solve a maze that requires entering a 3-digit combination."
+    },
+    {
+      "id": "leaf-3",
+      "selected": true,
+      "slug": "rainbow-3-digits-combination",
+      "titleEn": "Rainbow 3 Digits Combination",
+      "topic": "puzzle",
+      "reason": "Solve a maze that requires entering a 3-digit combination based on rainbow colors.",
+      "preview": "Solve a maze that requires entering a 3-digit combination based on rainbow colors.\n\n1. Identify the 3-digit code from the rainbow pattern.\n2. Enter the code to proceed.",
+      "anchorPhase": "Maze 16",
+      "quickAnswer": "Solve a maze that requires entering a 3-digit combination based on rainbow colors.",
+      "pageSlug": "rainbow-3-digits-combination",
+      "steps": [
+        "Identify the 3-digit code from the rainbow pattern.",
+        "Enter the code to proceed."
+      ],
+      "summary": "Solve a maze that requires entering a 3-digit combination based on rainbow colors."
+    }
+  ],
+  "plan": {
+    "foldedIntoHub": [
+      "Full 100% Playthrough - All 20 Mazes"
+    ],
+    "notes": [
+      "1 walkthrough/route topics are folded into the Hub (1) and will not be separate N guides."
+    ]
+  },
+  "meta": {
+    "sourceType": "walkthrough-wiki",
+    "wikiUpdatedAt": "2026-09-18T01:50:38.241Z",
+    "exportedAt": "2026-09-18T01:54:18.683Z"
+  }
+}

@@ -127,6 +127,16 @@ export const animalyBarNoHumanityImages = {
   itsMyFather: `${R2_ASSETS_BASE}/Animaly-Bar-No-Humanity-Its-My-Father-LucasGuide.jpg`,
 } as const;
 
+export const twentyMoreMazesImages = {
+  feature: `${R2_ASSETS_BASE}/20-More-Somehow-Even-Smaller-Mazes-Feature-LucasGuide.jpg`,
+  threeDigits7: `${R2_ASSETS_BASE}/20-More-Somehow-Even-Smaller-Mazes-3-Digits-Puzzles-7-LucasGuide.jpg`,
+  movingDots4: `${R2_ASSETS_BASE}/20-More-Somehow-Even-Smaller-Mazes-Moving-Dots-Puzzles-4-LucasGuide.jpg`,
+  blocks8: `${R2_ASSETS_BASE}/20-More-Somehow-Even-Smaller-Mazes-Blocks-Puzzles-8-LucasGuide.jpg`,
+  pacmanSnake9: `${R2_ASSETS_BASE}/20-More-Somehow-Even-Smaller-Mazes-Pacman-Snake-Puzzles-9-LucasGuide.jpg`,
+  connectDots17: `${R2_ASSETS_BASE}/20-More-Somehow-Even-Smaller-Mazes-Connect-the-Dot-Puzzles-17-LucasGuide.jpg`,
+  endingAchievement: `${R2_ASSETS_BASE}/20-More-Somehow-Even-Smaller-Mazes-An-Ending-Achievement-LucasGuide.jpg`,
+} as const;
+
 export const monsterAlchemyImages = {
   feature: `${R2_ASSETS_BASE}/Monster-Alchemy-Feature-LucasGuide.jpg`,
   alchemistTower: `${R2_ASSETS_BASE}/Monster-Alchemy-Alchemist-Tower-LucasGuide.jpg`,

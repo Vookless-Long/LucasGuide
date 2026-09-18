@@ -4,6 +4,7 @@ import {
   monsterAlchemyImages,
   supermarketChaosImages,
   titanicEscapeSimulatorImages,
+  twentyMoreMazesImages,
   welcomeToElderfieldImages,
 } from "./media";
 
@@ -107,6 +108,23 @@ export const GAMES: Record<string, GameConfig> = {
     published: true,
     coverGradient: "from-purple-600 via-fuchsia-950 to-stone-950",
     coverImage: animalyBarNoHumanityImages.feature,
+  },
+  "20-more-somehow-even-smaller-mazes": {
+    slug: "20-more-somehow-even-smaller-mazes",
+    name: "20 More, Somehow Even Smaller, Mazes",
+    tagline: "All 20 maze solutions on one page — codes, assembly, and ad puzzles.",
+    description:
+      "20 More, Somehow Even Smaller, Mazes walkthrough — tutorial through Maze 20, every solution with spoiler routes, digit codes, and the final LABYRINTH maze.",
+    hubDescription:
+      "Luca's full maze list — one hub page, all solutions, 100% achievement.",
+    genre: "Puzzle",
+    genres: ["Puzzle", "Indie", "Maze"],
+    releaseYear: 2025,
+    accent: "violet",
+    featured: true,
+    published: true,
+    coverGradient: "from-violet-600 via-fuchsia-950 to-stone-950",
+    coverImage: twentyMoreMazesImages.feature,
   },
   "monster-alchemy": {
     slug: "monster-alchemy",
