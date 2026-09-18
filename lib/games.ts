@@ -114,7 +114,7 @@ export const GAMES: Record<string, GameConfig> = {
     name: "20 More, Somehow Even Smaller, Mazes",
     tagline: "All 20 maze solutions on one page — codes, assembly, and ad puzzles.",
     description:
-      "20 More, Somehow Even Smaller, Mazes walkthrough — tutorial through Maze 20, every solution with spoiler routes, digit codes, and the final LABYRINTH maze.",
+      "20 More, Somehow Even Smaller, Mazes walkthrough — tutorial through Maze 20, every solution with spoilers, digit codes, and the final LABYRINTH maze.",
     hubDescription:
       "Luca's full maze list — one hub page, all solutions, 100% achievement.",
     genre: "Puzzle",

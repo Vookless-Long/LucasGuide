@@ -78,7 +78,7 @@ const MAZES = [
     n: "Tutorial",
     title: "Example Maze",
     mechanic: "Movement tutorial — learn arrows before the real puzzles.",
-    solution: () => dirSpoiler("Full route", "Up, Up, Right, Down, Down, Right, Up, Up"),
+    solution: () => dirSpoiler("Solution", "Up, Up, Right, Down, Down, Right, Up, Up"),
   },
   {
     n: 1,
@@ -92,7 +92,7 @@ const MAZES = [
     title: "1 2 3 4 5",
     mechanic: "Digit locks on the grid — enter the code, then walk the trivial exit.",
     solution: () =>
-      `${spoiler("3-digit code puzzle", "Enter **2 4 1**, then walk out — path is trivial after the code accepts.")}`,
+      `${spoiler("3-digit code puzzle", "Enter **2 4 1**, then walk out — exit is trivial after the code accepts.")}`,
   },
   {
     n: 3,
@@ -100,7 +100,7 @@ const MAZES = [
     mechanic: "**Widen** = left button (↔). **Tallen** = right button (↕). Stretch the maze before you move.",
     solution: () =>
       dirSpoiler(
-        "Full route",
+        "Solution",
         "Widen, Up, Tallen, Right, Widen, Down, Down, Tallen, Left, Left, Widen, Up, Tallen, Left, Left, Widen, Down, Tallen, Left, Left, Widen, Up, Up, Tallen, Right, Widen, Up, Up, Up, Tallen, Right, Right, Widen, Down, Tallen, Right, Widen, Up, Up, Tallen, Left, Left, Left, Left"
       ),
   },
@@ -125,7 +125,7 @@ const MAZES = [
     mechanic: "Classic tile slide — empty square is your friend.",
     solution: () =>
       dirSpoiler(
-        "Slide sequence",
+        "Solution",
         "Right, Right, Right, Right, Right, Right, Left, Left, Right, Right, Right, Right, Left, Left, Left, Left, Left, Right, Right, Right, Left, Left, Left, Left, Right"
       ),
   },
@@ -169,7 +169,7 @@ const MAZES = [
     n: 10,
     title: "I Drew This Puzzle On A Napkin Over Dinner",
     mechanic: "Tiny napkin grid — short and mean.",
-    solution: () => dirSpoiler("Full route", "Up, Right, Up, Down, Up, Down, Up"),
+    solution: () => dirSpoiler("Solution", "Up, Right, Up, Down, Up, Down, Up"),
   },
   {
     n: 11,
@@ -205,7 +205,7 @@ const MAZES = [
     mechanic: "You move the maze walls, not always the dot — think backwards.",
     solution: () =>
       dirSpoiler(
-        "Full route",
+        "Solution",
         "Right, Right, Up, Down, Left, Up, Left, Down, Right, Right, Left, Left, Up, Up, Right, Left, Down, Down, Right, Up, Up, Down, Left, Down, Right, Up, Left, Up, Right, Right, Down, Left, Left, Right, Right, Down, Left, Left, Right, Up, Up, Down, Left, Up"
       ),
   },
@@ -214,14 +214,14 @@ const MAZES = [
     title: "Back From The Klondike",
     mechanic: "Solitaire-style logic — **Learn with Flebby** slides teach the rules first.",
     solution: () =>
-      `Click through **Learn with Flebby!** until the tutorial dismisses.\n\n${dirSpoiler("Full route", "Right, Left, Down, Down, Up, Left, Down, Up, Down, Right")}`,
+      `Click through **Learn with Flebby!** until the tutorial dismisses.\n\n${dirSpoiler("Solution", "Right, Left, Down, Down, Up, Left, Down, Up, Down, Right")}`,
   },
   {
     n: 15,
     title: "The Dots In These Mazes Do Not Move",
     mechanic: "Static dots — enter the three-digit code, then walk.",
     solution: () =>
-      `${spoiler("Code to enter", "**5 1 3**")}\n\nPath after code is straightforward.`,
+      `${spoiler("Code to enter", "**5 1 3**")}\n\nExit after the code is straightforward.`,
   },
   {
     n: 16,
@@ -234,7 +234,7 @@ const MAZES = [
     title: "Gee, I Hope This Maze Doesn't Explode",
     mechanic: "Maze **explodes** into pieces — reassemble, or brute-force the path.",
     solution: () =>
-      `Reassemble after the explosion — exit is trivial.\n\nOr skip rebuild:\n\n${dirSpoilerImg("Solution (no reassemble)", "Up, Up, Up, Up, Up, Up, Up, Left, Down, Down, Down, Down, Left, Down, Down, Right, Down, Left, Left, Up, Up, Left, Up, Left, Left, Left, Down, Left, Up, Up, Right, Up, Up, Up, Right, Right, Down, Left, Down, Right, Down, Right", IMG.connectDots17, "Maze 17 — connect the dots")}`,
+      `Reassemble after the explosion — exit is trivial.\n\nOr skip rebuild:\n\n${dirSpoilerImg("Solution", "Up, Up, Up, Up, Up, Up, Up, Left, Down, Down, Down, Down, Left, Down, Down, Right, Down, Left, Left, Up, Up, Left, Up, Left, Left, Left, Down, Left, Up, Up, Right, Up, Up, Up, Right, Right, Down, Left, Down, Right, Down, Right", IMG.connectDots17, "Maze 17 — connect the dots")}`,
   },
   {
     n: 18,
@@ -255,7 +255,7 @@ const MAZES = [
     title: "The Final Maze",
     mechanic: "Spell **LABYRINTH** with movement keys (each letter = a move). Then unlock extra zoom.",
     solution: () =>
-      `${spoiler("Spell LABYRINTH", "**L** = Right, Right · **A** = Right · **B** = Left · **Y** = Left · **R** = Up · **I** = Right · **N** = Up · **T** = Up · **H** = Left\n\n(Follow in-game letter prompts on the grid.)")}\n\n${dirSpoiler("Full direction route", "Right, Right, Right, Left, Left, Up, Right, Up, Up, Right, Right, Right, Up, Right, Up, Left, Right, Right")}\n\nAfter credits roll, use your new **zoom out further** ability if the last screen asks for it.`,
+      `${spoiler("Spell LABYRINTH", "**L** = Right, Right · **A** = Right · **B** = Left · **Y** = Left · **R** = Up · **I** = Right · **N** = Up · **T** = Up · **H** = Left\n\n(Follow in-game letter prompts on the grid.)")}\n\n${dirSpoiler("Solution", "Right, Right, Right, Left, Left, Up, Right, Up, Up, Right, Right, Right, Up, Right, Up, Left, Right, Right")}\n\nAfter credits roll, use your new **zoom out further** ability if the last screen asks for it.`,
   },
 ];
 
@@ -277,11 +277,11 @@ function buildHub() {
 
   const body = `Twenty micro mazes and one achievement — whole game fits one coffee break. I wrote every solution below so you not stare at a three-pixel corridor for twenty minutes.
 
-**Controls:** arrow keys move the dot (or the maze, depending on level). **Zoom** matters on the last few — mouse wheel or zoom buttons. Screenshots sit **inside spoilers** next to the route — open only when you stuck.
+**Controls:** arrow keys move the dot (or the maze, depending on level). **Zoom** matters on the last few — mouse wheel or zoom buttons. Screenshots sit **inside spoilers** next to the solution — open only when you stuck.
 
 ${jumpTo(MAZES.map((m) => ({ title: m.n === "Tutorial" ? `Tutorial — ${m.title}` : `Maze ${m.n} — ${m.title}`, anchor: `${m.n === "Tutorial" ? "Tutorial" : `Maze ${m.n}`} — ${m.title}` })))}
 
-## Route overview
+## Maze overview
 
 | # | Maze | Hook |
 | --- | --- | --- |
@@ -304,12 +304,12 @@ ${fig(IMG.endingAchievement, "Ending screen — 100% completion achievement", "E
   const fm = `---
 type: hub
 title: "20 More, Somehow Even Smaller, Mazes Walkthrough: All 20 Mazes Solutions"
-description: "Full route — tutorial through Maze 20, every solution with spoilers, codes, and assembly steps."
+description: "Full walkthrough — tutorial through Maze 20, every solution with spoilers, codes, and assembly steps."
 game: ${GAME}
 image: "${IMG.feature}"
 date: "2026-09-18"
 updated: "2026-09-18"
-quickAnswer: "Linear 20 mazes + tutorial. Spoiler blocks below for every route, digit code, and ad-puzzle X assembly."
+quickAnswer: "Linear 20 mazes + tutorial. Spoiler blocks below for every solution, digit code, and ad-puzzle X assembly."
 ---
 
 `;

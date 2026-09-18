@@ -1,17 +1,17 @@
 ---
 type: hub
 title: "20 More, Somehow Even Smaller, Mazes Walkthrough: All 20 Mazes Solutions"
-description: "Full route — tutorial through Maze 20, every solution with spoilers, codes, and assembly steps."
+description: "Full walkthrough — tutorial through Maze 20, every solution with spoilers, codes, and assembly steps."
 game: 20-more-somehow-even-smaller-mazes
 image: "https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/20-More-Somehow-Even-Smaller-Mazes-Feature-LucasGuide.jpg"
 date: "2026-09-18"
 updated: "2026-09-18"
-quickAnswer: "Linear 20 mazes + tutorial. Spoiler blocks below for every route, digit code, and ad-puzzle X assembly."
+quickAnswer: "Linear 20 mazes + tutorial. Spoiler blocks below for every solution, digit code, and ad-puzzle X assembly."
 ---
 
 Twenty micro mazes and one achievement — whole game fits one coffee break. I wrote every solution below so you not stare at a three-pixel corridor for twenty minutes.
 
-**Controls:** arrow keys move the dot (or the maze, depending on level). **Zoom** matters on the last few — mouse wheel or zoom buttons. Screenshots sit **inside spoilers** next to the route — open only when you stuck.
+**Controls:** arrow keys move the dot (or the maze, depending on level). **Zoom** matters on the last few — mouse wheel or zoom buttons. Screenshots sit **inside spoilers** next to the solution — open only when you stuck.
 
 ## Jump to
 
@@ -38,7 +38,7 @@ Twenty micro mazes and one achievement — whole game fits one coffee break. I w
 - [Maze 20 — The Final Maze](#maze-20-the-final-maze)
 
 
-## Route overview
+## Maze overview
 
 | # | Maze | Hook |
 | --- | --- | --- |
@@ -72,7 +72,7 @@ Twenty micro mazes and one achievement — whole game fits one coffee break. I w
 
 **Mechanic:** Movement tutorial — learn arrows before the real puzzles.
 
-:::spoiler Full route
+:::spoiler Solution
 `Up, Up, Right, Down, Down, Right, Up, Up`
 :::
 
@@ -97,14 +97,14 @@ Twenty micro mazes and one achievement — whole game fits one coffee break. I w
 **Mechanic:** Digit locks on the grid — enter the code, then walk the trivial exit.
 
 :::spoiler 3-digit code puzzle
-Enter **2 4 1**, then walk out — path is trivial after the code accepts.
+Enter **2 4 1**, then walk out — exit is trivial after the code accepts.
 :::
 
 ## Maze 3 — Squash and Stretch
 
 **Mechanic:** **Widen** = left button (↔). **Tallen** = right button (↕). Stretch the maze before you move.
 
-:::spoiler Full route
+:::spoiler Solution
 `Widen, Up, Tallen, Right, Widen, Down, Down, Tallen, Left, Left, Widen, Up, Tallen, Left, Left, Widen, Down, Tallen, Left, Left, Widen, Up, Up, Tallen, Right, Widen, Up, Up, Up, Tallen, Right, Right, Widen, Down, Tallen, Right, Widen, Up, Up, Tallen, Left, Left, Left, Left`
 :::
 
@@ -133,7 +133,7 @@ Once assembled, exit is trivial.
 
 **Mechanic:** Classic tile slide — empty square is your friend.
 
-:::spoiler Slide sequence
+:::spoiler Solution
 `Right, Right, Right, Right, Right, Right, Left, Left, Right, Right, Right, Right, Left, Left, Left, Left, Left, Right, Right, Right, Left, Left, Left, Left, Right`
 :::
 
@@ -171,7 +171,7 @@ Assemble the shape shown in-game. Once it locks together, the dot path is trivia
 
 **Mechanic:** Tiny napkin grid — short and mean.
 
-:::spoiler Full route
+:::spoiler Solution
 `Up, Right, Up, Down, Up, Down, Up`
 :::
 
@@ -207,7 +207,7 @@ Assemble the arrangement shown in-game. When the tile pattern is right, dots fin
 
 **Mechanic:** You move the maze walls, not always the dot — think backwards.
 
-:::spoiler Full route
+:::spoiler Solution
 `Right, Right, Up, Down, Left, Up, Left, Down, Right, Right, Left, Left, Up, Up, Right, Left, Down, Down, Right, Up, Up, Down, Left, Down, Right, Up, Left, Up, Right, Right, Down, Left, Left, Right, Right, Down, Left, Left, Right, Up, Up, Down, Left, Up`
 :::
 
@@ -218,7 +218,7 @@ Assemble the arrangement shown in-game. When the tile pattern is right, dots fin
 Click through **Learn with Flebby!** until the tutorial dismisses.
 
 
-:::spoiler Full route
+:::spoiler Solution
 `Right, Left, Down, Down, Up, Left, Down, Up, Down, Right`
 :::
 
@@ -231,7 +231,7 @@ Click through **Learn with Flebby!** until the tutorial dismisses.
 :::
 
 
-Path after code is straightforward.
+Exit after the code is straightforward.
 
 ## Maze 16 — Magnifying Glass (Whoops Too Small)
 
@@ -248,7 +248,7 @@ Reassemble after the explosion — exit is trivial.
 Or skip rebuild:
 
 
-:::spoiler Solution (no reassemble)
+:::spoiler Solution
 ![Maze 17 — connect the dots](https://pub-569323f832f84244a5766b065936dc37.r2.dev/LucasGuide/20-More-Somehow-Even-Smaller-Mazes-Connect-the-Dot-Puzzles-17-LucasGuide.jpg)
 
 `Up, Up, Up, Up, Up, Up, Up, Left, Down, Down, Down, Down, Left, Down, Down, Right, Down, Left, Left, Up, Up, Left, Up, Left, Left, Left, Down, Left, Up, Up, Right, Up, Up, Up, Right, Right, Down, Left, Down, Right, Down, Right`
@@ -280,7 +280,7 @@ Connect every dot in the **numbered order on screen** (1 → 2 → 3 … until t
 
 
 
-:::spoiler Full direction route
+:::spoiler Solution
 `Right, Right, Right, Left, Left, Up, Right, Up, Up, Right, Right, Right, Up, Right, Up, Left, Right, Right`
 :::
 
