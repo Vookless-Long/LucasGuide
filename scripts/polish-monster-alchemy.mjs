@@ -48,6 +48,34 @@ const IMG = {
   uncannyValleyTowerMap: `${R2}/Monster-Alchemy-Uncanny-Valley-Alchemist-Tower-Map-Location-LucasGuide.jpg`,
 };
 
+const MONSTER_TYPES_QUICK_REFERENCE = `## Monster Types — quick reference
+
+When Chimeric has **no named recipe**, output = **weapon type + tier + shared element** of both parents. I keep this grid open when I breed for a slot I still missing — same weapon, same tier, parents share element → result comes from that column.
+
+### Hammer
+
+| Tier | Neutral | Fire | Grass | Water | Energy | Moon |
+| --- | --- | --- | --- | --- | --- | --- |
+| T1 | Slime, Stick Golem, Goblin Hexer, Noodle, Ork, Plibu, Steel Head, Molo | Red Slime, Imp, Ignibos, Lavapod, Illuminator | Green Slime, Fungus Bufo, Gnome, Mosshat, Corolus, Forest Sprite, Zombie, Barkling | Blue Slime, Merkid, Stompal, Wintlet | Yellow Slime | — |
+| T2 | Scale Disciple, Long Slime, Teddo, Cave Troll, Skullhead, Baby Shadow, Skunicorn | Torch Demon, Clawless, Flint Golem, Candela | Druidmmer, Fortifisand, Petomp, Moss Golem, Zombie Slime, Rotspore Brute | Mamclops, Borealus, Cryoadorer | — | — |
+| T3 | Ferrous Knuckle | — | Floro, Righteous Hand | Anchored Soul, Eplepe | — | — |
+
+### Arrow (ranged)
+
+| Tier | Neutral | Fire | Grass | Water | Energy | Moon |
+| --- | --- | --- | --- | --- | --- | --- |
+| T1 | Scout, Goblin Harpooner, Twitchy Fluff, Stinky Plinky, Goblin Gunner, Pott, Rust Eater, Amalgameye, Winged Spirit, Skeleton Ranger, Twin Tome | Solsun, Hot Banshee, Scorched Juggler | Bellotto, Mysterious Sylvan | Naster, Ornenza, Salty Sailor, Banshee, Bruxis | Drosophibuzz | Mechanical Cherub |
+| T2 | — | Raging Gunner, Chameledrake, Burny Fluff, Vampire Adept | Leafey, Buzzing Sniper, Infected Juggler | Cloud Drake, Cloud Elemental, Bubblex, Drowned Bucaneer | Trumpet Skeleton | Mechanical Angel |
+| T3 | Rune Guardian, Cursed Scale | — | — | — | — | — |
+
+### Sword
+
+| Tier | Neutral | Fire | Grass | Water | Energy | Moon |
+| --- | --- | --- | --- | --- | --- | --- |
+| T1 | Goblin Pillager, Bone Crawler, Wiwo, Small Tooth, Razor Beak, Floating Helmet, Saka, Skeleton Servant, Disturbing Silhouette | Dragonling, Phenchi, Vampire Kid | Gekklar, Spikk | Brachillo, Northern Warrior, Flicko, Phantucho, Slimbones | Leggy, Rusty Knight | — |
+| T2 | Floating Armor, Gorritero, Strottro | Snapjaw, Piedredge, Bandikko | Gle Sha, Sharptail, Zombie Goblin, Vengeful Doll, Corpse Crop, Demon Sprout | Wave Creeper, Merfolk Lancer, Wereshark, Trianha | Cute Abomination, Cog-Knight | Crowmere |
+| T3 | — | Flamtail, Phoenix, Infernal Blade | Deathbloom | — | Stormwing | Dozz |`;
+
 function fig(src, alt, label) {
   const caption = label || alt;
   return `\n![${alt}](${src})\n\n**${caption}**\n`;
@@ -430,6 +458,7 @@ Need mats first? See [Recipes](/monster-alchemy/recipes). Mutation rerolls on Ch
 
 ${jumpToSection([
     "Chimeric Chamber — how it works",
+    "Monster Types — quick reference",
     "Monster Bin recipes",
     "Chimeric Chamber — Tier 1",
     "Chimeric Chamber — Tier 2",
@@ -443,7 +472,9 @@ ${fig(IMG.createMonsters, "Create Monsters — Monster Bin crafting", "Monster B
 
 ${stepsToList(mechanics?.steps || [])}
 
-> **Tip:** No named combo match? Game falls back to **shared element type** of both parents.
+${MONSTER_TYPES_QUICK_REFERENCE}
+
+> **Tip:** No named combo match? Game falls back to **shared element type** of both parents — use the tables above to see what that means for your weapon and tier.
 
 ## Monster Bin recipes
 
